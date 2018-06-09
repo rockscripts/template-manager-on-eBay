@@ -1,0 +1,61 @@
+    define('_DOC_ROOT', BASEPATH . '../3rdparty/easymenu/'  );
+    require_once _DOC_ROOT . 'config.php';
+    require_once _DOC_ROOT . 'includes/functions.php';
+
+    public function easymenu()
+    {
+
+        define('_DOC_SITE', $this->config->site_url() . '/easymenu/' );
+
+        define('_EASYMENU_USER', $this->session->userdata( 'user_id' ) );
+        define('_EASYMENU_DESIGN', $this->session->userdata( 'id_ebay_design' ) );
+        define('_EASYMENU_LISTING',$this->session->userdata( 'id_listing_design' ) );      
+
+        /**
+         * default controller & method
+         */
+        $controller = 'home';
+        $method     = 'index';
+
+        /**
+         * url structure: index.php?act=controller.method
+         */
+        if (isset($_GET['act'])) {
+            $act = explode('.', $_GET['act']);
+            $controller = $act[0];
+            if (isset($act[1])) {
+                $method = $act[1];
+            }
+        }
+
+        $controller_file = _DOC_ROOT . 'modules/' . $controller . '.php';
+        if (file_exists($controller_file)) {
+            include $controller_file;
+            $Class_name = ucfirst($controller);
+            $instance = new $Class_name;
+            if (!is_callable(array($instance, $method))) {
+                die("Cannot call method $method");
+            }
+            $instance->$method();
+        } else {
+            die("Cannot include controller $controller");
+        }
+    
+    }
+
+    // js
+
+    jQuery().ready(function() 
+    {
+
+        jQuery("li.listing-menu").click(function()
+        {
+            jQuery(".loader-image").fadeIn();
+            jQuery(".alert").css("display","none");
+            jQuery(".content-without-images").html( '<iframe src="http://www.local/designmanager/store_design/listingdesign/easymenu?act=menu" frameborder="0" style="width: 100%;height:800px;"></iframe>' );
+            set_current(this);
+            jQuery(".listing-images-content").css("display","none");
+            jQuery(".loader-image").fadeOut(); 
+        });
+
+    }) ;

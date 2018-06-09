@@ -1,0 +1,1 @@
+var footer_menu_links= "<a href='http://www.maxpowerrccars.com.au/contacts/'>Contact Us</a>"

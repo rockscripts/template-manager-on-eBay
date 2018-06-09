@@ -1,0 +1,1 @@
+var  slider_images = '<li><iframe width="100%" height="auto" src="//www.youtube.com/embed/pdqFqq_3IfM" frameborder="0" allowfullscreen></iframe></li> <li><img class="slider-image" src="http://fileshosting.rockscripts.org/files/store_design/home_image_video_slider/111//how-works.png"/></li>';

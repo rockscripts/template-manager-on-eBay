@@ -1,0 +1,1 @@
+var  popoular_categories = 

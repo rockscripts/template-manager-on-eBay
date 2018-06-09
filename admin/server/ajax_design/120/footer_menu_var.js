@@ -1,0 +1,1 @@
+var footer_menu_links= "<a href='www.thoughtbeambooks.com'>thoughtbeam@thoughtbeambooks.com (877) 749-2942, visit us on the web</a>"

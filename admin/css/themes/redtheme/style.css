@@ -1,0 +1,548 @@
+/* ---------- HTML elements ---------- */
+body {
+    font-family: Verdana, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+header, nav, footer {
+    display: block;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    background-color: transparent;
+    font-size: 2.9em;
+    line-height: 1.6em;
+    text-shadow: #8B8B8B 0 0 1px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #f04848;
+    font-size: 2.2em;
+    line-height: 1.7em;
+    font-weight: bold;
+    padding: 5px 0 6px 0;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+input {
+    border: 1px solid #F98A5F;
+    background: #fff;
+    padding: 2px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* ---------- div structure ---------- */
+#private_nav {
+    height: 50px;
+    min-width: 700px;
+    font-family: Verdana, sans-serif;
+    font-size: 1.1em;
+    padding: 4px 0 0 250px;
+    background: url(../../../images/themes/redtheme/logo.gif) no-repeat 0 0;
+}
+
+#navigation li {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding-right: 30px;
+}
+
+#private_nav a, #private_nav a:visited {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #private_nav a:hover {
+        color: #ccc;
+    }
+
+#content_column {
+    clear: left;
+    padding: 15px;
+    margin: 0 auto;
+    color: #282828;
+}
+
+#error, #pwd_error {
+    margin: 0 auto;
+    line-height: 25px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ff0000;
+}
+
+#login_header {
+    width: 223px;
+    height: 50px;
+    margin: 35px auto 0;
+    background: url(../../../images/themes/redtheme/logo.gif) #fff no-repeat 3px 3px;
+}
+
+#default_header, #admin_header, #admin_footer, #default_footer {
+    height: 50px;
+    background: #380202;
+    padding: 10px;
+}
+
+#default_footer, #login_footer {
+    height: 100px;
+}
+
+#login_footer {
+    margin: 0 auto;
+    width: 994px;
+    background: url(../../../images/themes/redtheme/login_shadow.jpg) no-repeat center 0;
+}
+
+/* admin section */
+#admin ul{
+    clear: left;
+    height: 24px;
+    line-height: 24px;
+    background: #FEE5D8;
+    margin-bottom: 3px;
+    box-shadow: 0 0 1px #F8504A;
+    min-width: 1158px;
+}
+
+/* adminpanel nav */
+#admin_nav {
+    min-width: 700px;
+    padding-bottom: 10px;
+}
+
+#admin_nav a, #admin_nav a:visited {
+    color: #ff0000;
+    text-decoration: none;
+    background: url(../../../images/arrow_right.png) #fff no-repeat 3px 3px;
+    padding: 3px 3px 3px 23px;
+    margin-right: 20px;
+    box-shadow: 1px 1px 0 #ccc;
+}
+
+/* admin list members */
+#admin_nav a:hover {
+    box-shadow: 1px 0 0 #ccc;
+    border-bottom: 1px solid #000;
+}
+
+#admin ul li{
+    float: left;
+    padding: 0 3px 0 3px;
+}
+
+#admin ul li a, #admin ul li a:visited{
+    color: #282828;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#admin ul li a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+/* list members */
+.username{
+    width: 110px;
+}
+.email{
+    width: 200px;
+}
+.first_name{
+    width: 100px;
+}
+.last_name{
+    width: 120px;
+}
+.date{
+    width: 140px;
+}
+.role{
+    width: 44px;
+}
+.edit_banned{
+    width: 65px;
+}
+
+.edit_active {
+    width: 65px;
+}
+
+.t_username{
+    width: 136px;
+}
+.t_email{
+    width: 226px;
+}
+.t_first_name{
+    width: 100px;
+}
+.t_last_name{
+    width: 120px;
+}
+.t_date{
+    width: 140px;
+}
+.t_role{
+    width: 44px;
+}
+.t_edit_banned{
+    width: 65px;
+}
+.t_edit_active {
+    width: 65px;
+}
+
+.edit_member_form .m_username {
+    width: 108px;
+}
+.edit_member_form .m_email {
+    width: 198px;
+}
+.edit_member_form .m_first_name {
+    width: 98px;
+}
+.edit_member_form .m_last_name {
+    width: 118px;
+}
+.edit_member_form .role {
+    width: 44px;
+}
+
+.pagination {
+    clear: left;
+    height: 31px;
+    line-height: 30px;
+    color: #000;
+}
+
+.pagination a {
+    color: #000;
+    text-decoration: none;
+    padding: 1px 6px;
+    background: url(../../../images/themes/redtheme/button_back.jpg) #fff repeat 0 0;
+    box-shadow: 1px 1px 1px #F8504A;
+    border: 1px solid #ccc;
+}
+
+.pagination strong {
+    border: 1px solid #ccc;
+    padding: 1px 6px;
+    box-shadow: 1px 1px 1px #F8504A;
+}
+
+.asc {
+    display: block;
+    background: url(../../../images/arrow_down.png) no-repeat -2px 4px;
+    padding-left: 14px;
+}
+
+.desc {
+    display: block;
+    background: url(../../../images/arrow_up.png) no-repeat -2px 4px;
+    padding-left: 14px;
+}
+
+/* list members - buttons */
+.promote {
+    display: block;
+    background: url(../../../images/medal_gold_add.png) no-repeat 16px 3px;
+    width: 31px;
+    height: 22px;
+    border: 1px solid #ccc;
+    padding: 0 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #F8504A;
+}
+
+.demote {
+    display: block;
+    background: url(../../../images/medal_gold_delete.png) #feaeae no-repeat 16px 3px;
+    width: 31px;
+    height: 22px;
+    border: 1px solid #be3a3a;
+    padding: 0 1px 0 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #F8504A;
+}
+
+.demote:hover, .promote:hover {
+    border: 1px solid #fff;
+}
+
+.banned {
+    display: block;
+    background: url(../../../images/lock.png) #feaeae no-repeat 3px 3px;
+    width: 18px;
+    height: 22px;
+    border: 1px solid #be3a3a;
+    padding: 0 1px 0 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #F8504A;
+}
+
+.not_banned {
+    display: block;
+    background: url(../../../images/lock_open.png) no-repeat 3px 3px;
+    width: 18px;
+    height: 22px;
+    border: 1px solid #ccc;
+    padding: 0 1px 0 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #F8504A;
+}
+
+.banned:hover, .not_banned:hover, .is_active:hover, .not_active:hover {
+    border: 1px solid #fff;
+}
+
+.is_active {
+    display: block;
+    background: url(../../../images/application_form_add.png) no-repeat 3px 3px;
+    width: 18px;
+    height: 22px;
+    border: 1px solid #ccc;
+    padding: 0 1px 0 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #F8504A;
+}
+
+.not_active {
+    display: block;
+    background: url(../../../images/application_form_delete.png) #feaeae no-repeat 3px 3px;
+    width: 18px;
+    height: 22px;
+    border: 1px solid #be3a3a;
+    padding: 0 1px 0 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #F8504A;
+}
+
+.m_update {
+    background: url(../../../images/edit.png) no-repeat 0 0;
+    margin-top: 4px;
+    border: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.m_delete {
+    background: url(../../../images/delete.png) no-repeat 0 0;
+    margin-top: 4px;
+    border: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.m_password {
+    display: block;
+    background: url(../../../images/key_go.png) no-repeat 0 0;
+    margin-top: 4px;
+    border: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/* list members - search */
+#searchbox_heading ul li, #searchbox ul li{
+    float: left;
+    width: 250px;
+    font-weight: bold;
+}
+
+#searchbox {
+    clear: left;
+    padding-bottom: 15px;
+}
+
+/* ---------- forms ---------- */
+#login_form {
+    padding: 5px 25px 15px 97px;
+    width: 380px;
+    margin: 0 auto;
+    background: url(../../../images/themes/redtheme/redbox_back_mid.jpg) #fff repeat-y 0 0;
+}
+
+.login_link {
+    width: 494px;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    font-size: 11px;
+}
+
+.login_link a, .login_link a:visited {
+    color: #282828;
+    line-height: 20px; /* make sure IE6/7 are pleased */
+    text-decoration: none;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.login_link a:hover {
+    color: #fff;
+    border-bottom: 1px solid #000;
+    background: #cc9090;
+}
+
+.form_label {
+    font-family: Arial, sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.6em;
+}
+
+.form_label_small {
+    color: #fff;
+}
+
+.membership_box {
+    width: 317px;
+}
+
+.redtheme_form {
+    padding: 5px 20px 20px 90px;
+    width: 392px;
+    margin: 0 auto;
+    background: url(../../../images/themes/redtheme/redbox_back_mid.jpg) #fff repeat-y 0 0;
+}
+
+.redbox_top {
+    width: 502px;
+    height: 26px;
+    margin: 0 auto;
+    background: url(../../../images/themes/redtheme/redbox_back_top.jpg) #fff no-repeat 0 0;
+}
+
+.redbox_mid {
+    width: 392px;
+    margin: 0 auto;
+    padding: 5px 20px 20px 90px;
+    background: url(../../../images/themes/redtheme/redbox_back_mid.jpg) #fff repeat-y 0 0;
+}
+
+.redbox_bot {
+    width: 502px;
+    margin: 0 auto;
+    height: 26px;
+    background: url(../../../images/themes/redtheme/redbox_back_bot.jpg) #fff no-repeat 0 0;
+}
+
+#recaptcha_area {
+    padding-top: 5px;
+}
+
+/* input fields */
+.input_box {
+    height: 50px;
+    color: #fff;
+}
+
+.input_text, .input_text_long, .input_text_short {
+    height: 41px;
+    line-height: 45px;
+    width: 312px;
+    border: 1px solid #fff;
+    font-size: 1.6em;
+    background: url(../../../images/themes/redtheme/input_back.jpg) #fff repeat 0 0;
+}
+
+.input_text_short {
+    width: 40px;
+}
+
+.input_submit, .input_submit_long {
+    background: url(../../../images/themes/redtheme/input_back.jpg) #ccc repeat 0 0;
+    width: 120px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 1px #FBA27F;
+    cursor: pointer;
+}
+
+.input_submit_long {
+    width: 180px;
+}
+
+/* profile */
+#profile_pwd_submit, #profile_submit {
+    width: 160px;
+}
+
+/* jQuery */
+.checking {
+    height: 20px;
+    line-height: 20px;
+}
+
+.check_is_nok {
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    background: url(../../../images/delete.png) no-repeat 0 2px;
+}
+
+.check_is_ok {
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    background: url(../../../images/edit.png) no-repeat 0 2px;
+}
+
+#email_valid, #email_taken, #username_valid, #username_taken, #username_length {
+    color: #fff;
+}
+
+/* global classes */
+.clearboth {clear: both;}
+.floatleft{float: left;}
+
+.error_box {
+    border: 1px solid red;
+    padding: 6px;
+    margin: 3px;
+    text-align: center;
+}
+
+.text_black {line-height: 20px; color: #fff; padding-right: 40px;}
+
+.center {
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* tooltip */
+.tooltip{ position: absolute; top: 0; left: 0; z-index: 3; display: none; }
+
+/* recaptcha */
+.recaptcha_iframe {
+    border: 0;
+}

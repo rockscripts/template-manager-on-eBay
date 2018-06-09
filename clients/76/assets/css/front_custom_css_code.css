@@ -1,0 +1,257 @@
+.container
+{
+ background:transparent!important; 
+}
+.background-style
+{
+ background-repeat:repeat-x;
+  background-color:#f3f3f3;
+}
+#es_topLinksContainer
+{display:none;}
+
+.header-search-box {
+    background: url("../images/templates/euro-lex/form-background.png");
+    border-top-left-radius: 15px;
+    bottom: 0;
+    float: right;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    width: 312px;
+  padding-right: 12px;
+}
+span .logo 
+{
+  display: block !important;
+  top: 13%;
+}
+.shopping-image
+{
+     background: url("../images/templates/euro-lex/my-cart.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 46px;
+    margin-left: 10px;
+    margin-top: 16px;
+    width: 45px;
+}
+
+#es_header form.navbar-form
+{
+  margin-top: 27px;
+  padding-right: 0px;
+   color: white;
+}
+.navbar-inverse {
+    background-color: #000000;
+    border-top: 7px solid white;
+    border-top-right-radius: 0;
+    margin-top: -8px;
+}
+.navbar-inverse .nav > li:first
+{ 
+ border-left: 1px solid #4D4D4D;
+}
+.navbar-inverse .nav > li
+{ 
+ border-right: 1px solid #4D4D4D;
+  padding-left: 0px;
+}
+.nav > li
+{
+ border-top: 0px solid #FFFFFF!important;
+}
+.navbar-nav .menu-item a, .navbar-inverse a
+{
+ color:#D2D2D2!important;
+ text-transform:uppercase;
+ font-weight:bold;
+  font-size: 13px;
+}
+.layout-type-2 .Popular-categories .rc-box
+{
+  display: inline-block!important;
+  float: none;
+}
+.Popular-categories-title
+{display:none!important;}
+.New-arrivals, .New-arrivals-title
+{clear:both;}
+.layout-type-2 .widget .promotion-plan
+{
+  margin-left: 2.1%;
+}
+
+.vTitle
+{
+ background:#F12A2D!important;
+ color:white;
+ font-size: 15px; 
+}
+.custom-rich
+{
+ background:transparent;
+  border:0px solid;
+}
+.powered-by
+{
+ width:100%;
+ text-align:center;
+  padding-top:10px;
+}
+.copyright 
+{
+ color: #FFFFFF;
+ padding-top: 11px;
+}
+.footer-container, .footer-container .container
+{
+  background: rgb(237,237,237);
+  background: -moz-linear-gradient(top, #D2D2D2  0%, #000 100%)!important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D2D2D2 ), color-stop(100%,#000))!important;
+  background: -webkit-linear-gradient(top, #D2D2D2  0%,#000 100%)!important;
+  background: -o-linear-gradient(top, #D2D2D2  0%,#000 100%)!important;
+  background: -ms-linear-gradient(top, #D2D2D2  0%,#000 100%)!important;
+  background: linear-gradient(to bottom,#D2D2D2  0%,#000 100%)!important;
+}
+.footer-custom-background 
+{
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.footer-custom-background #es_formLinks a
+{
+ background: none repeat scroll 0 0 #CCCCCC;
+ border: 1px solid #000000;
+ color: #000000 !important;
+}
+.search-icon-on-input
+{
+ background-position: 50% 50% !important;
+ background-repeat: no-repeat !important;
+ padding: 16px;
+}
+.welcome-header-text
+{
+ font-weight:bold;
+}
+.welcome-header-text
+{
+ font-weight:bold;
+ color:#F12A2D;
+ font-size: 13px;
+}
+
+  .link-top {
+  color: black !important;
+    font-size: 11px;
+
+}
+.col-sm-3 
+{
+  width: 26.1%;
+}
+.col-sm-6-fix-width
+{
+  width:73.1%!important;
+}
+.navbar-right
+{display:none;}
+.menu-item-hover
+{
+ background:#f12a2d!important;
+ text-decoration:none!important;
+ color:black!important;
+}
+.listing-box, .listing-box1, .listing-box2, .listing-box3
+{
+  background: rgb(237,237,237);
+  background: -moz-linear-gradient(top, white  0%, #ccc 100%)!important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,white ), color-stop(100%,#ccc))!important;
+  background: -webkit-linear-gradient(top, white  0%,#ccc 100%)!important;
+  background: -o-linear-gradient(top, white  0%,#ccc 100%)!important;
+  background: -ms-linear-gradient(top, white  0%,#ccc 100%)!important;
+  background: linear-gradient(to bottom,white  0%,#ccc 100%)!important;
+  min-height: 284px;
+}
+.details-inner span.bin 
+{
+ background:#FFFFFF;
+ color: #000000;
+}
+.navbar-header:hover
+{
+ opacity:0.8;
+}
+.input-group {
+    background: none repeat scroll 0 0 white;
+    border-collapse: separate;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: table;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    position: relative;
+}
+.vertical ul {
+    border: 0 none;
+    display: list-item;
+    margin-left: 0;
+    position: relative;
+    top: 4px;
+    width: auto;
+    z-index: 999;
+  left:0px;
+  
+}
+.powered_link1
+{
+ color:white!important;
+}
+.vertical .parent ul li 
+{background:transparent!important;}
+.vertical .parent ul li a
+{
+    background: url("../images/templates/euro-lex/circle.png") no-repeat scroll 32px 50% rgba(0, 0, 0, 0);
+    color: #444 !important;
+    font-size: 14px;
+    padding-left: 43px;
+}
+.vertical
+{
+ margin-bottom: 3px;
+}
+.vertical a 
+{
+padding: 0 1.4em 0 9px;
+}
+.vertical a:hover
+{
+ text-shadow:2px 2px #ccc!important;
+}
+.widget .advertising-image {
+    margin-top: 6px;
+    width: 100%;
+}
+.banner-center {
+    margin-left: 2px;
+    width: 32.8%;
+}
+.left {
+    float: left;
+}
+.icon-home
+{
+    background: url("../images/templates/euro-lex/icon-home.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8px;
+    width: 35px;
+}
+.img-responsive {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}

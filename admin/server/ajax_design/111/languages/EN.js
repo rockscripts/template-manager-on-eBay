@@ -1,0 +1,1 @@
+var FEATURED = "Featured";var NEW_ARRIVALS = "New arrivals";var SPECIAL_DISCOUNTS = "Specials";var POPULAR_CATEGORIES = "Popular categories";var STORE_CATEGORIES = "Categories";var BROWSE_BY_SPECIFICS = "Browse by specifics";var OUR_LISTINGS = "Our listings";var ALL_RIGHT_RESERVED = "All right reserved";var POWERED_BY = "Powered By";

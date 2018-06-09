@@ -1,0 +1,112 @@
+/*add your store front styles here*/
+.listing-box2
+{
+  max-height: 294px;
+  min-height: 294px;
+}
+.label
+{
+ color:black;
+   line-height: 18px;
+}
+#es_topLinksContainer
+{
+  background: rgb(237,237,237);
+background: -moz-linear-gradient(top, #34435b 0%, #151422 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#34435b), color-stop(100%,#151422));
+background: -webkit-linear-gradient(top, #34435b 0%,#151422 100%);
+background: -o-linear-gradient(top, #34435b 0%,#151422 100%);
+background: -ms-linear-gradient(top, #34435b 0%,#151422 100%);
+background: linear-gradient(to bottom,#34435b 0%,#151422 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dedede',GradientType=0 );
+}
+.logo
+{
+  top: 10%;
+}
+.copyright
+{
+  color:white;
+}
+.background-style {
+    background-color: #000000;
+  
+}
+.navbar-inverse 
+{
+background: rgb(237,237,237);
+background: -moz-linear-gradient(top, #eee 0%, #ccc 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eee), color-stop(100%,#ccc));
+background: -webkit-linear-gradient(top, #eee 0%,#ccc 100%);
+background: -o-linear-gradient(top, #eee 0%,#ccc 100%);
+background: -ms-linear-gradient(top, #eee 0%,#ccc 100%);
+background: linear-gradient(to bottom,#eee 0%,#ccc 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dedede',GradientType=0 );
+}
+.navbar-nav li a:hover
+{
+ opacity:0.5;
+}
+.navbar-nav li
+{
+  border-left:1px solid #ccc;
+  padding-left:0px!important;
+}
+.submit_search
+{  
+  background-color: #55C78B;
+  border-color: #FFFFFF;
+}
+.vTitle
+{
+   background: none repeat scroll 0 0 #2E8B57 !important;
+    color: #FFFFFF;
+}
+.listing-box2 
+{
+background: rgb(237,237,237);
+background: -moz-linear-gradient(top, #fff 0%, #ccc 100%)!important;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#ccc))!important;
+background: -webkit-linear-gradient(top, #fff 0%,#ccc 100%)!important;
+background: -o-linear-gradient(top, #fff 0%,#ccc 100%)!important;
+background: -ms-linear-gradient(top, #fff 0%,#ccc 100%)!important;
+background: linear-gradient(to bottom,#fff 0%,#ccc 100%)!important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dedede',GradientType=0 );
+border-bottom:2px solid #55C78B;
+border-left: medium none !important;
+border-right: medium none !important;
+border-top: medium none !important;
+border-radius:0px!important;
+}
+#es_formLinks .navbar-nav li a
+{
+background: rgb(237,237,237);
+background: -moz-linear-gradient(top, #fff 0%, #ccc 100%)!important;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#ccc))!important;
+background: -webkit-linear-gradient(top, #fff 0%,#ccc 100%)!important;
+background: -o-linear-gradient(top, #fff 0%,#ccc 100%)!important;
+background: -ms-linear-gradient(top, #fff 0%,#ccc 100%)!important;
+background: linear-gradient(to bottom,#fff 0%,#ccc 100%)!important;
+  
+}
+#es_formLinks .navbar-nav li a
+{text-decoration:none;}
+#es_formLinks .navbar-nav li
+{
+ border:none!important;
+}
+.navbar-inverse .navbar-nav > li > a, #es_topLinks li b {
+    font-size: 16px;
+}
+.powered_link
+{color:black!important;}
+.footer-custom-background .container
+{
+ background: rgb(237,237,237);
+background: -moz-linear-gradient(top, #34435b 0%, #151422 100%)!important;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#34435b), color-stop(100%,#151422))!important;
+background: -webkit-linear-gradient(top, #34435b 0%,#151422 100%)!important;
+background: -o-linear-gradient(top, #34435b 0%,#151422 100%)!important;
+background: -ms-linear-gradient(top, #34435b 0%,#151422 100%)!important;
+background: linear-gradient(to bottom,#34435b 0%,#151422 100%)!important;
+}

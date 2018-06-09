@@ -1,0 +1,13 @@
+var pages_array = new Array();
+object = {'title':'TOURING','url':'http://stores.ebay.com/eastsideenterprises/TOURING.html','content':'SADDLEBAGS,FAIRINGS,TOUR PACKS,LOWER FAIRINGS'};
+pages_array.push(object);
+object = {'title':'AUDIO','url':'http://stores.ebay.com/eastsideenterprises/AUDIO.html','content':'<p>	COMMUNICATION DEVICES,SPEAKER AND STEREO,</p>'};
+pages_array.push(object);
+object = {'title':'HANDLEBARS AND CONTROLS','url':'http://stores.ebay.com/eastsideenterprises/HANDLEBARS-AND-CONTROLS.html','content':'<p>	GRIPS,LEVERS,SWITCHS,MIRRORS</p>'};
+pages_array.push(object);
+object = {'title':'EXHAUST','url':'http://stores.ebay.com/eastsideenterprises/EXHAUST.html','content':'<p>	RINEHART,D&D,FREEDOM,VANCE AND HINES,PYTHON</p>'};
+pages_array.push(object);
+object = {'title':'FUEL AND AIR','url':'http://stores.ebay.com/eastsideenterprises/FUEL-AND-AIR.html','content':'<p>	AIR CLEANER ASSEMBLY,FILTERS,FUEL MANAGEMENT</p>'};
+pages_array.push(object);
+object = {'title':'DRIVELINE','url':'http://stores.ebay.com/eastsideenterprises/DRIVELINE.html','content':'<p>	BELTS,CHAINS,PRIMARY,TRANSMISSION</p>'};
+pages_array.push(object);

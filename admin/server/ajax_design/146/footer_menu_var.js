@@ -1,0 +1,1 @@
+var footer_menu_links= "<a href='http://stores.ebay.com/WillyWickedTees/Store-Policies.html'>Store Policies</a>"

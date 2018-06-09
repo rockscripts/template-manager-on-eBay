@@ -1,0 +1,55 @@
+/*add your listing styles here*/
+/*add your store front styles here*/
+#es_topLinksContainer
+{
+background:white;
+background: -moz-linear-gradient(top, #008DC2 0%, #f5f1e5 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#008DC2), color-stop(100%,#f5f1e5));
+background: -webkit-linear-gradient(top, ##008DC2 0%,#f5f1e5 100%);
+background: -o-linear-gradient(top, #008DC2 0%,#f5f1e5 100%);
+background: -ms-linear-gradient(top, #008DC2 0%,#f5f1e5 100%);
+background: linear-gradient(to bottom,#008DC2 0%,#f5f1e5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dedede',GradientType=0 );
+}
+.background-main 
+{
+  background-color:black;
+    background-repeat: no-repeat;
+}
+.listing-box {
+    max-height: 262px;
+    min-height: 262px;
+}
+.label
+{
+  color: #000000;
+}
+.details-inner .bid
+{
+ background: none repeat scroll 0 0 #FFF0DB;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    color: #FEA500;
+    float: right;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-right: -3px;
+    padding-left: 4px;
+    text-decoration: none;
+}
+.copyright
+{
+ color:white;
+}
+.nav > li {
+    border-top: none!important;
+}
+.powered_link, .powered_link:focus, .powered_link:visited {
+    color: #FFFFFF;
+}
+#rockscripts-description span
+{
+  position:relative!important;
+  display: block!important;
+  word-wrap: break-word;
+}

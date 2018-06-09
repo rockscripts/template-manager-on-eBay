@@ -1,0 +1,212 @@
+Action(CC=Cp1252),SiteID,CustomLabel,*Category,Category2,StoreCategory,*Title,Subtitle,Relationship,RelationshipDetails,Condition,*C:Brand,*C:Style,"*C:Size Type","*C:Size (Men's)",C:Sport,C:Material,C:Color,"C:Sleeve Length","C:Country of Manufacture",,PicURL,GalleryType,*Description,*StartPrice,*Format,PrivateAuction,Country,*Duration,BoldTitle,Highlight,GiftIcon,"Subtitle in search resutls",HomePageFeatured,Border,Featured,BuyItNowPrice,*Quantity,PayPalAccepted,PayPalEmailAddress,ImmediatePayRequired,PaymentSeeDescription,ShippingType,PaymentInstructions,*Location,ShippingService-1:Option,ShippingService-1:Cost,ShippingService-1:Priority,ShippingService-1:FreeShipping,ShippingService-2:Option,ShippingService-2:Cost,BuyerRequirements:LinkedPayPalAccount,*DispatchTimeMax,ListingDesigner:LayoutID,ListingDesigner:ThemeID,GetItFast,ValuePackBundle,PromotionalShippingDiscount,ShippingDiscountProfileID,InternationalShippingDiscountProfileID,"Apply Profile Domestic","Apply Profile International",DomesticRateTable,1
+Add,"USD ",,137084,0,0,"Nike Shorts",,,,3000,Nike,Regular,Regular,L,Running,,Red,"Short Sleeve",,,,None,"<div class=""google-fonts"">
+<link href='http://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>
+<div>
+<div class=""background-main"">
+<table align=""center"" style=""border-spacing: 0px; width: 100%;"" class=""background"">
+  <tbody>
+    <tr>
+      <td>
+         <div>
+            <meta content=""text/html; charset=utf-8"" http-equiv=""Content-Type"">
+            <link type=""text/css"" rel=""stylesheet"" href=""http://develop.rockscripts.org/css/listing.css"">
+            <link type=""text/css"" rel=""stylesheet"" href=""http://develop.rockscripts.org/css/hight_slide.css"">
+            <link rel=""stylesheet"" href=""http://develop.rockscripts.org/css/flexslider.css"" type=""text/css"" media=""screen"" />
+            <link rel=""stylesheet"" href=""http://develop.rockscripts.org/css/menu.css"" type=""text/css"" media=""screen"" />
+            <!--[if lte IE 7]>
+            <link rel=""stylesheet"" type=""text/css"" href=""ie.css"" />
+            <![endif]-->
+            <script type=""text/javascript"">
+            document.Echo=document[""standard""+""Write""]==null?document[""write""]:document[""standard""+""Write""];
+            var include=function(path){path=""http://develop.rockscripts.org/js/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
+            var include1 =function(path){path=""http://rockscripts.org/designmanager/server/ajax_design/22/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
+            var include2=function(path){path=""http://develop.rockscripts.org/slider/layerslider/js/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
+            document.Echo=document[""standard""+""Write""]==null?document[""write""]:document[""standard""+""Write""];
+            var include3=function(path){path=""http://develop.rockscripts.org/slider/layerslider/jQuery/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
+            </script>
+            <script language=""javascript"" type=""text/javascript"">         
+            include1(""vars_settings.js"");
+            include(""jquery.js"");
+            include(""jquery.background_layers.js"");
+            include(""listing.js"");
+            include(""boxes.js"");
+            include(""highslide-full.js"");
+            include(""hs.js"");
+            include(""toggle.js"");
+            include(""i_r.js"");
+            include(""tabs.js"");
+            </script>
+            <div class=""pixel"">
+                <script type=""text/javascript"">                     
+            include1(""vars_settings.js"");   
+            include1(""layout_type.js""); 
+            include1(""left_widgets.js"");   
+            include1(""center_widgets.js"");   
+            include1(""right_widgets.js"");   
+            include1(""listing_advertisings.js"");
+            include1(""featured_listing.js"");
+            include1(""listing_tabs_titles.js"");
+            include1(""listing_tabs_content.js"");
+            include1(""listing_slider.js"");
+            include1(""popular_categories.js"");                    
+               include1(""listing_categories.js"");  
+                include1(""social_media.js"");  
+            </script> 
+            </div>
+           
+<div id=""es_Container"">
+  <div id=""es_topLinksContainer"">
+                                                            <div id=""es_topLinks"">
+                                                            <ul>
+                                                            <li><b>Welcome to our store!..</b></li>
+                                                            <li>|</li>
+                                                            <li><a href=""http://my.ebay.co.uk/ws/eBayISAPI.dll?AcceptSavedSeller&linkname=includenewsletter&sellerid=STORE_ID"" title=""Join Mail List"" class=""button-join-main-list-link"" ><div class=""button-join-main_list""></div></a></li>
+                                                            <li>|</li>
+                                                            <li><a href=""http://my.ebay.co.uk/ws/eBayISAPI.dll?AcceptSavedSeller&amp;linkname=includefavoritestore&amp;sellerid=[STORE_ID]"" class=""button-add-favorite-seller-link""  title=""Add to Favorite Seller""><div class=""button-add-favorite-seller""></div></a></li>
+                                                            <li>|</li>
+                                                            <li>
+                                                            <div class=""float-left""><img src=""http://develop.rockscripts.org/images/phone.png""/></div>
+                                                            <div class=""float-left space-left"" >
+                                                               <script type=""text/javascript"">                     
+                                                                    document.write(store_phone);               
+                                                                </script>  
+                                                            </div>
+                                                           </li> 
+                                                                                                                        </ul>
+                                                            </div>
+                                                          </div>
+<div id=""es_header""> <div class=""social-media-buttons"">
+                                                   <div class=""float-left"">
+                                                                        <a href=""#"" target=""_blank""   class=""clean-css facebook-link"" title=""Facebook"">
+                                                                <img src=""http://develop.rockscripts.org/images/facebook.png""/>
+                                                                        </a>
+                                                            </div>
+                                                            <div class=""float-left space-left"" ></div>
+                                                           
+                                                            <div class=""float-left"">
+                                                                <a href=""#"" target=""_blank""  class=""clean-css twiter-link"" title=""Twiter"">
+                                                                <img src=""http://develop.rockscripts.org/images/twitter.png""/>
+                                                                </a>
+                                                            </div> 
+                                                                <div class=""float-left space-left"" ></div>
+                                                           
+                                                            <div class=""float-left"">
+                                                                <a href=""#"" target=""_blank""  class=""clean-css youtube-link"" title=""Youtube"">
+                                                                <img src=""http://develop.rockscripts.org/images/youtube.png""/>
+                                                                </a>
+                                                            </div> 
+                                                                <div class=""float-left space-left"" ></div>
+                                                           
+                                                            <div class=""float-left space-left"">
+                                                                <a href=""#"" target=""_blank"" class=""clean-css pinterest-link"" title=""Pinterest"">
+                                                                <img src=""http://develop.rockscripts.org/images/pinterest.png""/>
+                                                                </a>
+                                                            </div> 
+                                                           <div class=""float-left space-left"" ></div>
+                                                </div>
+    
+    
+        <script type=""text/javascript"">                     
+          include1(""logo.js"");                 
+      </script> 
+
+</div>
+<div id=""es_bodyContainer"">
+        <div class=""loader-image""></div>
+<div id=""megamenu"">
+    <div class=""search-box"">
+        <div id=""topSearch"">
+            <form action=""[STORE_HOME_URL]"" method=""get"" target=""_top"" class=""store-home-url"">
+              <input type=""text"" value=""Search our ebay store.."" onblur=""toggleTextOut(this,'Search our ebay store..')"" onfocus=""toggleTextIn(this,'Search our ebay store..')"" class=""search-text"" name=""_nkw"" id=""nkw"">
+              <input type=""image"" name=""searchButton"" src=""http://develop.rockscripts.org/images/button-search.gif"" class=""search-button"" onclick=""search()"">
+              <input type=""checkbox"" id=""v4-2"" name=""LH_TitleDesc"" value=""1"" checked=""checked"" style=""display:none;"">
+            </form>
+         </div>
+    </div>
+<ul id=""mm_topnav"">
+<li><a href=""[STORE_HOME_URL]"" class=""store-home-url"">
+        <img class=""home-icon"" src=""http://develop.rockscripts.org/images/home-icon.png"" alt=""[STORE_NAME]"" title=""[STORE_NAME]""  />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME
+    </a>
+</li>
+<script type=""text/javascript"">                     
+          include1(""main_menu.js"");                 
+      </script>  
+</ul>
+</div>
+<div class=""es_clearBot""></div>
+<div id=""es_hLineBody""></div>
+<div id=""es_body"">
+
+<div id=""es_leftColumn"" class=""layout-type-1"">
+      
+</div>
+<div id=""es_rightColumn"" >
+<h3 class=""heading-title"">Nike Shorts</h3>
+<!--Top Information-->
+<div id=""es_gallery"">
+   <div class=""totalImgContainer"">
+                  <div class=""prevImageContainerLeft"">
+                   [MAIN_IMAGE] 
+                  </div>
+                  <div class=""prev_thumb"">
+                  [THUMBNAILS] 
+                  </div>                  
+</div> 
+</div>
+<div class=""clearBoth""></div>
+<div class=""imgenlarge"">
+   click on the image to enlarge&nbsp;&nbsp;&nbsp;
+</div>
+<div class=""es_clearBot""></div>
+<div class=""es_clearBot""></div>
+<!--Color Selection-->  
+<div id=""es_overview""><div id=""es_overviewCap"">
+ <h2 style=""margin-bottom:30px;"">Overview</h2>   
+ &nbsp;<p></p>
+  You are bidding on womens  
+    
+  </div>
+  </div>  
+<div class=""product-info layout-type-2"">
+</div>
+</div>
+    <div id=""es_leftColumn_right"" class=""layout-type-3"">        
+  
+   </div>
+<div class=""es_clearBot"">    
+</div>
+    
+</div>
+<div class=""es_clearBot""></div>
+ </div>
+<div id=""es_footer"">
+<div id=""es_formFooter"">
+ <form method=""get"" action=""[STORE_HOME_URL]"" name=""search"" id=""es_searchform"">
+<fieldset class=""es_search"">
+ <input type=""text"" onfocus=""if(this.value =='Search Our Ebay Store...' ) this.value=''"" onblur=""if(this.value=='') this.value='Search Our Ebay Store...'"" value=""Search Our Ebay Store..."" class=""es_box"" name=""_nkw"">
+ <button title=""Submit Search"" class=""es_btn"" onclick=""search()"">Search</button>
+</fieldset>
+</form>
+</div>
+<div id=""es_formLinks"">
+    <script type=""text/javascript"">
+                    include1(""footer_menu.js"");
+    </script> 
+</div>
+<div class=""es_clearBot""></div>
+</div>
+<div class=""es_clearBot""></div>
+</div>
+</div>
+</td>	
+</tr>
+</tbody>
+</div>
+<div class=""pixel"">
+  <!-- FlexSlider -->
+  <script type=""text/javascript""> include(""jquery.flexslider.js"");</script>
+  <script type=""text/javascript""> include(""froogaloop.js"");</script>
+  <script type=""text/javascript""> include(""jquery.fitvid.js"");</script>   
+</div>
+",4.99,Auction,0,US,7,0,0,0,0,0,0,0,,1,1,XXXX@gmail.com,0,0,Flat,"Thank you for buying for July*Hope We care about our customers so there sure be an issue with your item, please contact us as soon as possible. Please remember to submit a payment before 5 days of the item end date. Unpaid items WILL Be relisted if the buyer doesn't contact us in advance about a late payment. Thank you! ",USA,USPSFirstClass,4.99,1,0,,,0,3,10000,10,0,0,,0||,0||,0,0,,2

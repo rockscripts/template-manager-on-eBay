@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+/*Store default start*/
+.v4acpcont
+{
+	padding-left:10px;
+}
+.v4acp_head
+{
+	border-radius: 10px;
+}
+.lcat li
+{
+	border-bottom:1px dotted #999999;
+	padding-bottom:3px;
+}
+
+table.v4thldr td {
+    color: #FFFFFF;
+}
+#CentralArea
+{
+	padding-right:10px;
+}
+/*Store default end*/
+
+.pagecontainer
+{
+	background:#FFFFFF;
+	box-shadow: 0px 1px 5px #999999;
+}
+.toplink
+{
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#585756;
+	text-decoration:none;
+	font-weight:bold;
+}
+.toplink a
+{
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#585756;
+	text-decoration:none;
+	font-weight:bold;
+}
+.toplink a:hover
+{
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999999;
+	text-decoration:none;
+	font-weight:bold;
+}
+.toplink a:visited
+{
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#8fba1e;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.menu_txt
+{
+	font-family:Trajan Pro, Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:300;
+}
+.menu_txt a
+{
+	font-family:Trajan Pro, Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:300;
+}
+.menu_txt a:hover
+{
+	font-family:Trajan Pro, Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#beeb49;
+	text-decoration:none;
+	font-weight:300;
+}
+
+.header_txt
+{
+	font-family:Myriad Pro, Arial, Helvetica, sans-serif;
+	font-size:25px;
+	color:#5c0407;
+	border-bottom:1px solid #a3a3a3;
+}
+.txt2grey
+{
+	font-family:Myriad Pro, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	line-height:20px;
+	color:#303030;
+}
+.price_txt
+{
+	font-family:Myriad Pro, Arial, Helvetica, sans-serif;
+	font-size:36px;
+	line-height:40px;
+	color:#010101;
+}
+.txt_details
+{
+	font-family:Myriad Pro, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#CCCCCC;
+	padding:2px 0 2px 5px;;
+	background:#1d1818;
+}
+.txt_desc2
+{
+	font-family:Myriad Pro, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:20px;
+	color:#7b7b7b;
+}
+.price_bg_black
+{
+	height:38px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#FFFFFF;
+	vertical-align:middle;
+	padding-left:10px;
+	background-color:#8fba1e;
+}
+
+
+/* Slider css start  */
+
+#slider {
+    width:auto;
+    height:303px;/* Make it the same size as your images */
+    background:#fff url(loading.gif) no-repeat 50% 50%;
+    position:relative;
+    margin:0 auto;/*make the image slider center-aligned */
+}
+#slider img {
+    position:absolute;
+    border:none;
+    display:none;
+}
+
+#slider a.imgLink {
+    z-index:2;
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border:0;
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+}
+#slider 
+{
+    transform: translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+}
+
+/* Slider css end  */
+
+/*********************TAB**********************/
+
+	ul.tabs {
+		margin: 0;
+		padding: 0;
+		float: left;
+		list-style: none;
+		height: 32px;
+		border-bottom: 1px solid #999999;
+		border-left: 1px solid #999999;
+		width: 100%;
+	}
+	ul.tabs li {
+		float: left;
+		margin: 0;
+		cursor: pointer;
+		padding: 0px 13px ;
+		height: 31px;
+		line-height: 31px;
+		border: 1px solid #999999;
+		border-left: none;
+		font-weight: bold;
+		background: #EEEEEE;
+		overflow: hidden;
+		position: relative;
+	}
+	ul.tabs li:hover {
+		background: #CCCCCC;
+	}	
+	ul.tabs li.active{
+		background: #FFFFFF;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.tab_container {
+		border: 1px solid #999999;
+		border-top: none;
+		clear: both;
+		float: left; 
+		width: 100%;
+		background: #FFFFFF;
+	}
+	.tab_content {
+		padding: 20px;
+		font-size: 1.2em;
+		display: none;
+	}
+	#container {
+		/*width: 960px;*/
+		margin: 0 auto;	
+		font-family:Tahoma, Arial, Helvetica, sans-serif;
+		
+	}
+	#container .tabs {
+		font-family:Tahoma, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		text-transform:uppercase;
+		color:#444444;
+		
+	}
+.txt_14px_grey
+{
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#666666;
+
+}	
+/*********************TAB END**********************/
+
+
+
+
+

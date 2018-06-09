@@ -1,0 +1,1 @@
+var  slider_images = '<li><img class="slider-image" src="http://fileshosting.rockscripts.org/files/store_design/listing_image_video_slider/78//n8.png"/></li> <li><img class="slider-image" src="http://fileshosting.rockscripts.org/files/store_design/listing_image_video_slider/78//p15.png"/></li>';

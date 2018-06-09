@@ -1,0 +1,1 @@
+var footer_menu_links= "<a href='http://feedback.ebay.com/ws/eBayISAPI.dll?ViewFeedback2&userid=rockscripts&ftab=AllFeedback'>Feedback</a><a href='http://docs.rockscripts.org/'>User's Guide</a>"

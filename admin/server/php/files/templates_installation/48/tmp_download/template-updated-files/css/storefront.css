@@ -1,0 +1,298 @@
+.container
+{
+ background:transparent!important; 
+}
+#es_topLinksContainer
+{display:none;}
+
+.header-search-box
+{
+   float: right;
+    margin-top: 0px;
+    width: 376px;
+}
+span .logo 
+{
+  display: block !important;
+  top: 12%;
+}
+.shopping-image
+{
+     background: url("../images/templates/alternativeclothing/cart-bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 78px;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 80px;
+}
+
+#es_header form.navbar-form
+{
+  margin-top: 56px;
+}
+.navbar-inverse 
+{
+  background: none repeat scroll 0 0 #FD76A4;
+  border: 1px solid #D94C7B;
+  border-radius:0px;
+}
+.navbar-inverse .nav > li:first
+{ 
+ border-left: 1px solid #4D4D4D;
+}
+.navbar-inverse .nav > li
+{ 
+ border-right: solid 1px #d94c7b;;
+  padding-left: 0px;
+}
+.nav > li
+{
+ border-top: 0px solid #FFFFFF!important;
+}
+.navbar-nav .menu-item a, .navbar-inverse a
+{
+   color: #FFFFFF !important;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.navbar-header
+{
+   border-right: solid 1px #d94c7b;;
+}
+.layout-type-2 .Popular-categories .rc-box
+{
+  display: inline-block!important;
+  float: none;
+}
+.Popular-categories-title
+{display:none!important;}
+.New-arrivals, .New-arrivals-title
+{clear:both;}
+.layout-type-2 .widget .promotion-plan
+{
+  margin-left: 2.1%;
+}
+
+.vTitle
+{
+ background: none repeat scroll 0 0 #FD76A4 !important;
+  border: 1px solid #CCCCCC;
+  border-radius: 0;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: normal;
+}
+.custom-rich
+{
+ background:transparent;
+  border:0px solid;
+}
+.powered-by
+{
+ width:100%;
+ text-align:center;
+  padding-top:10px;
+}
+.copyright 
+{
+ color: #FFFFFF;
+ padding-top: 11px;
+}
+.footer-container, .footer-container .container
+{
+  background: rgb(237,237,237);
+  background: -moz-linear-gradient(top, #D2D2D2  0%, #000 100%)!important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D2D2D2 ), color-stop(100%,#000))!important;
+  background: -webkit-linear-gradient(top, #D2D2D2  0%,#000 100%)!important;
+  background: -o-linear-gradient(top, #D2D2D2  0%,#000 100%)!important;
+  background: -ms-linear-gradient(top, #D2D2D2  0%,#000 100%)!important;
+  background: linear-gradient(to bottom,#D2D2D2  0%,#000 100%)!important;   
+}
+.footer-container .container
+{border-top: 0px solid #D94C7B;}
+.footer-custom-background
+{
+ border-top: 1px solid #D94C7B;
+}
+.footer-custom-background > .container
+{
+ background:transparent!important;
+ }
+.footer-custom-background 
+{
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+     background-image: url("http://fileshosting.rockscripts.org/files/store_design/general_images/48/main-bg.png") !important;
+  background-color:transparent!important;
+}
+.footer-custom-background #es_formLinks a
+{
+ background: none repeat scroll 0 0 #CCCCCC;
+ border: 1px solid #D94C7B;
+ color: #000000 !important;
+  background: -moz-linear-gradient(top, #D2D2D2  0%, #D94C7B 100%)!important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D2D2D2 ), color-stop(100%,#D94C7B))!important;
+  background: -webkit-linear-gradient(top, #D2D2D2  0%,#D94C7B 100%)!important;
+  background: -o-linear-gradient(top, #D2D2D2  0%,#D94C7B 100%)!important;
+  background: -ms-linear-gradient(top, #D2D2D2  0%,#D94C7B 100%)!important;
+  background: linear-gradient(to bottom,#D2D2D2  0%,#D94C7B 100%)!important; 
+  text-decoration:none!important;
+}
+.footer-custom-background #es_formLinks a:hover
+{
+ opacity:0.8;
+}
+.search-icon-on-input
+{
+ background-position: 50% 50% !important;
+ background-repeat: no-repeat !important;
+ padding: 16px;
+}
+.welcome-header-text
+{
+ font-weight:bold;
+}
+.welcome-header-text
+{
+ font-weight:bold;
+ color:#fff;
+ font-size: 13px;
+}
+.link-top
+{
+  color:black!important;
+  font-size: 13px;
+}
+.col-sm-3 
+{
+  width: 26.1%;
+}
+.col-sm-6-fix-width
+{
+  width:73.1%!important;
+}
+.navbar-right
+{display:none;}
+.menu-item-hover
+{
+ background:#bbb!important;
+}
+.listing-box, .listing-box1, .listing-box2, .listing-box3
+{
+  background: rgb(237,237,237);
+  background: -moz-linear-gradient(top, white  0%, #ccc 100%)!important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,white ), color-stop(100%,#ccc))!important;
+  background: -webkit-linear-gradient(top, white  0%,#ccc 100%)!important;
+  background: -o-linear-gradient(top, white  0%,#ccc 100%)!important;
+  background: -ms-linear-gradient(top, white  0%,#ccc 100%)!important;
+  background: linear-gradient(to bottom,white  0%,#ccc 100%)!important;
+  min-height: 284px;
+}
+.details-inner span.bin 
+{
+ background:#FFFFFF;
+ color: #000000;
+}
+.navbar-header:hover
+{
+ opacity:0.8;
+}
+.background-main
+{
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: 72% 182px;
+}
+#nkw
+{
+  background: none repeat scroll 0 0 #272727;
+    border: 1px solid #5A4C51;
+    color: #FFFFFF;
+}
+.button-search
+{background-color:#FD76A4;}
+.button-search:hover
+{background-color:#D94C7B;}
+.shopping-image a
+{
+ width:100%;
+ height:100%;
+ position:relative;
+ display:block;
+}
+#es_formFooter .button-search {
+    background-color: transparent;
+}
+.powered_link1
+{color:white!important;}
+.footer-custom-background .powered-by
+{
+ border-top:1px solid #474747;
+}
+.vertical.blue li {
+    border-bottom: 1px solid #ddd;
+    height: auto !important;
+    padding-bottom: 3px;
+    width: 100%;
+}
+.vertical ul {
+   border: 0 none;
+    display: block;
+    left: 0;
+    margin-left: 5px;
+    padding-left: 17px;
+    position: relative;
+    top: 4px;
+    width: 97%;
+    z-index: 999;
+}
+li.parent ul li a
+{
+   background: url("../images/templates/alternativeclothing/icon-subcat.png") no-repeat scroll 0 49% rgba(0, 0, 0, 0);
+    padding-left: 20px;
+  
+}
+.vertical a
+{
+  padding: 0 1.4em 0 9px;
+  height:auto!important;
+}
+li.parent ul
+{
+ margin-top: 4px;
+}
+.vertical li.parent > a {
+    background-image: none;
+}
+.icon-favorite
+{
+  background: url("../images/templates/alternativeclothing/icon-favorite.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  width:20px;
+  height:20px;
+  display: table-cell;
+  background-repeat:no-repeat;
+}
+.icon-newsletter
+{
+  background: url("../images/templates/alternativeclothing/icon-newsletter.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  width:20px;
+  height:20px;
+  display: table-cell;
+  background-repeat:no-repeat;
+}
+.fast-store-links
+{
+ color: #FFFFFF;
+    display: table;
+    margin-bottom: 32px;
+    margin-top: -32px;
+  position: absolute;
+}
+.fast-store-links a
+{
+  color:#ccc!important;
+ text-decoration:none!important;
+}
+#es_formFooter
+{width:232px;}

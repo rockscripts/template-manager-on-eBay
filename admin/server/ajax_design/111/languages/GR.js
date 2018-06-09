@@ -1,0 +1,1 @@
+var FEATURED = "Ausgewählte";var NEW_ARRIVALS = "Neu eingetroffen";var SPECIAL_DISCOUNTS = "Specials";var POPULAR_CATEGORIES = "Beliebte Kategorien";var STORE_CATEGORIES = "Kategorien";var BROWSE_BY_SPECIFICS = "Nach Besonderheiten";var OUR_LISTINGS = "Alle Produkte";var ALL_RIGHT_RESERVED = "Alle Rechte vorbehalten";

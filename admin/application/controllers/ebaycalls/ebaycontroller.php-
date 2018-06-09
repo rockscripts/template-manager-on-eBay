@@ -1,0 +1,49 @@
+<?php
+ error_reporting(false);
+
+require_once 'GetSellerList.php';
+require_once 'GetItem.php';
+class Ebaycontroller extends CI_Controller 
+{
+   public $token;   
+   
+   public function __construct() 
+   {
+      parent::__construct(); 
+      
+      $this->load->model('Storedesign_model');
+      $store_settings = $this->Storedesign_model->get_store_setting(24,25);
+      $this->token = $store_settings->token;
+    }
+    public function get_seller_list()
+    {
+     
+        /*get items list*/
+        $GetSellerList = new GetSellerList();
+   
+        $GetSellerList->get_list();
+    }
+    public function get_item()
+    {
+        
+        /*get items list*/
+        $items = array('ItemID' => "281205955954");
+        
+        $GetItem = new GetItem();
+      
+        $GetItem->Array_itemsID = $items;
+          
+        $GetItem->get_item();
+    }
+    public function example_isert_with_codeigniter()
+    {
+         $data = array(
+         'itemID' => $image_url,
+         'start_time'=>$file_name,
+         'end_time' => $id_ebay_design
+      );
+      $this->db->insert('seller_list', $data); 
+    }
+}
+
+?>

@@ -1,0 +1,41 @@
+
+/****************************************** Core */
+.liteTabs { position: relative; margin: 0; padding: 0; overflow: hidden; width: 624px; font: 12px/14px Verdana, Arial, sans-serif }
+.liteTabs ul.orderlistBg 
+{
+    background-color: silver;
+    border: 5px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 614px;
+}
+.liteTabs li.listBg { float: left; list-style-type: none; margin:0 3px 3px 0;}
+.liteTabs li.listBg a 
+{
+    background-color: #F2F2F2;
+    border: 1px solid #888888;
+    color: black;
+    display: block;
+    margin-right: 0;
+    outline: 0 none;
+    padding: 10px 14px 10px 13px;
+    text-decoration: none;
+}
+.liteTabs li.listBg a:hover { color:#FF0D4C;}
+.liteTabs li.listBg a:focus { color:#fff;}
+.liteTabs li.listBg a.selected, .liteTabs a.selected:hover 
+{
+    background-color: black;
+    color: white;
+}
+
+.liteTabs div.selected {
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    position: static !important;
+    width: 620px !important;
+}
+.liteTabs .tabox{ padding:0;}

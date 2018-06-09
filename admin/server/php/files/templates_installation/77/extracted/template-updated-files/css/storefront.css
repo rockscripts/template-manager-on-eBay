@@ -1,0 +1,275 @@
+.container
+{
+ background:transparent!important; 
+}
+.background-main
+{
+ background-repeat:no-repeat;
+}
+#es_topLinksContainer
+{display:none;}
+
+.header-search-box
+{
+   float: right;
+    margin-top: 0px;
+    width: 320px;
+}
+span .logo 
+{
+  display: block !important;
+  top: 6%;
+}
+.shopping-image
+{
+    background: url("../images/templates/electronics/my-cart.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 46px;
+    margin-left: 10px;
+    margin-top: 16px;
+    width: 45px;
+}
+
+#es_header form.navbar-form
+{
+  margin-top: 27px;
+}
+.navbar-inverse 
+{
+ background: rgb(237,237,237);
+  background: -moz-linear-gradient(top, #2c3136   0%, #1c2123 100%)!important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D10100  ), color-stop(100%,#1c2123))!important;
+  background: -webkit-linear-gradient(top, #2c3136   0%,#1c2123 100%)!important;
+  background: -o-linear-gradient(top, #2c3136   0%,#1c2123 100%)!important;
+  background: -ms-linear-gradient(top, #2c3136   0%,#1c2123 100%)!important;
+  background: linear-gradient(to bottom,#2c3136   0%,#1c2123%)!important;
+}
+.navbar-inverse .nav > li:first
+{ 
+ border-left: 1px solid #4D4D4D;
+}
+.navbar-inverse .nav > li
+{ 
+ border-right: 1px solid #4D4D4D;
+  padding-left: 0px;
+}
+.nav > li
+{
+ border-top: 0px solid #FFFFFF!important;
+}
+.navbar-inverse .navbar-brand:hover
+{
+ color:white;
+}
+.navbar-inverse .navbar-brand
+{
+ color:white;
+}
+.navbar-header
+{
+ border-right: 1px solid #4D4D4D;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+  color:#D2D2D2;
+}
+.navbar-nav .menu-item a, .navbar-inverse a
+{
+ text-transform:capitalize;
+ font-weight:bold;
+  font-size: 15px;
+}
+.layout-type-2 .Popular-categories .rc-box
+{
+  display: inline-block!important;
+  float: none;
+}
+.Popular-categories-title
+{display:none!important;}
+.New-arrivals, .New-arrivals-title
+{clear:both;}
+.layout-type-2 .widget .promotion-plan
+{
+  margin-left: 2.1%;
+}
+
+ .vTitle
+{
+  background: rgb(237,237,237);
+  background: -moz-linear-gradient(top, #D10100   0%, #EF4140 100%)!important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D10100  ), color-stop(100%,#EF4140))!important;
+  background: -webkit-linear-gradient(top, #D10100   0%,#EF4140 100%)!important;
+  background: -o-linear-gradient(top, #D10100   0%,#EF4140 100%)!important;
+  background: -ms-linear-gradient(top, #D10100   0%,#EF4140 100%)!important;
+  background: linear-gradient(to bottom,#D10100   0%,#EF4140 100%)!important;
+  border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: -3px;
+    padding-bottom: 33px;
+}
+.custom-rich
+{
+ background:transparent;
+  border:0px solid;
+}
+.powered-by
+{
+ width:100%;
+ text-align:center;
+  padding-top:10px;
+}
+.copyright 
+{
+ color: #FFFFFF;
+ padding-top: 11px;
+}
+.footer-container, .footer-container .container
+{
+  background: rgb(237,237,237);
+  background: -moz-linear-gradient(top, #D2D2D2  0%, #000 100%)!important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D2D2D2 ), color-stop(100%,#000))!important;
+  background: -webkit-linear-gradient(top, #D2D2D2  0%,#000 100%)!important;
+  background: -o-linear-gradient(top, #D2D2D2  0%,#000 100%)!important;
+  background: -ms-linear-gradient(top, #D2D2D2  0%,#000 100%)!important;
+  background: linear-gradient(to bottom,#D2D2D2  0%,#000 100%)!important;
+}
+.footer-custom-background 
+{
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.footer-custom-background #es_formLinks a
+{
+ background: none repeat scroll 0 0 #CCCCCC;
+ border: 1px solid #000000;
+ color: #000000 !important;
+}
+.search-icon-on-input
+{
+ background-position: 50% 50% !important;
+ background-repeat: no-repeat !important;
+ padding: 16px;
+}
+.welcome-header-text
+{
+ font-weight:bold;
+}
+.welcome-header-text
+{
+ font-weight:bold;
+ color:#F12A2D;
+ font-size: 13px;
+}
+.link-top
+{
+  color:white!important;
+  font-size: 13px;
+  text-decoration: none !important;
+}
+.col-sm-3 
+{
+  width: 26.1%;
+}
+.col-sm-6-fix-width
+{
+  width:73.1%!important;
+}
+.navbar-right
+{display:none;}
+.menu-item-hover
+{
+ color:#f12a2d!important;
+}
+.listing-box, .listing-box1, .listing-box2, .listing-box3
+{
+  background: rgb(237,237,237);
+  background: -moz-linear-gradient(top, white  0%, #ccc 100%)!important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,white ), color-stop(100%,#ccc))!important;
+  background: -webkit-linear-gradient(top, white  0%,#ccc 100%)!important;
+  background: -o-linear-gradient(top, white  0%,#ccc 100%)!important;
+  background: -ms-linear-gradient(top, white  0%,#ccc 100%)!important;
+  background: linear-gradient(to bottom,white  0%,#ccc 100%)!important;
+  min-height: 284px;
+}
+.details-inner span.bin 
+{
+ background:#FFFFFF;
+ color: #000000;
+}
+.navbar-header:hover
+{
+ opacity:0.8;
+}
+/*new styles*/
+.background-main
+{
+   background-color:#f3f3f3;
+  background-repeat:repeat-x;
+}
+
+.input-group {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-collapse: separate;
+    border-radius: 5px;
+    display: table;
+    padding: 5px;
+    position: relative;
+}
+.navbar-form
+{
+ margin-bottom: -7px;
+ padding-right: 0px;
+ color: #FFFFFF;
+}
+.shopping-icon-link 
+{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.vertical .parent ul
+{
+ left: 102%;
+}
+.form-control:focus
+{
+ border-color:#F12A2D;
+}
+.home-icon {
+    background: url("../images/templates/electronics/icon-home.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 25px;
+    margin-top: -5px;
+    width: 29px;
+}
+.vertical.blue li, .vertical.blue li a
+{
+ height:auto;
+ border-radius: 3px;
+  margin-bottom: 1px;
+}
+.vertical.blue li a
+{
+  color: #000000 !important;
+  font-size: 122%;
+  line-height: 27px;
+  padding-left: 8px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+ul.vertical, div.Store-categories 
+{
+  background:white;
+   border: 0 solid;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+}
+#es_footer
+{
+  position: relative;
+}
+#es_formLinks
+{
+ position: absolute;
+  right:0px;
+}

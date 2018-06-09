@@ -1,0 +1,7 @@
+DirectoryIndex index.php
+
+Options +FollowSymLinks
+Options -Indexes
+<Files *.js>
+Header add "Cache-Control" "max-age=604800"
+</Files>

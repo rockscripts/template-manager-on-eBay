@@ -1,0 +1,1 @@
+var footer_menu_links= "<a href='http://stores.ebay.co.uk/United-Lighting-Store/About-Us.html'>About Us</a><a href='http://stores.ebay.co.uk/United-Lighting-Store/Feedbacks.html'>Feedbacks</a><a href='http://contact.ebay.co.uk/ws/eBayISAPI.dll?FindAnswers&frm=284&&requested=unitedlighting&guest=1'>Contact Us</a>"

@@ -1,0 +1,1 @@
+var footer_menu_links= "<a href='http://stores.ebay.com.au/Shop-of-Toys/About-Us.html'>About Us</a>"

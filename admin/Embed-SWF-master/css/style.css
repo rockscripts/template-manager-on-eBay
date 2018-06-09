@@ -1,0 +1,12 @@
+body {
+	/* For moving down the content below the top bar */
+	padding-top: 55px;
+}
+.explanation {
+	/* help symbol for all the labels */
+	cursor:help; 
+}                  
+
+.container-fluid {
+	width: 1100px;
+}

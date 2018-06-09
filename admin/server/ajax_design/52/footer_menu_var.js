@@ -1,0 +1,1 @@
+var footer_menu_links= "<a href='http://stores.ebay.com.au/Cellardoor-Costumes/About-Us.html'>About Us</a><a href='http://stores.ebay.com.au/Cellardoor-Costumes/Returns.html'>Returns</a><a href='http://stores.ebay.com.au/Cellardoor-Costumes/Shipping.html'>Shipping</a><a href='http://stores.ebay.com.au/Cellardoor-Costumes/Sizing-Chart.html'>Sizing Chart</a>"

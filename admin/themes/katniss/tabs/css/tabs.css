@@ -1,0 +1,38 @@
+.product-info{
+width:90%;
+height:500px;
+}
+.product-info .tabs{
+margin-right:20px;
+height:39px;
+float:left;
+width:90%;
+}
+.product-info .tabs span {
+background: none repeat scroll 0 0 #FFF0DB;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 0 0;
+    color: #000000;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 10px;
+    height: 26px;
+    margin: 0 1px;
+    padding-top: 13px;
+    text-align: center;
+    width: 120px;
+}
+.product-info .tab_content{
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+    clear: right;
+    display: none;
+    height: 418px;
+    overflow: hidden;
+    padding: 20px;
+    width: 90%;
+}
+.product-info .tab_content p{
+line-height: 19px;
+} 

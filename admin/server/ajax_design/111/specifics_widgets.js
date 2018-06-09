@@ -1,0 +1,16 @@
+var specifics_array = new Array();
+specifics_values_array = new Array();
+specifics_values_array.push('Clothing');
+specifics_values_array.push('Electronics');
+specifics_values_array.push('jewelry');
+object_specific = {'title':'Category','custom_title':'','specifics_values':specifics_values_array};
+specifics_array.push(object_specific);
+specifics_values_array = new Array();
+specifics_values_array.push('black');
+specifics_values_array.push('blue');
+specifics_values_array.push('pink');
+specifics_values_array.push('purple');
+specifics_values_array.push('red');
+specifics_values_array.push('yellow');
+object_specific = {'title':'Color','custom_title':'','specifics_values':specifics_values_array};
+specifics_array.push(object_specific);

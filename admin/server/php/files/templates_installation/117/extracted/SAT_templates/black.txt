@@ -1,0 +1,140 @@
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" background="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/bg.jpg">
+<tr>
+<td>
+<table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/header2.jpg" alt="General" width="800" height="165" /></td>
+  </tr>
+  </table>
+   <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="top" background="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/mainmid.jpg"><table width="620" border="0" align="center" cellpadding="4" cellspacing="0">
+
+      <tr>
+        <td height="171" align="left" valign="top"><font size="2" face="Verdana">Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here </font> <font size="2" face="Verdana">Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here</font> <font size="2" face="Verdana">Text Goes Here Text Goes Here
+          Text Goes Here Text Goes Here
+          Text Goes Here </font> <font size="2" face="Verdana">Text Goes Here </font><br />
+        <br /></td>
+      </tr>
+    </table></td>
+
+  </tr>
+  <tr>
+    <td align="center"><img src="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/mainbot.jpg" width="800" height="32" /></td>
+  </tr>
+  </table>
+    <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><img src="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/payment.jpg" width="800" height="78" /></td>
+  </tr>
+
+  <tr>
+    <td align="center" background="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/lowermid.jpg"><table width="560" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left"><font size="2" face="Verdana">Text Goes Here<br />
+          Text Goes Here<br />
+          <br />
+        </font> </td>
+
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/paybot.jpg" width="800" height="19" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/shipping.jpg" width="800" height="76" /></td>
+  </tr>
+
+  <tr>
+    <td align="center" background="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/lowermid.jpg"><table width="560" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left"><font size="2" face="Verdana">Text Goes Here<br />
+          Text Goes Here<br />
+          <br />
+        </font> </td>
+
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/shipbot.jpg" width="800" height="17" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/contacts.jpg" width="800" height="76" /></td>
+  </tr>
+
+  <tr>
+    <td align="center" background="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/lowermid.jpg"><table width="560" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left"><font size="2" face="Verdana">Text Goes Here<br />
+          Text Goes Here<br />
+          <br />
+        </font> </td>
+
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/contactsbot.jpg" width="800" height="17" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/returns.jpg" width="800" height="76" /></td>
+  </tr>
+
+  <tr>
+    <td height="51" align="center" background="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/lowermid.jpg"><table width="560" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left"><font size="2" face="Verdana">Text Goes Here<br />
+            Text Goes Here<br />
+            <br />
+          </font> </td>
+
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+
+    <td width="800" height="111" align="left" valign="top" background="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/footer.jpg"><table width="800" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="253" height="50">&nbsp;</td>
+        <td width="547">&nbsp;</td>
+
+      </tr>
+      <tr>
+        <td height="20">&nbsp;</td>
+        <td align="left" valign="middle"><a href="http://www.spicyauctiontemplates.com"><img src="http://spicyauctiontemplates.com/images/ebay_templates/general_black/img/linkpict.gif" alt="Spicy Auction Templates" width="300" height="20" border="0"></a></td>
+      </tr>
+      <tr>
+        <td height="19">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+
+    </table></td>
+  </tr>
+  </table>
+  </td>
+</tr>
+</table>

@@ -1,0 +1,1 @@
+var footer_menu_links= "<a href='http://stores.ebay.com/Epic-TV-Box/About-Us.html'>About Us</a><a href='http://stores.ebay.com/Epic-TV-Box/Returns-and-Shipping.html'>Returns and Shipping</a><a href='http://stores.ebay.com/Epic-TV-Box/FAQ.html'>FAQ</a>"

@@ -1,0 +1,1 @@
+var footer_menu_links= "<a href='http://rockscripts.org/helpdesk/'>Soporte Técnico</a>"

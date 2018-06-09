@@ -1,0 +1,430 @@
+Action(CC=Cp1252),SiteID,CustomLabel,*Category,Category2,StoreCategory,*Title,Subtitle,Relationship,RelationshipDetails,Condition,*C:Brand,*C:Style,"*C:Size Type","*C:Size (Men's)",C:Sport,C:Material,C:Color,"C:Sleeve Length","C:Country of Manufacture",,PicURL,GalleryType,*Description,*StartPrice,*Format,PrivateAuction,Country,*Duration,BoldTitle,Highlight,GiftIcon,"Subtitle in search resutls",HomePageFeatured,Border,Featured,BuyItNowPrice,*Quantity,PayPalAccepted,PayPalEmailAddress,ImmediatePayRequired,PaymentSeeDescription,ShippingType,PaymentInstructions,*Location,ShippingService-1:Option,ShippingService-1:Cost,ShippingService-1:Priority,ShippingService-1:FreeShipping,ShippingService-2:Option,ShippingService-2:Cost,BuyerRequirements:LinkedPayPalAccount,*DispatchTimeMax,ListingDesigner:LayoutID,ListingDesigner:ThemeID,GetItFast,ValuePackBundle,PromotionalShippingDiscount,ShippingDiscountProfileID,InternationalShippingDiscountProfileID,"Apply Profile Domestic","Apply Profile International",DomesticRateTable,1
+Add,"USD ",,137084,0,0,"Nike Shorts",,,,3000,Nike,Regular,Regular,L,Running,,Red,"Short Sleeve",,,,None,"<link type=""text/css"" rel=""stylesheet"" href=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/css/listing.css"">
+<link type=""text/css"" rel=""stylesheet"" href=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/css/drop_menu.css"">
+<link type=""text/css"" rel=""stylesheet"" href=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/css/hight_slide.css"">
+<link type=""text/css"" rel=""stylesheet"" href=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/css/h_v.css"">
+<link type=""text/css"" rel=""stylesheet"" href=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/css/tabs.css"">
+<link type=""text/css"" rel=""stylesheet"" href=""http://fonts.googleapis.com/css?family=Lato:400,400italic"">
+<script>
+document.Echo=document[""standard""+""Write""]==null?document[""write""]:document[""standard""+""Write""];
+var include=function(path)
+{
+path=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/js/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');
+};
+</script>
+<script language=""javascript"" type=""text/javascript"">
+include(""jquery.js"");
+include(""jquery.background_layers.js"");
+include(""boxes.js"");
+include(""highslide-full.js"");
+include(""hs.js"");
+include(""toggle.js"");
+include(""i_r.js"");
+include(""litetabs.js"");
+include(""litetabs-function.js"");
+include(""jquery.jcarousel.min.js"");
+include(""jcarousel-function-hori-to-vertical.js"");
+include(""drop.js"");
+</script>
+<div id=""full_content"">
+<div id=""essHeaderContainer"">
+<!--Styles--><!--Styles-->
+<div id=""script5"">
+<div id=""essHeader"">
+<a class=""icon-home"" target=""_top"" href="""">
+<img src=""http://easypiecesclothing.esellersolutions.com/item/images/icon-home.gif"" border=""0"">
+</a>
+<div class=""btn-join"">
+<a target=""_top"" class=""tick"" href=""http://my.ebay.co.uk/ws/eBayISAPI.dll?AcceptSavedSeller&amp;linkname=includenewsletter&amp;sellerid=STORE_ID"">Join Mailing List</a>
+<a target=""_top"" class=""plus"" href=""http://my.ebay.co.uk/ws/eBayISAPI.dll?AcceptSavedSeller&amp;linkname=includefavoritestore&amp;sellerid=STORE_ID"">Add to Favorite Sellers</a>
+</div>
+<div class=""tophead"">
+<div class=""shop-logo"">
+<a href=""#"" target=""_blank"">
+<img src=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/images/store_logo.png"">
+</a>
+</div>
+<div id=""topSearch"">
+<form target=""_top"" method=""get"" action=""#SHOP_HOME"">
+<input id=""nkw"" name=""_nkw"" class=""search-text"" onfocus=""toggleTextIn(this,'Search our ebay store..')"" onblur=""toggleTextOut(this,'Search our ebay store..')"" value=""Search our ebay store.."" type=""text"">
+<input onclick=""search()"" class=""search-button"" src=""http://easypiecesclothing.esellersolutions.com/shop/images/button-search.gif"" name=""searchButton"" type=""image"">
+<input style=""display:none;"" checked=""checked"" value=""1"" name=""LH_TitleDesc"" id=""v4-2"" type=""checkbox"">
+</form>
+</div>
+<span class=""wlcme"">Welcome to Our Shop...</span>
+<div class=""clearBoth""></div>
+</div>
+<div id=""topcatz"">
+<ul>
+<li class=""fst"">
+<a href="""" target=""_top"">Womens Clothing</a>
+<ul style=""display: none;"">
+<li><a href="""">Dresses</a></li>
+<li><a href="""">Work Dresses</a></li>
+<li><a href="""">Maxi Dresses</a></li>
+<li><a href=""""> Party Dresses</a></li>
+<li><a href="""">Tops &amp; T-Shirts</a></li>
+<li><a href="""">Shirts</a></li>
+<li><a href=""""> Skirts</a></li>
+<li><a href=""""> Playsuits &amp; Jumpsuits</a></li>
+<li><a href="""">Jumpers &amp; Cardigans</a></li>
+<li><a href=""""> Jackets</a></li>
+<li><a href="""">Underwear</a></li>
+<li><a href="""">Nightwear</a></li>
+<li><a href="""">Robes</a></li>
+</ul>
+<div class=""clear""></div>
+</li>
+<li><a href="""" target=""_top"">Plus Size</a></li>
+<li>
+<a href="""" target=""_top"">Accessories</a>
+<ul style=""display: none;"">
+<li><a href="""">Bags &amp; Purses</a></li>
+<li><a href="""">Hats, Gloves &amp; Scarves</a></li>
+</ul>
+<div class=""clear""></div>
+</li>
+<li>
+<a href="""" target=""_top"">Girls Clothing</a>
+<ul style=""display: none;"">
+<li><a href="""">Dresses</a></li>
+<li><a href="""">Tops &amp; T-Shirts</a></li>
+<li><a href="""">Jumpers &amp; Cardigans</a></li>
+<li><a href="""">Outfits &amp; Sets</a></li>
+<li><a href="""">Underwear</a></li>
+<li><a href="""">Leggings</a></li>
+<li><a href="""">Nightwear</a></li>
+</ul>
+<div class=""clear""></div>
+</li>
+<li><a href="""" target=""_top"">Boys Clothing</a></li>
+<li><a href="""" target=""_top"">New Arrivals</a></li>
+<li><a href="""" target=""_top"">SALE</a></li>
+</ul>
+<div class=""clearBoth""></div>
+</div>
+<div id=""topNavMain"">
+<ul>
+<li class=""fst""><a href="""" target=""_top"">About Us</a></li>
+<li><a href="""" target=""_top"">Payment</a></li>
+<li><a href="""" target=""_top"">Shipping</a></li>
+<li><a href="""" target=""_top"">Return Policy</a></li>
+<li><a href="""" target=""_top"">Contact Us</a></li><li><br></li>
+</ul>
+<div class=""clearBoth""></div>
+</div>
+<div class=""clearBoth""></div>
+</div>
+</div>
+<div class=""clearBoth""></div>
+</div><!--/Header-->&nbsp;
+<div id=""essContentsContainer"">
+<div class=""indent"">
+
+<div id=""lMenuContainer"">
+
+<div class=""outerBoxLMenuC"" id=""outerBoxLMenu1"">
+<div class=""vTitle"">
+Shop Categories
+</div>
+<div class=""cPad"">
+<div id=""category_script"">
+<script type=""text/javascript""> var a = ""SRC="";b=""http://apps.kernelbd.com/ebay/dynamic-shop-categories/menuserver.php?userid=July*hope&domain=.com"";document.write (""<script type='text/javascript' ""+a+b+"">"");document.write('</scr'+'ipt>');</script>
+</div>
+</div>
+</div>
+
+<div id=""outerBoxLMenu1"" class=""outerBoxLMenuC"">
+
+<div class=""cPad"">
+<div>
+<br>
+<img src=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/images/buy-confidence.png"" id=""payments_promotion"">
+</div>
+</div>
+</div>
+
+<div id=""script6"">
+
+<div class=""outerBoxLMenuC"" id=""outerBoxLMenu2"">
+<div id=""left-ad"">
+<a target=""_top"" href=""http://stores.ebay.co.uk/The-Easy-Pieces/NEW-ARRIVALS-/_i.html?_fsub=3162427012&amp;_sid=289111152&amp;_trksid=p4634.c0.m322"">
+<img src=""http://easypiecesclothing.esellersolutions.com/item/images/left-ad1.jpg"" class=""tekuljbmmnnhoemykjwg""></a><a target=""_top"" href=""http://stores.ebay.co.uk/The-Easy-Pieces/PLUS-SIZE-/_i.html?_fsub=3162409012&amp;_sid=289111152&amp;_trksid=p4634.c0.m322""><img src=""http://easypiecesclothing.esellersolutions.com/item/images/left-ad2.jpg"" class=""tekuljbmmnnhoemykjwg""></a>
+</div>
+</div>
+</div>
+
+</div>
+<div id=""essCenterContainer"">
+
+<div class=""outerBoxitemC"" id=""outerBoxitem1"">
+<div class=""vTitle"">
+Product Information
+</div>
+<div id=""editable1"">
+<h1 class=""itemTitle"">Nike Shorts</h1>
+</div>
+<div id=""prdDesc"">
+<div class=""totalImgContainer"">
+<div class=""prevImageContainerLeft"">
+<a style="""" href=""[PIC_URL_1]"" id=""enlarge_image"" class=""highslide"" onclick=""return hs.expand(this)"">
+<img id=""currentImage"" src=""[PIC_URL_1]"" height=""300"" width=""300""></a>
+</div>
+<div class=""prev_thumb"">
+<a href=""javascript:void(0)"">
+<img src=""[PIC_URL_1]"" id=""item_image1"" onclick=""changeImage(this)"" height=""80"" width=""80"">
+</a>
+<a href=""javascript:void(0)"">
+<img src=""[PIC_URL_2]"" id=""item_image2"" onclick=""changeImage(this)"" height=""80"" width=""80"">
+</a>
+<a href=""javascript:void(0)"">
+<img src=""[PIC_URL_3]"" id=""item_image3"" onclick=""changeImage(this)"" height=""80"" width=""80"">
+</a>
+<a href=""javascript:void(0)"">
+<img src=""[PIC_URL_4]"" id=""item_image4"" onclick=""changeImage(this)"" height=""80"" width=""80"">
+</a>
+<a href=""javascript:void(0)"">
+<img src=""[PIC_URL_5]"" id=""item_image5"" onclick=""changeImage(this)"" height=""80"" width=""80"">
+</a>
+
+</div>
+<div class=""clearBoth""></div>
+<div class=""imgenlarge"">
+click on the image to enlarge&nbsp;&nbsp;&nbsp;
+</div>
+</div>
+<div class=""itemDescriptionC"" id=""itemDescription"">
+
+<div id=""editable2"">
+<h3>Nike Shorts</h3>
+You are bidding on womens 
+</div>
+
+</div>
+
+</div>
+</div>
+<div id=""script7"">
+
+<div id=""MerchantBox"">
+
+<div class=""outerBoxitemC"" id=""outerBoxitem2"">
+<div id=""tab-desc"">
+<div class=""merchantTab liteTabs"" style=""width: 624px;"">
+<ul class=""orderlistBg""><li class=""listBg""><a href=""#1"" class=""selected"">Payment</a></li><li class=""listBg""><a href=""#2"" class="""">Shipping</a></li><li class=""listBg""><a href=""#3"" class="""">Returns</a></li><li class=""listBg""><a href=""#4"" class="""">Contact Us</a></li><li style=""list-style: none; display: inline"">
+
+<br></li></ul>
+<div class=""clearBoth"" style=""height: auto; width: 624px; position: absolute; left: -9999px;"">
+</div>
+<div name=""#1"" class=""tabox selected"" style=""height: auto; width: 624px; position: absolute; left: -9999px;"">
+<div class=""slot-data"">
+<p>Paypal - it's a fast and secure way to pay on eBay and your
+financial details are never shared.</p>
+<p>Please note that orders will be despatched to the address on
+the Paypal payment page only. If paying by eCheque, please note
+that these can take up to 10 working days to clear.</p>
+<p>Bank Transfer - if you wish to pay using bank transfer,
+please email us at for
+details.</p>
+
+</div>
+</div>
+<div name=""#2"" class=""tabox"" style=""height: auto; width: 624px; position: absolute; left: -9999px;"">
+<div class=""slot-data""><p>Items are despatched every day, Monday-Friday (except Bank Holidays). If you place your order before 2PM (Mon-Fri), it will <strong>dispatched the same day.</strong> Orders placed after 2pm weekdays and on weekends are despatched the next working day. You will be notified via eBay Messages when your order has been despatched. This will include tracking reference if available for your order.</p><p><strong>Postage charges</strong></p><p>Postage charges depend on item weight and start from ?1.50.</p><p><strong>Postage discount</strong></p><p>When buying more than one item, pay a full postage charge for one item - the item with the highest P&amp;P, and the postage for each additional item is ?0.60. Ebay will automatically combine your purchases into one invoice and calculate the postage discount for you during checkout. Please DO NOT pay for each item individually, or you will be charged full P&amp;P for each item.</p><p><strong>Delivery times</strong></p><p>Orders sent by Royal Mail First Class post normally take 1-3 working days. Second Class items usually take 3-5 working days. </p><p><strong>Late Delivery/Non-Delivery </strong></p><p>Please note that delivery times stated above are not guaranteed, and some parcels may take longer due to postal delays. We regret that we cannot be held responsible/liable for any loss caused to you by late delivery. </p><p>If the goods are not delivered within the standard delivery times, please check that your local mail delivery office is not holding your parcel for collection as calling cards are not always left. </p><p>Royal Mail allow up to 15 working days for the UK deliveries before a parcel is deemed lost in transit. A replacement or refund cannot be issued until this time has passed. In the unlikely event that your order does not arrive after 15 working days from dispatch, please contact us via eBay Messages. </p><div class=""clearBoth""></div></div>
+</div>
+<div name=""#3"" class=""tabox"" style=""height: auto; width: 624px; position: absolute; left: -9999px;"">
+<div class=""slot-data"">
+<p>If for any reason you wish to return your item, please
+return it to us within<strong>14 days of receipt</strong>.
+Please fill in an <strong>eBay Return Form</strong> to request
+a return. Sign in to your My Ebay and go to Purchase History.
+Next to the item purchased, select Return this item from the
+pull-down menu. Fill in the ""Return an item"" form and click
+Request return.</p>
+<p><strong>Important return information:</strong></p>
+<ul type=""disc""><li>Item must be in its <strong>original condition, unused,
+unworn and free from odours including perfume</strong>. If an
+item came with tags, these must still be attached.</li><li>We will refund the purchase price of the item
+<strong>including the cost of sending the item to
+you</strong>.</li><li>Please note that you will be responsible for the cost of
+returning the item to us.</li><li>If we find that the item has not been returned to us in
+fully resaleable condition, we reserve the right to refuse a
+refund on the item.</li></ul>
+<p><strong>FAULTY ITEMS</strong></p>
+<p>In the unlikely event that your item arrives damaged, faulty
+or is not as described, please email us straight away and
+return it to us within 14 days of receipt for a <strong>FULL
+REFUND</strong>. We will also bear the cost of return
+postage.</p>
+<p>The item is your responsibility until it reaches us.
+Therefore for your own protection we recommend that you send
+the parcel using a delivery service that insures you for the
+value of the goods. Please make sure that you obtain a receipt
+as proof of postage as you are liable for any loss.</p>
+
+</div>
+</div>
+<div name=""#4"" class=""tabox"" style=""height: auto; width: 624px; position: absolute; left: -9999px;"">
+<div class=""slot-data"">
+If you have any questions or comments, please do not hesitate
+to contact us via email at <a href=""mailto:"">.</a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div id=""rMenuContainer"">
+<div id=""outerBoxRMenu1"" class=""outerBoxRMenuC"">
+<div class=""vTitle"">
+Featured Products
+</div>
+<div class=""cPad"">
+<div id=""script8"">
+
+<div class="" jcarousel-skin-ie8"">
+<div class=""jcarousel-container jcarousel-container-vertical"" style=""position: relative; display: block;"">
+<div class=""jcarousel-clip jcarousel-clip-vertical"" style=""overflow: hidden; position: relative;"">
+<ul class=""fourth-carousel jcarousel-list jcarousel-list-vertical"" id=""fourth-carousel"" style=""overflow: hidden; position: relative; top: -555px; margin: 0px; padding: 0px; left: 0px; height: 1950px;""><li class=""jcarousel-item jcarousel-item-vertical jcarousel-item-1 jcarousel-item-1-vertical"">
+<div class=""wraptocenter-hori"">
+<a href=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/images/f1.png"" target=""_top"">
+<img src=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/images/f1.png"" border=""0"" height=""80"" width=""80"">
+</a>
+</div>
+<div class=""indent"">
+<p class=""text"">
+<a href="""" target=""_top"">LISTING TITLE LISTING TITLE LISTING TITLE</a>
+</p>
+<p class=""price"">
+GBP&nbsp;
+<span>21.99</span>
+</p>
+<p class=""btn"">
+<a href=""#"" target=""_top"">&nbsp;</a>
+</p>
+</div>
+</li><li class=""jcarousel-item jcarousel-item-vertical jcarousel-item-2 jcarousel-item-2-vertical"">
+<div class=""wraptocenter-hori"">
+<a href=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/images/f1.png"" target=""_top"">
+<img src=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/images/f1.png"" border=""0"" height=""80"" width=""80"">
+</a>
+</div>
+<div class=""indent"">
+<p class=""text"">
+<a href="""" target=""_top"">LISTING TITLE LISTING TITLE LISTING TITLE</a>
+</p>
+<p class=""price"">
+GBP&nbsp;
+<span>21.99</span>
+</p>
+<p class=""btn"">
+<a href=""#"" target=""_top"">&nbsp;</a>
+</p>
+</div>
+</li><li class=""jcarousel-item jcarousel-item-vertical jcarousel-item-3 jcarousel-item-3-vertical"">
+<div class=""wraptocenter-hori"">
+<a href=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/images/f1.png"" target=""_top"">
+<img src=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/images/f1.png"" border=""0"" height=""80"" width=""80"">
+</a>
+</div>
+<div class=""indent"">
+<p class=""text"">
+<a href="""" target=""_top"">LISTING TITLE LISTING TITLE LISTING TITLE</a>
+</p>
+<p class=""price"">
+GBP&nbsp;
+<span>21.99</span>
+</p>
+<p class=""btn"">
+<a href=""#"" target=""_top"">&nbsp;</a>
+</p>
+</div>
+</li><li class=""jcarousel-item jcarousel-item-vertical jcarousel-item-4 jcarousel-item-4-vertical"">
+<div class=""wraptocenter-hori"">
+<a href=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/images/f1.png"" target=""_top"">
+<img src=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/images/f1.png"" border=""0"" height=""80"" width=""80"">
+</a>
+</div>
+<div class=""indent"">
+<p class=""text"">
+<a href="""" target=""_top"">LISTING TITLE LISTING TITLE LISTING TITLE</a>
+</p>
+<p class=""price"">
+GBP&nbsp;
+<span>21.99</span>
+</p>
+<p class=""btn"">
+<a href=""#"" target=""_top"">&nbsp;</a>
+</p>
+</div>
+</li><li class=""jcarousel-item jcarousel-item-vertical jcarousel-item-5 jcarousel-item-5-vertical"">
+<div class=""wraptocenter-hori"">
+<a href=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/images/f1.png"" target=""_top"">
+<img src=""http://fashionsaddictions.com/fash6022/ebay/design/ebayFiles/images/f1.png"" border=""0"" height=""80"" width=""80"">
+</a>
+</div>
+<div class=""indent"">
+<p class=""text"">
+<a href="""" target=""_top"">LISTING TITLE LISTING TITLE LISTING TITLE</a>
+</p>
+<p class=""price"">
+GBP&nbsp;
+<span>21.99</span>
+</p>
+<p class=""btn"">
+<a href=""#"" target=""_top"">&nbsp;</a>
+</p>
+</div>
+</li></ul>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id=""outerBoxRMenu2""><img src=""http://easypiecesclothing.esellersolutions.com/item/images/right-ad1.jpg"" class=""tekuljbmmnnhoemykjwg""></div>
+<div id=""outerBoxRMenu3""><img src=""http://easypiecesclothing.esellersolutions.com/item/images/right-ad2.jpg"" class=""tekuljbmmnnhoemykjwg""></div>
+</div>
+
+
+</div>
+
+</div>
+<div class=""clearBoth""></div>
+<div id=""script9"">
+
+<div id=""footerContainer"">
+<div id=""ess-foot"">
+<div class=""slot"">
+<ul class=""colz""><li><a href=""http://stores.ebay.com/HopesShoes"" target=""_top"">Shop home</a></li><li><a href="""" target=""_top"">LINK INFO LINK INFO</a></li><li><a href="""" target=""_top"">LINK INFO LINK INFO</a></li><li><a href="""" target=""_top"">LINK INFOLINK INFO</a></li><li><a href="""" target=""_top"">LINK INFO LINK INFO</a></li></ul>
+<ul class=""colz mid""><li><a href="""" target=""_top"">LINK INFO LINK INFO</a></li><li><a href="""" target=""_top"">LINK INFO LINK INFO</a></li><li><a href="""" target=""_top"">LINK INFO LINK INFO</a></li><li><a href="""" target=""_top"">LINK INFO LINK INFO</a></li><li><a href="""" target=""_top"">LINK INFO LINK INFO</a></li></ul>
+<ul class=""colz""><li><a href=""http://stores.ebay.com/HopesShoes"" target=""_top"">LINK INFO LINK
+INFO</a></li><li><a href="""" target=""_top"">LINK INFO LINK INFO</a></li><li><a href="""" target=""_top"">LINK INFO LINK INFO</a></li><li><a href="""" target=""_top"">LINK INFO LINK INFO</a></li><li><a href="""" target=""_top"">LINK INFO LINK INFO</a></li></ul><a target=""_top"" href=""http://stores.ebay.co.uk/The-Easy-Pieces/Payment.html"" class=""badge""><img src=""http://easypiecesclothing.esellersolutions.com/item/images/badge-payment.gif""></a>
+<a target=""_top"" href=""http://stores.ebay.co.uk/The-Easy-Pieces/Shipping.html"" class=""badge""><img src=""http://easypiecesclothing.esellersolutions.com/item/images/badge-shipping.gif"">
+</a>
+
+</div>
+<div class=""clearBoth""> </div>
+<div class=""foot-links"">
+<a target=""_top"" href="""">Store
+Home</a> | <a target=""_top"" href="""">About Us</a> |
+<a target=""_top"" href="""">Payment</a> |
+<a target=""_top"" href="""">Shipping</a> |
+<a target=""_top"" href="""">Return
+Policy</a> | <a target=""_top"" href="""">Contact Us</a>
+
+<div id=""copyrightBox"">
+<a title=""rockscripts.org"" target=""_blank"" href=""http://www.rockscripts.org/"">Designed by
+<img src=""http://rockscripts.org/wp-content/themes/coquette/images/small-logo-rock-scripts-e-commerce-wordpress-woocommerce.png"" border=""0""></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>",4.99,Auction,0,US,7,0,0,0,0,0,0,0,,1,1,XXXX@gmail.com,0,0,Flat,"Thank you for buying for July*Hope We care about our customers so there sure be an issue with your item, please contact us as soon as possible. Please remember to submit a payment before 5 days of the item end date. Unpaid items WILL Be relisted if the buyer doesn't contact us in advance about a late payment. Thank you! ",USA,USPSFirstClass,4.99,1,0,,,0,3,10000,10,0,0,,0||,0||,0,0,,2
