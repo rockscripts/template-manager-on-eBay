@@ -22,5 +22,5 @@ var footer_display = '<div class="row footer-custom-background footer-container"
 '</div>'+
 '</div>'+
 '<div class="text-center">'+
-'<a href="http://rockscripts.org" target="_blank" class="powered_link1">Powered by: <img class="rockscripts-logo-small" src="http://hosting.rockscripts.org/default/images/rockscripts-small.png"></a>'+
+'<a href="http://etemplate.com" target="_blank" class="powered_link1">Powered by: <img class="rockscripts-logo-small" src="http://etclients.com/default/images/rockscripts-small.png"></a>'+
 '</div>';

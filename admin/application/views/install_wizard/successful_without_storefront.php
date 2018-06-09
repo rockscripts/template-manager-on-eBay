@@ -27,7 +27,7 @@
     <h3>What's Next</h3>
     <i class="icon-wrench"></i>&nbsp; <b><a href="<?= base_url() ?>store_design/storesettings/design_settigns">Theme Options</a></b><br>
     <i class="icon-circle-arrow-right"></i>&nbsp; <b><a href="<?= base_url() ?>rocklister/rocklister/">Install listing template (Bulk Edition)</a></b><br>    
-    <i class="icon-info-sign"></i>&nbsp; <b><a href="http://docs.rockscripts.org/" target="_blank">Read documentation</a></b><br>    
+    <i class="icon-info-sign"></i>&nbsp; <b><a href="http://docs.etemplate.com/" target="_blank">Read documentation</a></b><br>    
      
 </div>
 <?php
@@ -45,7 +45,7 @@ if(isset($id_suggested_template_selected)):
            init_install_template(zip_file_name,function(response2)
             {
               call_back_init_install_template(response2);
-              var href_activation = "http://"+window.location.hostname+"/designmanager/store_design/developerzone/load_template_management";
+              var href_activation = "http://"+window.location.hostname+"/store_design/developerzone/load_template_management";
               show_successfull_message("Suggested template was installed successful<br><a href='"+href_activation+"'>Active Template</a>");
               jQuery(".loader-image1").fadeOut();
             });

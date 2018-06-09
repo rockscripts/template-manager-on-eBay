@@ -690,7 +690,7 @@ private  $files;
       }
       function write_in_js_file_without_document_write($id_user, $file_name,$out_put)
      {
-       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/hosting/".$id_user."/assets/css/dynamic_styles/".$file_name,"w");
+       $js_file = fopen( str_replace('admin','clients',$_SERVER['DOCUMENT_ROOT']."/".$id_user."/assets/css/dynamic_styles/".$file_name ),"w");
        fwrite($js_file,$out_put);
        fclose($js_file);
        /*write all code in one :) fast loading*/
@@ -702,7 +702,7 @@ private  $files;
      }
        function write_log_in_js_file($id_user, $file_name,$out_put,$var_name=null)
      {
-       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
        $out_put = trim($out_put);
        $out_put = str_replace(array("\r\n", "\r"), "\n", $out_put);
        $out_put = str_replace("'", "\'", $out_put);

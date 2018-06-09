@@ -1,1 +1,0 @@
-var  tab_titles = '<span data="payment">PAYMENT</span><span data="u.s-shipping">U.S SHIPPING</span><span data="international-s&h">INTERNATIONAL S&H</span><span data="returns">RETURNS</span><span data="feedback">FEEDBACK</span><span data="about-us">ABOUT US</span>';

@@ -55,7 +55,7 @@ jQuery(function () {
      var id_user = "<?php echo $user_id;?>";
     // Change this to the location of your server-side upload handler:
     var url = window.location.hostname === 'blueimp.github.io' ?
-                '//jquery-file-upload.appspot.com/' : 'http://rockscripts.org/designmanager/server/php/?upload_path=store_designREPLACElogosREPLACE'+id_user+'/',
+                '//jquery-file-upload.appspot.com/' : 'http://etemplate.com/server/php/?upload_path=store_designREPLACElogosREPLACE'+id_user+'/',
         uploadButton = jQuery('<button/>')
             .addClass('btn')
             .prop('disabled', true)
@@ -131,23 +131,23 @@ jQuery(function () {
         jQuery.each(data.result.files, function (index, file) {
             /*var link = jQuery('<a>')
                 .attr('target', '_blank')
-                .prop('href', file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname));
+                .prop('href', file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname));
             jQuery(data.context.children()[index])
                 .wrap(link);*/
             /*Update Logo*/
             /*CHANGE_TEST*/
             if(!logo_url)
             {
-              ajax_update_logo(file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname),domain,"new_logo","");
+              ajax_update_logo(file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname),domain,"new_logo","");
           
             }
             
             else
             {
               current_id_logo = jQuery("#current_id_logo").val();
-              updateLogoURL(1,1,file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname),domain,"update_logo",current_id_logo);
+              updateLogoURL(1,1,file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname),domain,"update_logo",current_id_logo);
             }
-            jQuery("#logo_design").attr("src",file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname));
+            jQuery("#logo_design").attr("src",file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname));
             jQuery(".alert").slideDown();
             jQuery(".alert").addClass("alert-success");
             jQuery("#message_content").html("Logo was updated.");

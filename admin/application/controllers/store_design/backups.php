@@ -329,7 +329,7 @@ BODY;
        function MySQL_NOW(){ return date('Y-m-d H:i:s'); }
           function write_log_in_js_file($id_user, $file_name,$out_put)
      {
-       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
        $out_put = str_replace(array("\r\n", "\r"), "\n", $out_put);
        $out_put = str_replace("'", "\'", $out_put);
        $lines = explode("\n", $out_put);

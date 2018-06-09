@@ -1,1 +1,0 @@
-var  arrivals_listings = 

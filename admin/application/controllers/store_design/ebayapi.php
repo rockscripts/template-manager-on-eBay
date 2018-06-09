@@ -190,7 +190,7 @@ return $url;
                                     $pos = strpos($response, "<Ack>Failure</Ack>");
                                     if(!$pos):
                                         else:
-                                        header("Location:https://".$_SERVER['HTTP_HOST']."/designmanager/membership/logout/");
+                                        header("Location:https://".$_SERVER['HTTP_HOST']."/membership/logout/");
                                     endif;
                                             
 		// echo "<pre>request:\n";
@@ -312,6 +312,9 @@ BODY;
          $index_level_2 = 0;
          $index_level_3 = 0;
          $xml_store_data=   $this->get_store();
+         if($xml_store_data->Ack[0] == 'Failure')
+         return array('FAILURE'=>true,'eMessage'=>$xml_store_data->Errors->LongMessage); 
+
       foreach($xml_store_data as $CustomCategories):
           foreach($CustomCategories as $CustomCategory):
            foreach($CustomCategory as $category):

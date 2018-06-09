@@ -89,7 +89,7 @@ class Itemspecifics extends CI_Controller
     }
     function write_in_js_file_without_document_write($id_user, $file_name,$out_put)
      { 
-       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
        fwrite($js_file,$out_put);
        fclose($js_file);
        /*write all code in one :) fast loading*/

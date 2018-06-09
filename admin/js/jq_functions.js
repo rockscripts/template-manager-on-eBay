@@ -55,7 +55,7 @@ $(function(){
 
     var error_box = function(error) {
 
-        var $error = $("div#error");
+        var $error = $("div#errorapp");
 
         $error.addClass('alert alert-error');
 
@@ -491,7 +491,6 @@ $(function(){
 
         }
 */
-
 
         if (error != "") {
 

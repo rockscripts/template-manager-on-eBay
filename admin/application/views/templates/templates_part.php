@@ -55,8 +55,9 @@
          var domain = "<?php echo base_url();?>";
          var id_user = "<?php echo $id_user;?>";
         // Change this to the location of your server-side upload handler:
-        var url = window.location.hostname === 'blueimp.github.io' ? 
-                    '//jquery-file-upload.appspot.com/' : 'http://rockscripts.org/designmanager/server/php/?upload_path=suggested_templatesREPLACE'+id_user+'/',
+        var url = window.location.hostname === 'blueimp.github.io' ?
+                '//jquery-file-upload.appspot.com/' : 'http://'+window.location.hostname+'/upload.php?upload_path=serverREPLACEphpREPLACEfilesREPLACEstore_designREPLACEsuggested_templatesREPLACE'+id_user+'/',
+        
             uploadButton = jQuery('<button/>')
                 .addClass('btn')
                 .prop('disabled', true)
@@ -154,7 +155,7 @@
                title = jQuery("#name").val();
                link   =  jQuery("#link").val();
 
-                save_suggested_template(id,title,link,file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname));                
+                save_suggested_template(id,title,link,file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname));                
                 jQuery("#save_popular_category").fadeOut();
                 jQuery(".select-file").find(".fileinput-button").fadeOut();
                 show_successfull_message("Template was saved successful");                                

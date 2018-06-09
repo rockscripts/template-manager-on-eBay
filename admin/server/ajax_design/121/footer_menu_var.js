@@ -1,1 +1,0 @@
-var footer_menu_links= "<a href='tel:0434017852'>CALL US NOW!</a>"

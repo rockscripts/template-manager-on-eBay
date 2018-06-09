@@ -1,1 +1,0 @@
-var  popoular_categories = 

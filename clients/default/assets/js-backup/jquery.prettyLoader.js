@@ -13,7 +13,7 @@
 			animation_speed: 'fast', /* fast/normal/slow/integer */
 			bind_to_ajax: true, /* true/false */
 			delay: false, /* false OR time in milliseconds (ms) */
-			loader: 'http://rockscripts.org/designmanager/mobile/assets/prettyLoader/images/ajax-loader.gif', /* Path to your loader gif */
+			loader: 'http://etemplate.com/mobile/assets/prettyLoader/images/ajax-loader.gif', /* Path to your loader gif */
 			offset_top: 13, /* integer */
 			offset_left: 10 /* integer */
 		}, settings);

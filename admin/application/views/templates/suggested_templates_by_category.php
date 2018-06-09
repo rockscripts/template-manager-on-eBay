@@ -64,7 +64,7 @@ jQuery(document).on("click",".browse-button",function()
            init_install_template(zip_file_name,function(response2)
             {
               call_back_init_install_template(response2);
-              var href_activation = "http://"+window.location.hostname+"/designmanager/store_design/developerzone/load_template_management";
+              var href_activation = "http://"+window.location.hostname+"/store_design/developerzone/load_template_management";
               show_successfull_message("Suggested template was installed successful<br><a href='"+href_activation+"'>Active Template</a> | <a href='"+response2.download_template_file+"'>Download template files</a>");
               jQuery(".loader-image1").fadeOut();
             });

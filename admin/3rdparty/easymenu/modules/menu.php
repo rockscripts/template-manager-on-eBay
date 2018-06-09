@@ -106,7 +106,7 @@ class Menu extends GController {
                    endif;
                endforeach;
             
-            echo"<script>window.location.href='http://'+window.location.host+'/designmanager/store_design/listingdesign/easymenu?act=menu&group_id=$group_id'; </script>";
+            echo"<script>window.location.href='http://'+window.location.host+'/store_design/listingdesign/easymenu?act=menu&group_id=$group_id'; </script>";
         }
 public function page_to_menu($title,$url,$group_id)
 {
@@ -187,8 +187,10 @@ public function page_to_menu($title,$url,$group_id)
 				$data[MENU_CLASS] = $_POST['class'];
 
 				$data[MENU_GROUP] = $_POST['group_id'];
+        
+        $position = (int) $this->get_last_position($_POST['group_id']);
 
-				$data[MENU_POSITION] = $this->get_last_position($_POST['group_id']) + 1;
+				$data[MENU_POSITION] = $position  + 1;
 
 				if ($this->db->insert(MENU_TABLE, $data)) {
 
@@ -469,7 +471,10 @@ public function page_to_menu($title,$url,$group_id)
 	 */
 
 	private function get_menu($group_id) {
-
+    if(is_array($group_id))
+    {
+      $group_id = $group_id['group_id'];
+    }
 		$sql = sprintf(
 
 			'SELECT * FROM %s WHERE %s = %s ORDER BY %s, %s',
@@ -674,7 +679,10 @@ private function get_pages() {
 	 */
 
 	public function get_menu_group_title($group_id) {
-
+    if(is_array($group_id))
+    {
+      $group_id = $group_id['group_id'];
+    }
 		$sql = sprintf(
 
 			'SELECT %s FROM %s WHERE %s = %s',
@@ -687,9 +695,10 @@ private function get_pages() {
 
 			$group_id
 
-		);
-
-		return $this->db->GetOne($sql);
+    );
+    $menuGroup = $this->db->GetOne($sql);
+    $title = $menuGroup["title"];
+		return $title;
 
 	}
 	public function get_menu_group_id($menu_item_id) {
@@ -765,7 +774,7 @@ $sql = sprintf(
       public function write_in_js_file($id_user, $file_name,$out_put,$var_name=null)
      {
           $result_html = "";
-          $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+          $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
           if($out_put == ""):
               if($file_name=="footer_menu.js"):
                 $msn =  '<ul class="nav navbar-nav"><li style="color:black!important;"><i class="alert-icon"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your footer menu is empty</li></ul>';
@@ -823,7 +832,7 @@ $sql = sprintf(
     }
 function write_in_js_file_without_document_write($id_user, $file_name,$out_put)
  {
-   $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+   $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
    fwrite($js_file,$out_put);
    fclose($js_file);
  }
@@ -832,9 +841,9 @@ function write_in_js_file_without_document_write($id_user, $file_name,$out_put)
     function store_front_all_in_one($id_user, $language=null)
     { 
       $front_files = array();
-      $path_dinamyc = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/";
-      $path_dinamyc_languages = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/languages/";
-      $path_static = $_SERVER['DOCUMENT_ROOT']."/hosting/".$id_user."/assets/js/";
+      $path_dinamyc = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/";
+      $path_dinamyc_languages = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/languages/";
+      $path_static = str_replace('admin','clients',$_SERVER['DOCUMENT_ROOT']."/".$id_user."/assets/js/");
       $all_dynamic_code = "";
       /*dinamyc pushed*/
       array_push($front_files,"vars_settings.js");
@@ -919,9 +928,9 @@ function write_in_js_file_without_document_write($id_user, $file_name,$out_put)
     function store_listing_all_in_one($id_user, $language=null)
     { 
       $front_files = array();
-      $path_dinamyc = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/";
-      $path_dinamyc_languages = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/languages/";
-      $path_static = $_SERVER['DOCUMENT_ROOT']."/hosting/".$id_user."/assets/js/";
+      $path_dinamyc = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/";
+      $path_dinamyc_languages = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/languages/";
+      $path_static = str_replace('admin','clients',$_SERVER['DOCUMENT_ROOT']."/".$id_user."/assets/js/");
       $all_dynamic_code = "";
       /*dinamyc pushed*/
       array_push($front_files,"vars_settings.js");

@@ -667,10 +667,11 @@ if (! function_exists('store_front_all_in_one'))
     function store_front_all_in_one($id_user,$language=null)
     {
       $front_files = array();
-      $path_dinamyc = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/";
-      $path_dinamyc_languages = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/languages/";
-      $path_static = $_SERVER['DOCUMENT_ROOT']."/hosting/".$id_user."/assets/js/";
-      $all_dynamic_code = "";
+      $path_dinamyc = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/";
+      $path_dinamyc_languages = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/languages/";
+      $path_static = str_replace('admin','clients',$_SERVER['DOCUMENT_ROOT']."/".$id_user."/assets/js/");
+	  $all_dynamic_code = "";
+
       /*dinamyc pushed*/
       array_push($front_files,"vars_settings.js");
       array_push($front_files,"header_display.js");
@@ -707,7 +708,8 @@ if (! function_exists('store_front_all_in_one'))
       array_push($front_files,"front_custom_js_code.js");
       
       $all_dynamic_js_files = list_files($path_dinamyc);
-      $all_static_js_files = list_files($path_static);
+	  $all_static_js_files = list_files($path_static);
+	  
       //do for dynamic widgets
       if($language!=null):
            if (!file_exists($path_dinamyc_languages."$language.js")):
@@ -716,7 +718,8 @@ if (! function_exists('store_front_all_in_one'))
             $fp = fopen($path_dinamyc_languages."$language.js", 'w');
             fwrite($fp, '');
             fclose($fp);
-        endif;
+		endif;
+		
         $js_code = file_get_contents($path_dinamyc_languages."$language.js");
         $all_dynamic_code .= $js_code."\n\n"; 
       endif;
@@ -726,7 +729,8 @@ if (! function_exists('store_front_all_in_one'))
           $js_code = file_get_contents($path_dinamyc.$file_name);
           $all_dynamic_code .= $js_code."\n\n";
        }            
-      endforeach;
+	  endforeach;
+	  
       //do for static widgets
       foreach($front_files as $file_name):
       if (in_array($file_name,$all_static_js_files )) 
@@ -738,7 +742,7 @@ if (! function_exists('store_front_all_in_one'))
       
       $js_file = fopen( $path_dinamyc."dynamic_scripts.js","w");
       fwrite($js_file,$all_dynamic_code);
-      fclose($js_file);
+	  fclose($js_file);
     }
 }
 
@@ -747,9 +751,9 @@ if (! function_exists('store_listing_all_in_one'))
     function store_listing_all_in_one($id_user, $language=null)
     { 
       $front_files = array();
-      $path_dinamyc = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/";
-      $path_dinamyc_languages = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/languages/";
-      $path_static = $_SERVER['DOCUMENT_ROOT']."/hosting/".$id_user."/assets/js/";
+      $path_dinamyc = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/";
+      $path_dinamyc_languages = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/languages/";
+      $path_static = str_replace('admin','clients',$_SERVER['DOCUMENT_ROOT']."/".$id_user."/assets/js/");
       $all_dynamic_code = "";
       /*dinamyc pushed*/
       array_push($front_files,"vars_settings.js");

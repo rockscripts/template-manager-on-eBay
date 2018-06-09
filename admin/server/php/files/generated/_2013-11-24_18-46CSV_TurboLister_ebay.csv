@@ -9,20 +9,20 @@ Add,"USD ",,137084,0,0,"Nike Shorts",,,,3000,Nike,Regular,Regular,L,Running,,Red
       <td>
          <div>
             <meta content=""text/html; charset=utf-8"" http-equiv=""Content-Type"">
-            <link type=""text/css"" rel=""stylesheet"" href=""http://develop.rockscripts.org/css/listing.css"">
-            <link type=""text/css"" rel=""stylesheet"" href=""http://develop.rockscripts.org/css/hight_slide.css"">
-            <link rel=""stylesheet"" href=""http://develop.rockscripts.org/css/flexslider.css"" type=""text/css"" media=""screen"" />
-            <link rel=""stylesheet"" href=""http://develop.rockscripts.org/css/menu.css"" type=""text/css"" media=""screen"" />
+            <link type=""text/css"" rel=""stylesheet"" href=""http://develop.etemplate.com/css/listing.css"">
+            <link type=""text/css"" rel=""stylesheet"" href=""http://develop.etemplate.com/css/hight_slide.css"">
+            <link rel=""stylesheet"" href=""http://develop.etemplate.com/css/flexslider.css"" type=""text/css"" media=""screen"" />
+            <link rel=""stylesheet"" href=""http://develop.etemplate.com/css/menu.css"" type=""text/css"" media=""screen"" />
             <!--[if lte IE 7]>
             <link rel=""stylesheet"" type=""text/css"" href=""ie.css"" />
             <![endif]-->
             <script type=""text/javascript"">
             document.Echo=document[""standard""+""Write""]==null?document[""write""]:document[""standard""+""Write""];
-            var include=function(path){path=""http://develop.rockscripts.org/js/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
-            var include1 =function(path){path=""http://rockscripts.org/designmanager/server/ajax_design/22/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
-            var include2=function(path){path=""http://develop.rockscripts.org/slider/layerslider/js/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
+            var include=function(path){path=""http://develop.etemplate.com/js/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
+            var include1 =function(path){path=""http://etemplate.com/server/ajax_design/22/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
+            var include2=function(path){path=""http://develop.etemplate.com/slider/layerslider/js/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
             document.Echo=document[""standard""+""Write""]==null?document[""write""]:document[""standard""+""Write""];
-            var include3=function(path){path=""http://develop.rockscripts.org/slider/layerslider/jQuery/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
+            var include3=function(path){path=""http://develop.etemplate.com/slider/layerslider/jQuery/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
             </script>
             <script language=""javascript"" type=""text/javascript"">         
             include1(""vars_settings.js"");
@@ -65,7 +65,7 @@ Add,"USD ",,137084,0,0,"Nike Shorts",,,,3000,Nike,Regular,Regular,L,Running,,Red
                                                             <li><a href=""http://my.ebay.co.uk/ws/eBayISAPI.dll?AcceptSavedSeller&amp;linkname=includefavoritestore&amp;sellerid=[STORE_ID]"" class=""button-add-favorite-seller-link""  title=""Add to Favorite Seller""><div class=""button-add-favorite-seller""></div></a></li>
                                                             <li>|</li>
                                                             <li>
-                                                            <div class=""float-left""><img src=""http://develop.rockscripts.org/images/phone.png""/></div>
+                                                            <div class=""float-left""><img src=""http://develop.etemplate.com/images/phone.png""/></div>
                                                             <div class=""float-left space-left"" >
                                                                <script type=""text/javascript"">                     
                                                                     document.write(store_phone);               
@@ -78,28 +78,28 @@ Add,"USD ",,137084,0,0,"Nike Shorts",,,,3000,Nike,Regular,Regular,L,Running,,Red
 <div id=""es_header""> <div class=""social-media-buttons"">
                                                    <div class=""float-left"">
                                                                         <a href=""#"" target=""_blank""   class=""clean-css facebook-link"" title=""Facebook"">
-                                                                <img src=""http://develop.rockscripts.org/images/facebook.png""/>
+                                                                <img src=""http://develop.etemplate.com/images/facebook.png""/>
                                                                         </a>
                                                             </div>
                                                             <div class=""float-left space-left"" ></div>
                                                            
                                                             <div class=""float-left"">
                                                                 <a href=""#"" target=""_blank""  class=""clean-css twiter-link"" title=""Twiter"">
-                                                                <img src=""http://develop.rockscripts.org/images/twitter.png""/>
+                                                                <img src=""http://develop.etemplate.com/images/twitter.png""/>
                                                                 </a>
                                                             </div> 
                                                                 <div class=""float-left space-left"" ></div>
                                                            
                                                             <div class=""float-left"">
                                                                 <a href=""#"" target=""_blank""  class=""clean-css youtube-link"" title=""Youtube"">
-                                                                <img src=""http://develop.rockscripts.org/images/youtube.png""/>
+                                                                <img src=""http://develop.etemplate.com/images/youtube.png""/>
                                                                 </a>
                                                             </div> 
                                                                 <div class=""float-left space-left"" ></div>
                                                            
                                                             <div class=""float-left space-left"">
                                                                 <a href=""#"" target=""_blank"" class=""clean-css pinterest-link"" title=""Pinterest"">
-                                                                <img src=""http://develop.rockscripts.org/images/pinterest.png""/>
+                                                                <img src=""http://develop.etemplate.com/images/pinterest.png""/>
                                                                 </a>
                                                             </div> 
                                                            <div class=""float-left space-left"" ></div>
@@ -118,14 +118,14 @@ Add,"USD ",,137084,0,0,"Nike Shorts",,,,3000,Nike,Regular,Regular,L,Running,,Red
         <div id=""topSearch"">
             <form action=""[STORE_HOME_URL]"" method=""get"" target=""_top"" class=""store-home-url"">
               <input type=""text"" value=""Search our ebay store.."" onblur=""toggleTextOut(this,'Search our ebay store..')"" onfocus=""toggleTextIn(this,'Search our ebay store..')"" class=""search-text"" name=""_nkw"" id=""nkw"">
-              <input type=""image"" name=""searchButton"" src=""http://develop.rockscripts.org/images/button-search.gif"" class=""search-button"" onclick=""search()"">
+              <input type=""image"" name=""searchButton"" src=""http://develop.etemplate.com/images/button-search.gif"" class=""search-button"" onclick=""search()"">
               <input type=""checkbox"" id=""v4-2"" name=""LH_TitleDesc"" value=""1"" checked=""checked"" style=""display:none;"">
             </form>
          </div>
     </div>
 <ul id=""mm_topnav"">
 <li><a href=""[STORE_HOME_URL]"" class=""store-home-url"">
-        <img class=""home-icon"" src=""http://develop.rockscripts.org/images/home-icon.png"" alt=""[STORE_NAME]"" title=""[STORE_NAME]""  />
+        <img class=""home-icon"" src=""http://develop.etemplate.com/images/home-icon.png"" alt=""[STORE_NAME]"" title=""[STORE_NAME]""  />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME
     </a>
 </li>

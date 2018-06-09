@@ -199,7 +199,7 @@ $(function () {
         $.each(data.result.files, function (index, file) {
             var link = $('<a>')
                 .attr('target', '_blank')
-                .prop('href', file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname));
+                .prop('href', file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname));
             $(data.context.children()[index])
                 .wrap(link);
         });

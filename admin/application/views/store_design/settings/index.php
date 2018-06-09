@@ -102,7 +102,7 @@ endif;
         // Change this to the location of your server-side upload handler:
         var url = window.location.hostname === 'blueimp.github.io' ? 
        
-        '//jquery-file-upload.appspot.com/' : 'http://rockscripts.org/designmanager/server/php/?upload_path=store_designREPLACEscreenshots/'+id_user+'/',
+        '//jquery-file-upload.appspot.com/' : 'http://etemplate.com/server/php/?upload_path=store_designREPLACEscreenshots/'+id_user+'/',
             uploadButton = jQuery('<button/>')
                 .addClass('btn')
                 .prop('disabled', true)
@@ -179,7 +179,7 @@ endif;
             );
         }).on('fileuploaddone', function (e, data) {
             jQuery.each(data.result.files, function (index, file) {
-             update_screenshot(file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname).replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname),"front");               
+             update_screenshot(file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname).replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname),"front");               
              jQuery(".ebay-designs-screenshots").attr("src",file.url);
              show_successfull_message("Storefront screenshot was updated successful");            
             });

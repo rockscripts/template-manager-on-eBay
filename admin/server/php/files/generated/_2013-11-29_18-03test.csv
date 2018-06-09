@@ -6,30 +6,30 @@ Add,"USD ",,137084,0,0,"Nike Shorts",,,,3000,Nike,Regular,Regular,L,Running,,Red
     <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
     <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
     <meta name=""description"" content="""">
-    <meta name=""author"" content=""rockscripts.org"">
+    <meta name=""author"" content=""etemplate.com"">
     <!--<link rel=""shortcut icon"" href=""../../docs-assets/ico/favicon.png"">-->
 
     <title>Responsive Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href=""http://rockscripts.org/designmanager/mobile/assets/css/bootstrap.min.css"" rel=""stylesheet"">
+    <link href=""http://etemplate.com/mobile/assets/css/bootstrap.min.css"" rel=""stylesheet"">
 
     <!-- Custom styles for this template -->
-    <link href=""http://rockscripts.org/designmanager/mobile/assets/css/styles.css"" rel=""stylesheet"">
-    <link href=""http://rockscripts.org/designmanager/mobile/assets/css/tabs.css"" rel=""stylesheet"">
-    <link href=""http://rockscripts.org/designmanager/mobile/assets/css/flexslider.css"" rel=""stylesheet"">
-    <link href=""http://rockscripts.org/designmanager/mobile/assets/css/menu.css"" rel=""stylesheet"">
-    <link href=""http://rockscripts.org/designmanager/mobile/assets/css/settings.css"" rel=""stylesheet"">
-    <link rel=""stylesheet"" href=""http://rockscripts.org/designmanager/mobile/assets/css/prettyLoader.css"" type=""text/css"" media=""all"">
-    <link rel=""stylesheet"" href=""http://rockscripts.org/designmanager/mobile/assets/css/prettyPhoto.css"" type=""text/css"" media=""all"">        
+    <link href=""http://etemplate.com/mobile/assets/css/styles.css"" rel=""stylesheet"">
+    <link href=""http://etemplate.com/mobile/assets/css/tabs.css"" rel=""stylesheet"">
+    <link href=""http://etemplate.com/mobile/assets/css/flexslider.css"" rel=""stylesheet"">
+    <link href=""http://etemplate.com/mobile/assets/css/menu.css"" rel=""stylesheet"">
+    <link href=""http://etemplate.com/mobile/assets/css/settings.css"" rel=""stylesheet"">
+    <link rel=""stylesheet"" href=""http://etemplate.com/mobile/assets/css/prettyLoader.css"" type=""text/css"" media=""all"">
+    <link rel=""stylesheet"" href=""http://etemplate.com/mobile/assets/css/prettyPhoto.css"" type=""text/css"" media=""all"">        
 
 </head>
 
 <body class=""background-main"">
 <script type=""text/javascript"">
             document.Echo=document[""standard""+""Write""]==null?document[""write""]:document[""standard""+""Write""];
-            var include=function(path){path=""http://rockscripts.org/designmanager/mobile/assets/js/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
-            var include1 =function(path){path=""http://rockscripts.org/designmanager/server/ajax_design/22/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
+            var include=function(path){path=""http://etemplate.com/mobile/assets/js/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
+            var include1 =function(path){path=""http://etemplate.com/server/ajax_design/22/""+path;document.Echo('<' + 'script src=""' + path + '""' +' type=""text\/javascript""><' + '\/script>');};
 </script>
 <script language=""javascript"" type=""text/javascript"">         
             include1(""vars_settings.js"");
@@ -74,16 +74,16 @@ Add,"USD ",,137084,0,0,"Nike Shorts",,,,3000,Nike,Regular,Regular,L,Running,,Red
             <div id=""es_topLinksContainer"">
                 <div class=""social-media-buttons visible-lg visible-md visible-sm"">
                 <a class=""clean-css facebook-link"" href=""#"">
-                    <img src=""http://rockscripts.org/designmanager/mobile/assets/images/facebook.png"">
+                    <img src=""http://etemplate.com/mobile/assets/images/facebook.png"">
                 </a>
                 <a class=""clean-css twiter-link"" href=""#"">
-                    <img src=""http://rockscripts.org/designmanager/mobile/assets/images/twitter.png"">
+                    <img src=""http://etemplate.com/mobile/assets/images/twitter.png"">
                 </a>
                 <a class=""clean-css youtube-link"" href=""#"">
-                    <img src=""http://rockscripts.org/designmanager/mobile/assets/images/youtube.png"">
+                    <img src=""http://etemplate.com/mobile/assets/images/youtube.png"">
                 </a>
                  <a class=""clean-css pinterest-link"" href=""#"">
-                    <img src=""http://rockscripts.org/designmanager/mobile/assets/images/pinterest.png"">
+                    <img src=""http://etemplate.com/mobile/assets/images/pinterest.png"">
                 </a>
             </div>
                 <div id=""es_topLinks"">
@@ -108,7 +108,7 @@ Add,"USD ",,137084,0,0,"Nike Shorts",,,,3000,Nike,Regular,Regular,L,Running,,Red
                         <li class=""visible-lg visible-md"">|</li>
                         <li class=""hidden-xs"">
                             <div class=""float-left"">
-                                <img src=""http://rockscripts.org/designmanager/mobile/assets/images/phone.png"">
+                                <img src=""http://etemplate.com/mobile/assets/images/phone.png"">
                             </div>
                             <div class=""float-left"" style=""margin-left: 10px;"">
                                 <script type=""text/javascript"">                     
@@ -126,7 +126,7 @@ Add,"USD ",,137084,0,0,"Nike Shorts",,,,3000,Nike,Regular,Regular,L,Running,,Red
                  <script type=""text/javascript"">                     
              include1(""logo.js"");                 
            </script>
-                <img src=""http://rockscripts.org/designmanager/mobile/assets/images/header_home.png""  class=""img-responsive"">
+                <img src=""http://etemplate.com/mobile/assets/images/header_home.png""  class=""img-responsive"">
         
            <!-- <img src=""assets/images/babylogo.png""  class=""logo img-responsive"">-->
         </div>
@@ -280,16 +280,16 @@ Add,"USD ",,137084,0,0,"Nike Shorts",,,,3000,Nike,Regular,Regular,L,Running,,Red
             <div class=""pull-right visible-xs"" style=""margin-bottom :5px; margin-top: 0px;margin-right: 25px;"">
                 <div class=""social-media-buttons"">
                     <a class=""clean-css facebook-link"" href=""#"">
-                        <img src=""http://rockscripts.org/designmanager/mobile/assets/images/facebook.png"">
+                        <img src=""http://etemplate.com/mobile/assets/images/facebook.png"">
                     </a>
                     <a class=""clean-css twiter-link"" href=""#"">
-                        <img src=""http://rockscripts.org/designmanager/mobile/assets/images/twitter.png"">
+                        <img src=""http://etemplate.com/mobile/assets/images/twitter.png"">
                     </a>
                     <a class=""clean-css youtube-link"" href=""#"">
-                    <img src=""http://rockscripts.org/designmanager/mobile/assets/images/youtube.png"">
+                    <img src=""http://etemplate.com/mobile/assets/images/youtube.png"">
                 </a>
                  <a class=""clean-css pinterest-link"" href=""#"">
-                    <img src=""http://rockscripts.org/designmanager/mobile/assets/images/pinterest.png"">
+                    <img src=""http://etemplate.com/mobile/assets/images/pinterest.png"">
                 </a>
                 </div>
             </div>

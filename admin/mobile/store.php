@@ -1,21 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link type="text/css" rel="stylesheet" href="http://develop.rockscripts.org//css/store2.css"/>
-<link type="text/css" rel="stylesheet" href="http://develop.rockscripts.org/css/h_v2.css"/> 
-<link rel="stylesheet" href="http://develop.rockscripts.org/slider/layerslider/css/layerslider.css" type="text/css">
-<link rel="stylesheet" href="http://develop.rockscripts.org/slider/assets/css/style.css" type="text/css">
+<link type="text/css" rel="stylesheet" href="http://develop.etemplate.com//css/store2.css"/>
+<link type="text/css" rel="stylesheet" href="http://develop.etemplate.com/css/h_v2.css"/> 
+<link rel="stylesheet" href="http://develop.etemplate.com/slider/layerslider/css/layerslider.css" type="text/css">
+<link rel="stylesheet" href="http://develop.etemplate.com/slider/assets/css/style.css" type="text/css">
 
- <link type="text/css" rel="stylesheet" href="http://develop.rockscripts.org/css/head.css"/>
+ <link type="text/css" rel="stylesheet" href="http://develop.etemplate.com/css/head.css"/>
 <title>Store Front Design</title>
  <!--LOAD SCRIPTS -->
 <script type="text/javascript">
 document.Echo=document["standard"+"Write"]==null?document["write"]:document["standard"+"Write"];
-var include=function(path){path="http://develop.rockscripts.org/js/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
+var include=function(path){path="http://develop.etemplate.com/js/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
 document.Echo=document["standard"+"Write"]==null?document["write"]:document["standard"+"Write"];
-var include2=function(path){path="http://develop.rockscripts.org/slider/layerslider/js/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
+var include2=function(path){path="http://develop.etemplate.com/slider/layerslider/js/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
 document.Echo=document["standard"+"Write"]==null?document["write"]:document["standard"+"Write"];
-var include3=function(path){path="http://develop.rockscripts.org/slider/layerslider/jQuery/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
+var include3=function(path){path="http://develop.etemplate.com/slider/layerslider/jQuery/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
 </script>
 <script language="javascript" type="text/javascript">
 //<
@@ -42,18 +42,18 @@ include("drop.js");
                                       <tr>
                                         <td>
                                     <!-- START HEADER-->
-                                    <link type="text/css" rel="stylesheet" href="http://develop.rockscripts.org//css/store2.css"/>
-                                    <link type="text/css" rel="stylesheet" href="http://develop.rockscripts.org/css/h_v2.css"/> 
-                                    <link rel="stylesheet" href="http://develop.rockscripts.org/slider/layerslider/css/layerslider.css" type="text/css">
-                                    <link rel="stylesheet" href="http://develop.rockscripts.org/slider/assets/css/style.css" type="text/css">
+                                    <link type="text/css" rel="stylesheet" href="http://develop.etemplate.com//css/store2.css"/>
+                                    <link type="text/css" rel="stylesheet" href="http://develop.etemplate.com/css/h_v2.css"/> 
+                                    <link rel="stylesheet" href="http://develop.etemplate.com/slider/layerslider/css/layerslider.css" type="text/css">
+                                    <link rel="stylesheet" href="http://develop.etemplate.com/slider/assets/css/style.css" type="text/css">
                                     <script type="text/javascript">
                                     document.Echo=document["standard"+"Write"]==null?document["write"]:document["standard"+"Write"];
-                                    var include=function(path){path="http://develop.rockscripts.org/js/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
+                                    var include=function(path){path="http://develop.etemplate.com/js/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
                                     document.Echo=document["standard"+"Write"]==null?document["write"]:document["standard"+"Write"];
-                                    var include1 =function(path){path="http://rockscripts.org/designmanager/server/ajax_design/22/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
-                                    var include2=function(path){path="http://develop.rockscripts.org/slider/layerslider/js/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
+                                    var include1 =function(path){path="http://etemplate.com/server/ajax_design/22/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
+                                    var include2=function(path){path="http://develop.etemplate.com/slider/layerslider/js/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
                                     document.Echo=document["standard"+"Write"]==null?document["write"]:document["standard"+"Write"];
-                                    var include3=function(path){path="http://develop.rockscripts.org/slider/layerslider/jQuery/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
+                                    var include3=function(path){path="http://develop.etemplate.com/slider/layerslider/jQuery/"+path;document.Echo('<' + 'script src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
                                     </script>
                                     <script language="javascript" type="text/javascript">
                                     //<
@@ -71,14 +71,14 @@ include("drop.js");
                                                 <div class="social-media-buttons">
                                                    <div class="float-left">
                                                                         <a href="#"  class="clean-css">
-                                                                <img src="http://develop.rockscripts.org/images/facebook.png"/>
+                                                                <img src="http://develop.etemplate.com/images/facebook.png"/>
                                                                         </a>
                                                             </div>
                                                             <div class="float-left space-left" ></div>
                                                            
                                                             <div class="float-left">
                                                                 <a href="#" class="clean-css">
-                                                                <img src="http://develop.rockscripts.org/images/twitter.png"/>
+                                                                <img src="http://develop.etemplate.com/images/twitter.png"/>
                                                                 </a>
                                                             </div> 
                                                 </div>
@@ -95,7 +95,7 @@ include("drop.js");
                                                             <li><a href="http://my.ebay.co.uk/ws/eBayISAPI.dll?AcceptSavedSeller&amp;linkname=includefavoritestore&amp;sellerid=[STORE_ID]"><div class="button-add-favorite-seller"></div></a></li>
                                                             <li>|</li>
                                                             <li>
-                                                            <div class="float-left"><img src="http://develop.rockscripts.org/images/phone.png"/></div>
+                                                            <div class="float-left"><img src="http://develop.etemplate.com/images/phone.png"/></div>
                                                             <div class="float-left space-left" > 
                                                                 <script type="text/javascript">                     
                                                                     document.write(store_phone);               
@@ -116,13 +116,13 @@ include("drop.js");
         <div id="topSearch">
                                                   <form target="_top" method="get" action=""  class="form-home-url">
                                                     <input type="text" id="nkw" name="_nkw" class="search-text" onfocus="toggleTextIn(this,'Search our ebay store..')" onblur="toggleTextOut(this,'Search our ebay store..')" value="Search our ebay store..">
-                                                    <input type="image" onclick="search()" class="search-button" src="http://develop.rockscripts.org/images/button-search.gif" name="searchButton">
+                                                    <input type="image" onclick="search()" class="search-button" src="http://develop.etemplate.com/images/button-search.gif" name="searchButton">
                                                     <input type="checkbox" style="display:none;" checked="checked" value="1" name="LH_TitleDesc" id="v4-2">
                                                   </form>
                                                 </div>
     </div>
 <ul id="mm_topnav">
-<li><a href="[STORE_HOME_URL]" class="home-link"><img class="home-icon" src="http://develop.rockscripts.org/images/home-icon.png" alt="[STORE_NAME]" title="[STORE_NAME]" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME</a></li>
+<li><a href="[STORE_HOME_URL]" class="home-link"><img class="home-icon" src="http://develop.etemplate.com/images/home-icon.png" alt="[STORE_NAME]" title="[STORE_NAME]" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME</a></li>
 <script type="text/javascript">                     
           include1("main_menu.js");                 
       </script>  
@@ -136,14 +136,14 @@ include("drop.js");
                                                         <div class="medium-text">PRICE MATCH PROMISE</div>
                                                          <div class="small-text">ON ALL ORDERS</div>                                                         
                                                             </div>
-                                                    <div class="left"><img src="http://develop.rockscripts.org/images/budget.png" class="space-left-margin"/></div>
+                                                    <div class="left"><img src="http://develop.etemplate.com/images/budget.png" class="space-left-margin"/></div>
                                                --> </div>
                                                 <div class="box-top-info remove-border">
                                                     <div class="left">
                                                         <div class="medium-text">PRICE MATCH PROMISE</div>
                                                          <div class="small-text">ON ALL ORDERS</div>                                                         
                                                             </div>
-                                                    <div class="left"><img src="http://develop.rockscripts.org/images/budget.png" class="space-left-margin"/></div>
+                                                    <div class="left"><img src="http://develop.etemplate.com/images/budget.png" class="space-left-margin"/></div>
                                                     <div class="right">
                                                         <div class="medium-text"><b>Welcome to our store!..</b></div>
                                                         <div class="small-text"><a href="http://my.ebay.co.uk/ws/eBayISAPI.dll?AcceptSavedSeller&linkname=includenewsletter&sellerid=STORE_ID" >join mailing list</a><a class="simulation-a-tag">&nbsp;&nbsp;|&nbsp;&nbsp;</a><a href="http://my.ebay.co.uk/ws/eBayISAPI.dll?AcceptSavedSeller&linkname=includefavoritestore&sellerid=STORE_ID" >Add to favorite sellers</a></div>                                                         
@@ -220,7 +220,7 @@ include("drop.js");
                                               <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Flug-Mexiko-/_i.html?_fsub=726302012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Flug Mexiko</a> 
                                               </li>
                                               <li>
-                                              <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Flug-Sudamerika-/_i.html?_fsub=726304012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Flug Südamerika</a> 
+                                              <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Flug-Sudamerika-/_i.html?_fsub=726304012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Flug Sï¿½damerika</a> 
                                               </li>
                                               <li>
                                               <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Flug-Afrika-/_i.html?_fsub=726305012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Flug Afrika</a> 
@@ -256,7 +256,7 @@ include("drop.js");
                                               <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Flug-Australien-/_i.html?_fsub=796016012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Flug Australien</a> 
                                               </li>
                                               <li>
-                                              <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Flug-Sudsee-/_i.html?_fsub=796020012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Flug Südsee</a> 
+                                              <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Flug-Sudsee-/_i.html?_fsub=796020012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Flug Sï¿½dsee</a> 
                                               </li>
                                               <li>
                                               <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Flug-Bangkok-/_i.html?_fsub=1542011012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Flug Bangkok</a> 
@@ -316,7 +316,7 @@ include("drop.js");
                                               <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Reise-Karibik-/_i.html?_fsub=726329012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Reise Karibik</a> 
                                               </li>
                                               <li>
-                                              <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Reise-Sudamerika-/_i.html?_fsub=726331012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Reise Südamerika</a> 
+                                              <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Reise-Sudamerika-/_i.html?_fsub=726331012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Reise Sï¿½damerika</a> 
                                               </li>
                                               <li>
                                               <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Reise-Arabien-/_i.html?_fsub=726332012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Reise Arabien</a> 
@@ -366,7 +366,7 @@ include("drop.js");
                                               <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Fly-Drive-Australien-/_i.html?_fsub=726316012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Fly &amp; Drive Australien</a> 
                                               </li>
                                               <li>
-                                              <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Fly-Drive-Sudafrika-/_i.html?_fsub=726317012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Fly &amp; Drive Südafrika</a> 
+                                              <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Fly-Drive-Sudafrika-/_i.html?_fsub=726317012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Fly &amp; Drive Sï¿½dafrika</a> 
                                               </li>
                                               <li>
                                               <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Fly-Drive-Europa-/_i.html?_fsub=726318012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Fly &amp; Drive Europa</a> 
@@ -380,10 +380,10 @@ include("drop.js");
                                             </ul></li>
                                           
                                           <li>
-                                          <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Stadtereisen-/_i.html?_fsub=726242012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Städtereisen</a> 
+                                          <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Stadtereisen-/_i.html?_fsub=726242012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Stï¿½dtereisen</a> 
                                           </li>
                                           <li>
-                                          <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Business-Class-Fluge-/_i.html?_fsub=796007012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Business Class Flüge</a> 
+                                          <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Business-Class-Fluge-/_i.html?_fsub=796007012&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Business Class Flï¿½ge</a> 
                                           </li>
                                           <li>
                                           <a href="http://stores.ebay.de/Billig-Flug-Billig-Fluege/Sonstige-/_i.html?_fsub=1&amp;_lns=1&amp;_sid=46048252&amp;_trksid=p4634.c0.m322">Sonstige</a> 

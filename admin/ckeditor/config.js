@@ -30,12 +30,12 @@ CKEDITOR.editorConfig = function (config) {
         name: 'code',
         items: ['Code']
     }];
-    config.filebrowserBrowseUrl = 'http://rockscripts.org/designmanager/ckeditor/kcfinder/browse.php';
-    config.filebrowserImageBrowseUrl = 'http://rockscripts.org/designmanager/ckeditor/kcfinder/browse.php?type=images';
-    config.filebrowserFlashBrowseUrl = 'http://rockscripts.org/designmanager/ckeditor/kcfinder/browse.php?type=flash';
-    config.filebrowserUploadUrl = 'http://rockscripts.org/designmanager/ckeditor/kcfinder/upload.php?type=files';
-    config.filebrowserImageUploadUrl = 'http://rockscripts.org/designmanagerckeditor/kcfinder/upload.php?type=images';
-    config.filebrowserFlashUploadUrl = 'http://rockscripts.org/designmanager/ckeditor/kcfinder/upload.php?type=flash';
+    config.filebrowserBrowseUrl = 'http://etemplate.com/ckeditor/kcfinder/browse.php';
+    config.filebrowserImageBrowseUrl = 'http://etemplate.com/ckeditor/kcfinder/browse.php?type=images';
+    config.filebrowserFlashBrowseUrl = 'http://etemplate.com/ckeditor/kcfinder/browse.php?type=flash';
+    config.filebrowserUploadUrl = 'http://etemplate.com/ckeditor/kcfinder/upload.php?type=files';
+    config.filebrowserImageUploadUrl = 'http://etemplate.com/designmanagerckeditor/kcfinder/upload.php?type=images';
+    config.filebrowserFlashUploadUrl = 'http://etemplate.com/ckeditor/kcfinder/upload.php?type=flash';
     config.enterMode = 'CKEDITOR.ENTER_BR';
     config.shiftEnterMode = ' CKEDITOR.ENTER_P';
     config.height = 400;

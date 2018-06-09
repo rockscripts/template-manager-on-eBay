@@ -120,8 +120,10 @@ class GController {
 
         $tree = new Tree;
 
-
-
+if(is_array($group_id))
+{
+  $group_id = $group_id['group_id'];
+}
         $sql = sprintf(
 
             'SELECT * FROM %s WHERE group_id = %s ORDER BY %s, %s',

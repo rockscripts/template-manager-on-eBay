@@ -98,7 +98,7 @@
 
 				<a title="rockscripts.com find your scripts with us!" href="<?= base_url() ?>">
 				<img id="logo-image"src="<?= base_url() ?>themes/katniss/img/logo.gif" alt="" />   
-                                <div class="slogan-text">Making your life easy</div>
+                              
 			                   </a>
         
         			
@@ -197,8 +197,8 @@ document.write(tz)
                     <ul class="dropdown-menu">
                         <li class="button_list_edit_profile"><a href="<?= base_url() ?>private/profile"><span class="icon-edit"></span> Edit Profile</a></li>
                          <li class="button_list_my_designs"><a href="<?= base_url() ?>private/home"><span class=" icon-my-designs"></span> My Designs</a></li>
-                         <li class="button_list_my_designs"><a target="_blank" href="http://rockscripts.org/helpdesk/"><span class=" icon-support"></span> Support Center</a></li>
-                         <li class="button_list_my_designs"><a target="_blank" href="http://rockscripts.org/helpdesk/open.php"><span class=" icon-issue"></span> Report Issue</a></li>
+                         <li class="button_list_my_designs"><a target="_blank" href="http://etemplate.com/helpdesk/"><span class=" icon-support"></span> Support Center</a></li>
+                         <li class="button_list_my_designs"><a target="_blank" href="http://etemplate.com/helpdesk/open.php"><span class=" icon-issue"></span> Report Issue</a></li>
                         <li class="divider"></li>
                         <li><a href="<?= base_url() ?>membership/logout/"><span class="icon-off"></span> Exit</a></li> 
                     </ul>

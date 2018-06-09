@@ -117,10 +117,14 @@ class GController {
     protected function easymenu($group_id, $attr = '') {
 
         include_once _DOC_ROOT . 'includes/tree.php';
-
+        print_r($group_id );
+        die('**********' );
         $tree = new Tree;
-
-
+        if(is_array($group_id))
+        {
+          $group_id = $group_id['group_id'];
+        }
+       
 
         $sql = sprintf(
 
@@ -135,7 +139,7 @@ class GController {
             MENU_POSITION
 
         );
-
+       
         $menu = $this->db->GetAll($sql);
 
         foreach ($menu as $row) {

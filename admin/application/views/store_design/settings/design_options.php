@@ -87,7 +87,7 @@
    
     jQuery(".go_to_templates").click(function()
     {
-       window.location.href = "http://"+window.location.hostname+"/designmanager/private/home"; 
+       window.location.href = "http://"+window.location.hostname+"/private/home"; 
     });
      
      //-------------------Bug fix-------------------

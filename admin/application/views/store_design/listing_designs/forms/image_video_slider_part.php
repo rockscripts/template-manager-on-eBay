@@ -55,8 +55,9 @@
          var domain = "<?php echo base_url();?>";
          var id_user = "<?php echo $id_user;?>";
         // Change this to the location of your server-side upload handler:
-        var url = window.location.hostname === 'blueimp.github.io' ? 
-                    '//jquery-file-upload.appspot.com/' : 'http://rockscripts.org/designmanager/server/php/?upload_path=store_designREPLACElisting_image_video_sliderREPLACE'+id_user+'/',
+        var url = window.location.hostname === 'blueimp.github.io' ?
+                '//jquery-file-upload.appspot.com/' : 'http://'+window.location.hostname+'/upload.php?upload_path=serverREPLACEphpREPLACEfilesREPLACEstore_designREPLACElisting_image_video_sliderREPLACE'+id_user+'/',
+        
             uploadButton = jQuery('<button/>')
                 .addClass('btn')
                 .prop('disabled', true)
@@ -153,9 +154,9 @@
                var link   =  jQuery("#link").val(); 
                var current_src = jQuery("#files-preview").find("img").attr("src");
                blueimp_remove_image(current_src,"listing-slider");
-               save_images_videos_slider(id,link,file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname),"");
+               save_images_videos_slider(id,link,file.url,"");
                jQuery("li.listing-slider").click() ;
-              jQuery(".listing-images").css("display","none");
+               jQuery(".listing-images").css("display","none");
               
                show_successfull_message("Image was saved successful");
             

@@ -23,7 +23,7 @@ cert-id-prod =  1a6a02c2-9eba-4725-aafa-f1b2d519b678
 
 
 ; primary site id
-
+AgAAAA**AQAAAA**aAAAAA**L0oZWw**nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6AFloCiAJKBpwidj6x9nY+seQ**OAcCAA**AAMAAA**q8h8JxFbPOqmz6ow6J97OlhGCzT0H5JWlM8DXs1tL4S9rQ4d+1z4EDqy1y1P6FOfaIiT1yN8yRab48aaWae9LjgwXqI1b4Lqt7LjdBE4ZUKNsqhjPdx31ETXbTbxXt8zhj5LbgAjtioAGKDpSPpN/Aqx5zngq2jPUffsShJQylW3s0YVmCzTbo2Kzabfir1rs+IvRq6BPsKT9GcCIw5yvwUO4VCOUi3m2Wkz0S7Kr2treWKk2WC0M3zRqLa9A7CMMDlh8XQ6T9u7DFpL6FB0WvpRCtVgayoDbScjZImpGlS+ZxnxOh+3m7JGYz74xE5pP64udbRTEcW/rYUt6QwHOl6H05Kdv56pVYzrjOe7BJamKqJmumIKIRJqgQKJBRWJ0xyH8VfOHDWAZ+mguBetxUhTjAqkJo9jIaZJbHgmt6mpo/kutZg1FAZ57R6MWWqw3odASxEV+bERaP3QCFgF+Ry07fZl3rvtFi5D47dz9cnONWnS7Iunh3n697r+Yb58oPV7ch/8McRpvBSQXOAm/aeFZghU3PLs0aAFl8qwuT5NgoTXypbactAUZgUYNJLDUEB0/fUtFvc9U1fSj48J7Rl349dTX3kxhhB1EF2VXfw6ZPU977UljAua0svkMHEZH8pwTX6OGGVV6mnh7+ZwfPRfQWhdaw1ETGssHaeSlAMDUAVfRv9wtEIu0lZZ/QRy4uGt7eRo43eo8YkMRzBABbd06+6JT8PsUqZADk3915IFpJ+bz90q83OmeObRugxN
 site-id = 3
 
 
@@ -41,8 +41,8 @@ use-http-compression=0
 [token]
 ; put in here the full absolute path to your config file !
 ;local
-;token-pickup-file=/home/alex/public_html/hosting/EbatNs/samples/config/my.token
+;token-pickup-file=/opt/lampp/htdocs/template-manager-on-eBay/admin/application/controllers/ebaycalls/EbatNs/config//my.token
 ;server
-token-pickup-file=/home/rocksc5/public_html/designmanager/application/controllers/ebaycalls/EbatNs/config//my.token
+token-pickup-file=/opt/lampp/htdocs/template-manager-on-eBay/admin/application/controllers/ebaycalls/EbatNs/config//my.token
 token-mode=1
 */ ?>

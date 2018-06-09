@@ -116,7 +116,7 @@
 
                                 </p>
                                 <p>
-                                    <input type="checkbox" id="terms_of_use"><a href="http://rockscripts.org/terms-of-use/" target="_blank"> I read and accept terms of use. </a>
+                                    <input type="checkbox" id="terms_of_use"><a href="http://etemplate.com/terms-of-use/" target="_blank"> I read and accept terms of use. </a>
                                 </p>
                                 <br>                                  
 		</li>
@@ -301,9 +301,9 @@ endif;
                                         <br>
                                         More information:
                                         <br>
-<a href="http://docs.rockscripts.org/#backups-restore-points-20" target="_blank">Backup your store</a>
+<a href="http://docs.etemplate.com/#backups-restore-points-20" target="_blank">Backup your store</a>
 <br>
-<a href="http://docs.rockscripts.org/#backups-restore-points-20"  target="_blank">Restore your store</a>
+<a href="http://docs.etemplate.com/#backups-restore-points-20"  target="_blank">Restore your store</a>
 <br>
                                         <div style="clear:both;margin-top: 10px;">
                                    
@@ -324,7 +324,7 @@ endif;
                             
                          <div class="list-listings-design installation-box-design" style="border:0px;">                            
                             <div class="ebay-designs-screenshots-container">
-                                <img src="http://fileshosting.rockscripts.org/files/default_images/store-front-installation.png" class="ebay-designs-screenshots"/>            
+                                <img src="http://etclients.com/files/default_images/store-front-installation.png" class="ebay-designs-screenshots"/>            
                             </div> 
                             
                          </div>
@@ -391,8 +391,7 @@ endif;
                           {
                                jQuery.jGrowl("Please accept term of use.");  
                                jQuery("#uniform-terms_of_use").css("border","1px solid orange");
-                          }
-                        
+                          }                        
                       }
                       else
                       {

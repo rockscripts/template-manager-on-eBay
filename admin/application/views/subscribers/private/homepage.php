@@ -118,9 +118,9 @@
          var domain = "<?php echo base_url();?>";
          var id_user = "<?php echo $user_id;?>";
         // Change this to the location of your server-side upload handler:
-        var url = window.location.hostname === 'blueimp.github.io' ? 
+        var url = window.location.hostname === 'blueimp.github.io' ?
+                '//jquery-file-upload.appspot.com/' : 'http://'+window.location.hostname+'/upload.php?upload_path=serverREPLACEphpREPLACEfilesREPLACEstore_designREPLACEscreenshotsREPLACE'+id_user+'/',
        
-        '//jquery-file-upload.appspot.com/' : 'http://rockscripts.org/designmanager/server/php/?upload_path=store_designREPLACEscreenshots/'+id_user+'/',
             uploadButton = jQuery('<button/>')
                 .addClass('btn')
                 .prop('disabled', true)
@@ -214,7 +214,7 @@
             );
         }).on('fileuploaddone', function (e, data) {
             jQuery.each(data.result.files, function (index, file) {
-             update_screenshot(file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname).replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname),"front");               
+             update_screenshot(file.url,"front");               
              var current_src = jQuery(".screenshot-front").attr("src");
              blueimp_remove_image(current_src,"front-screenshot");
              jQuery(".screenshot-front").attr("src",file.url);
@@ -310,9 +310,9 @@ jQuery(".list-store-hme-design").mouseenter(function() {
          var domain = "<?php echo base_url();?>";
          var id_user = "<?php echo $user_id;?>";
         // Change this to the location of your server-side upload handler:
-        var url = window.location.hostname === 'blueimp.github.io' ? 
-       
-        '//jquery-file-upload.appspot.com/' : 'http://rockscripts.org/designmanager/server/php/?upload_path=store_designREPLACEscreenshots/'+id_user+'/',
+        
+        var url = window.location.hostname === 'blueimp.github.io' ?
+                '//jquery-file-upload.appspot.com/' : 'http://'+window.location.hostname+'/upload.php?upload_path=serverREPLACEphpREPLACEfilesREPLACEstore_designREPLACEscreenshotsREPLACE'+id_user+'/',
             uploadButton = jQuery('<button/>')
                 .addClass('btn')
                 .prop('disabled', true)
@@ -399,7 +399,7 @@ jQuery(".list-store-hme-design").mouseenter(function() {
             );
         }).on('fileuploaddone', function (e, data) {
              jQuery.each(data.result.files, function (index, file) {
-             update_screenshot(file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname).replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname),"listing");               
+             update_screenshot(file.url,"listing");               
              var current_src = jQuery(".screenshot-listing").attr("src");
              blueimp_remove_image(current_src,"listing-screenshot");
              jQuery(".screenshot-listing").attr("src",file.url);

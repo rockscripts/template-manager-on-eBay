@@ -20,9 +20,9 @@
 
                          <div action="update" image_name="<?=$listing_image->image_name?>"  id_listing_design_picture="<?=$listing_image->id_listing_design_picture?>" title="Set Main Image" class="button-controls custom_button1" >
                               <?php if ( $listing_image->is_main_image ) { ?>
-                                <img src="http://rockscripts.org/designmanager//themes/katniss/img/controls/featured-Active.png">
+                                <img src="http://etemplate.com//themes/katniss/img/controls/featured-Active.png">
                               <?php } else { ?>
-                                <img src="http://rockscripts.org/designmanager//themes/katniss/img/controls/featured-Deactive.png">
+                                <img src="http://etemplate.com//themes/katniss/img/controls/featured-Deactive.png">
                               <?php } ?>
                          </div>
 <?php if ( $listing_image->is_main_image ) { ?>

@@ -1,5 +1,6 @@
 ## Configuracion del mod rewrite para URL amigables 
 RewriteEngine On 
+RewriteBase /
 RewriteCond %{REQUEST_URI} ^/system.* 
 RewriteRule ^(.*)$ index.php?/$1 [L] 
 RewriteCond %{REQUEST_FILENAME} !-f 
@@ -41,7 +42,7 @@ ExpiresDefault "access 1 month"
 Header set Cache-Control "max-age=604800"
 Header set last-modified "Tus May 15 13:00:00 EDT 2014" 
 </FilesMatch>
-# Deshabilitar parámetros siguientes
+# Deshabilitar parï¿½metros siguientes
 <FilesMatch "\.(pl|cgi|spl|html)$">
     Header unset Cache-Control
     Header unset Expires

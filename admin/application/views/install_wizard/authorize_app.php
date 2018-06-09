@@ -92,7 +92,7 @@
 
                                 </p>
                                 <p>
-                                    <input type="checkbox" id="terms_of_use"><a href="http://rockscripts.org/terms-of-use/" target="_blank"> I read and accept terms of use. </a>
+                                    <input type="checkbox" id="terms_of_use"><a href="http://etemplate.com/terms-of-use/" target="_blank"> I read and accept terms of use. </a>
                                 </p>
                                 <br>                                  
 		</li>
@@ -249,7 +249,7 @@ endif;
                           jQuery(".selector").css("border","1px solid #ccc");
                           jQuery(".Fetch-eBay-Token").removeClass("not_available");
                           jQuery(".Fetch-eBay-Token").attr("available","true");
-                          window.open("http://"+window.location.hostname+"/designmanager/store_design/installation/send_client_to_ebay_authorization_page?ebay_site="+ebay_site_selected,'_self');
+                          window.open("http://"+window.location.hostname+"/store_design/installation/send_client_to_ebay_authorization_page?ebay_site="+ebay_site_selected,'_self');
                           }
                           else
                           {
@@ -270,17 +270,17 @@ endif;
                         available = jQuery(".Fetch-eBay-Token").attr("available");
                         if(available == "true")
                         {        
-                              window.location.href = "http://"+window.location.hostname+"/designmanager/store_design/installation/fetch_token?step=2";                               
+                              window.location.href = "http://"+window.location.hostname+"/store_design/installation/fetch_token?step=2";                               
                         }
                      
                     });
                      jQuery(".Install_store_front").click(function()
                     {
-                        window.location.href = "http://"+window.location.hostname+"/designmanager/store_design/installation/install_store_front"; 
+                        window.location.href = "http://"+window.location.hostname+"/store_design/installation/install_store_front"; 
                     });
                      jQuery(".button_continue_custom").click(function()
                     {
-                         window.location.href = "http://"+window.location.hostname+"/designmanager/";                               
+                         window.location.href = "http://"+window.location.hostname+"/";                               
                     });
                    if(step >= 2)
                    {

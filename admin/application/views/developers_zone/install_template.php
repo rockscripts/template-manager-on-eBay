@@ -21,7 +21,7 @@
         ?> 
         
             <p>
-                <label>Template Name: <small>Automatic added after select.zip file for template.</small></label>
+                <label>Template Name: <small>Adds after select.zip file for template.</small></label>
                 <span class="field"><input type="text" id="template_name" name="template_name" class="input-xlarge" disabled /></span>
             </p>
             <p>
@@ -63,20 +63,22 @@
          var domain = "<?php echo base_url();?>";
          var id_user = "<?php echo $id_user;?>";
         // Change this to the location of your server-side upload handler:
-        var url = window.location.hostname === 'blueimp.github.io' ? 
-        '//jquery-file-upload.appspot.com/' : 'http://rockscripts.org/designmanager/server/php/?upload_path=templates_installation/'+id_user+'/zip/',
+        var url = window.location.hostname === 'blueimp.github.io' ?
+                '//jquery-file-upload.appspot.com/' : 'http://'+window.location.hostname+'/upload.php?upload_path=serverREPLACEphpREPLACEfilesREPLACEstore_designREPLACEtemplates_installationREPLACE'+id_user+'/zip/',
+        
             uploadButton = jQuery('<button/>')
                 .addClass('btn')
                 .prop('disabled', true)
                 .text('Processing...')
-                .on('click', function () {
+                .on('click', function () 
+                {
                     var jQuerythis = jQuery(this),
                         data = jQuerythis.data();
                     jQuerythis
                         .off('click')
                         .text('Abort')
                         .on('click', function () 
-                       {
+                        {
                             jQuerythis.remove();
                             data.abort();
                         });
@@ -205,7 +207,7 @@
                    init_install_template(file.name,function(response)
                     {
                       response = call_back_init_install_template(response);
-                      var href_activation = "http://"+window.location.hostname+"/designmanager/store_design/developerzone/load_template_management";
+                      var href_activation = "http://"+window.location.hostname+"/store_design/developerzone/load_template_management";
                       show_successfull_message("Template was installed successful<br><a href='"+href_activation+"'>Active Template</a>");
                       jQuery("#files").html("");
                       jQuery("#template_name").val("");

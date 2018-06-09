@@ -577,7 +577,7 @@ print_r($children);*/
 
 		);
 
-		return $this->db->GetOne($sql);
+		return $this->db->GetOne($sql)['title'];
 
 	}
 	public function get_menu_group_id($menu_item_id) {
@@ -663,7 +663,7 @@ $sql = sprintf(
        {
            $result_html =  '\'<ul class="vertical blue"><li><a href="javascript:void();">Store has not categories</a></li></ul>\'';      
        }  
-        $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+        $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
        $out_put = str_replace(array("\r\n", "\r"), "\n", $out_put);
        $out_put = str_replace("'", "\'", $out_put);
        $lines = explode("\n", $out_put);
@@ -703,7 +703,7 @@ $sql = sprintf(
     }
 function write_in_js_file_without_document_write($id_user, $file_name,$out_put)
  {
-   $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+   $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
    fwrite($js_file,$out_put);
    fclose($js_file);
    
@@ -717,9 +717,9 @@ function write_in_js_file_without_document_write($id_user, $file_name,$out_put)
     function store_front_all_in_one($id_user, $language=null)
     { 
       $front_files = array();
-      $path_dinamyc = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/";
-      $path_dinamyc_languages = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/languages/";
-      $path_static = $_SERVER['DOCUMENT_ROOT']."/hosting/".$id_user."/assets/js/";
+      $path_dinamyc = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/";
+      $path_dinamyc_languages = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/languages/";
+      $path_static = str_replace('admin','clients',$_SERVER['DOCUMENT_ROOT']."/".$id_user."/assets/js/");
       $all_dynamic_code = "";
       /*dinamyc pushed*/
       array_push($front_files,"vars_settings.js");
@@ -804,9 +804,9 @@ function write_in_js_file_without_document_write($id_user, $file_name,$out_put)
     function store_listing_all_in_one($id_user, $language=null)
     { 
       $front_files = array();
-      $path_dinamyc = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/";
-      $path_dinamyc_languages = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/languages/";
-      $path_static = $_SERVER['DOCUMENT_ROOT']."/hosting/".$id_user."/assets/js/";
+	  $path_dinamyc = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/";
+      $path_dinamyc_languages = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/languages/";
+      $path_static = str_replace('admin','clients',$_SERVER['DOCUMENT_ROOT']."/".$id_user."/assets/js/");
       $all_dynamic_code = "";
       /*dinamyc pushed*/
       array_push($front_files,"vars_settings.js");

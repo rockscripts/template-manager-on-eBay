@@ -2,7 +2,7 @@ function reset_sync_sessions()
        {
        
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/reset_sync_sessions",
@@ -23,7 +23,7 @@ function ajax_load_edit_description_form(item_id, callback)
 {
      jQuery(".loader-image").fadeIn(); 
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/load_edit_description_form",
@@ -65,7 +65,7 @@ function  save_item_description(item_id,edit_description_overview,action)
 {
     jQuery(".loader-image").fadeIn(); 
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/save_item_description",
@@ -87,7 +87,7 @@ function ajax_item_sync(callback)
 {
   jQuery(".loader-image").fadeIn(); 
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/items_sync",
@@ -145,12 +145,12 @@ function callback_ajax_item_sync(response)
            {
                if(length>200)
                {
-                 sync_url_rock = "http://"+window.location.hostname+"/designmanager/rocklister/rocklister";
+                 sync_url_rock = "http://"+window.location.hostname+"/rocklister/rocklister";
                  jQuery(".item-notification").prepend("<b>"+length+' items were procesed successful </b><br>');
                  jQuery(".item-notification").prepend(' <a href="javascript:remove_dialog(true)" alt="you can resume importation after click sync button" title="Close this dialog" class="close-dialog">Close dialog</a><br>');
                }
                else{
-                sync_url_rock = "http://"+window.location.hostname+"/designmanager/rocklister/rocklister/?sync=true";
+                sync_url_rock = "http://"+window.location.hostname+"/rocklister/rocklister/?sync=true";
                 jQuery(".item-notification").prepend("<b>"+length+' items were procesed successful </b><br><a href="'+sync_url_rock+'" class="sync_items_button next-page-button">Import Next Page...</a><br>');
                 jQuery(".item-notification").prepend(' <a href="javascript:remove_dialog(true)" alt="you can resume importation after click sync button" title="you can resume importation after click sync button" class="close-dialog">Close dialog</a>, you can work with current block of items imported. Then you can resume importation clicking Sync button.<br>');
                 jQuery(".bar").css("width","100%");    
@@ -212,7 +212,7 @@ function item_import_single(item_id, callback)
        {
         jQuery(".loader-image").fadeIn();
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/item_import_single",
@@ -291,7 +291,7 @@ function init_listing_template_installation(current_tab)
 function item_install_listing_template(item_id, callback)
        {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/install_listing_template",
@@ -364,7 +364,7 @@ function remove_prepared_items(current_tab)
 function item_remove_prepared(item_id, callback)
        {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/remove_prepared_listing",
@@ -445,7 +445,7 @@ function init_item_send_to_ebay(current_tab)
 function add_listing_backup_group(callback)
 {
    var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
    jQuery.ajax({
     url: base_url+"index.php?/store_design/installation/add_listing_backup_group",
     async: true,
@@ -464,7 +464,7 @@ function call_back_add_listing_backup_group(response)
 function add_listing_backup(ItemID,group_id)
 {
     var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
    jQuery.ajax({
     url: base_url+"index.php?/store_design/installation/add_listing_backup",
     async: true,
@@ -479,7 +479,7 @@ function add_listing_backup(ItemID,group_id)
 function item_send_to_ebay(item_id, callback)
        {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/ebay_update_listing_description",
@@ -554,7 +554,7 @@ function init_item_relist()
 function item_relist_on_ebay(item_id, callback)
        {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/ebay_relist_item",
@@ -643,7 +643,7 @@ jQuery( this ).dialog( "close" );
 function item_end_on_ebay(item_id, callback)
        {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/ebay_end_item",
@@ -675,7 +675,7 @@ function  item_prepared_remove_single(element, item_id)
 {
   var result = "";
    jQuery(".loader-image").fadeIn(); 
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/item_prepared_remove_single",
@@ -697,7 +697,7 @@ function  item_prepared_remove_single(element, item_id)
 
 function load_single_listing_design(item_id)
 {
-    base_url = "http://"+window.location.hostname+"/designmanager/";
+    base_url = "http://"+window.location.hostname+"/";
     element = jQuery(".listing-design-codes");
     element.append('<iframe width="100%" height="100%" src="'+base_url+'rocklister/rocklister/load_view_item?item_id='+item_id+'"></iframe"');
     jQuery(".listing_design_view").fadeIn();     
@@ -715,7 +715,7 @@ function is_installed_rockscripts_template(item_id, callback)
 {
         jQuery(".loader-image").fadeIn();
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/is_installed_rockscripts_template",
@@ -761,7 +761,7 @@ function print_r(printthis, returnoutput) {
   function  update_installation_wizard_installed_field(value)
       {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   jQuery.ajax({
     url: base_url+"rocklister/rocklister/update_installation_wizard_installed_field",
     async: true,
@@ -857,7 +857,7 @@ function init_find_replace(current_tab)
         {
                jQuery(".loader-image").fadeIn();
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/load_find_replace_form",
@@ -915,7 +915,7 @@ function init_find_replace_with_settings(items_collection,find_what,replace_with
       function item_find_and_replace(item_id,find_what,replace_with, callback)
        {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/item_find_and_replace",
@@ -939,7 +939,7 @@ function init_find_replace_with_settings(items_collection,find_what,replace_with
         {
                jQuery(".loader-image").fadeIn();
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/load_extractor_form",
@@ -996,7 +996,7 @@ function init_extractor_with_settings(items_collection,description_search_by,des
 function item_extract(item_id,description_search_by,description_selector_value,image_search_by,image_selector_value, callback)
        {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/item_extract",
@@ -1026,7 +1026,7 @@ function update_page_session(pages, page_selected)
 {
    var result = "";
    jQuery(".loader-image").fadeIn(); 
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/set_sync_sessions",
@@ -1048,7 +1048,7 @@ function update_import_mode(import_mode_setting)
 {
     var result = "";
     jQuery(".loader-image").fadeIn(); 
-    base_url = "http://"+window.location.hostname+"/designmanager/";
+    base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
     jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/update_import_mode",

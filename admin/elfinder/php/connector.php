@@ -31,8 +31,8 @@ $opts = array(
 	'roots' => array(
 		array(
 			'driver'        => 'LocalFileSystem',   // driver for accessing file system (REQUIRED)
-			'path'          => '/home/rocksc5/public_html/hosting/'.$_GET["id"]."/assets/images/",         // path to files (REQUIRED)
-			'URL'           =>'http://hosting.rockscripts.org/'.$_GET["id"].'/assets/images/', // URL to files (REQUIRED)
+			'path'          => '/opt/lampp/htdocs/template-manager-on-eBay/clients/'.$_GET["id"]."/assets/images/",         // path to files (REQUIRED)
+			'URL'           =>'http://etclients.com/'.$_GET["id"].'/assets/images/', // URL to files (REQUIRED)
 			'accessControl' => 'access'             // disable and hide dot starting files (OPTIONAL)
 		)
 	)

@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-@session_start(); # Aqui para que inicie la sesión
+@session_start(); # Aqui para que inicie la sesiï¿½n
 class Listingdesign extends CI_Controller {
 
      public function __construct()
@@ -69,7 +69,12 @@ class Listingdesign extends CI_Controller {
         
         $store_settings = $this->Storedesign_model->get_store_setting( $data['id_ebay_design'],$data["user_id"]);
         $ebay_api->set_token($store_settings->token);
-        $ebay_array_categories = $ebay_api->get_categories();  
+        $ebay_array_categories = $ebay_api->get_categories(); 
+        if(isset($ebay_array_categories['FAILURE']))
+        {
+         echo json_encode($ebay_array_categories);
+         return;
+        } 
         $array_current_categories = $this->get_current_categories();
         //$this->delete_unecessary_categories($ebay_array_categories,$array_current_categories);
        // die("***");
@@ -326,7 +331,7 @@ class Listingdesign extends CI_Controller {
             if (!empty($_FILES))
             {
                 $tempFile = $_FILES['file']['tmp_name'];            
-                $targetPath = $_SERVER['DOCUMENT_ROOT'] . '/designmanager/server/php/files/store_design/listing_design/'.$this->session->userdata( 'user_id' ).'/';
+                $targetPath = $_SERVER['DOCUMENT_ROOT'] . '/server/php/files/store_design/listing_design/'.$this->session->userdata( 'user_id' ).'/';
                 $targetFile = $targetPath . $_FILES['file']['name'];
                     if ( ( count($_FILES['file']['name']) + $count ) > 5 )
                     {
@@ -1484,7 +1489,7 @@ public function popular_categories_part()
      }
      function write_in_js_file($id_user, $file_name,$out_put,$var_name)
      {
-       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
        $out_put = str_replace(array("\r\n", "\r"), "\n", $out_put);
        $out_put = str_replace("'", "\'", $out_put);
        $lines = explode("\n", $out_put);
@@ -1514,7 +1519,7 @@ public function popular_categories_part()
      }
       function write_in_js_file_without_document_write($id_user, $file_name,$out_put)
      {
-       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
        fwrite($js_file,$out_put);
        fclose($js_file);
        /*write all code in one :) fast loading*/
@@ -1720,7 +1725,7 @@ public function popular_categories_part()
            
        /*start getting listing description*/
        $description =  $this->Listingdesign_model->get_listing_description($id_ebay_design,$id_listing_design,$user_id );
-       //echo $description."***";
+       
        if($description!=false):
             $out_put_description = $description->description;
            else:

@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-@session_start(); # Aqui para que inicie la sesión
+@session_start(); # Aqui para que inicie la sesiï¿½n
 class Storedesign extends CI_Controller {
 
      public function __construct()
@@ -99,7 +99,7 @@ class Storedesign extends CI_Controller {
         $_SESSION['KCFINDER']['disabled'] = false;
         $_SESSION['KCFINDER']['uploadURL'] = $clients_file_hosting.'files/upload/' . $user_id . '/';  
         $_SESSION['KCFINDER']['uploadDir'] = $base_path.'server/php/files/upload/' . $user_id . '/';  
-        # Al hacer LogOut deberíamos cambiar disabled a true: $_SESSION['KCFINDER']['disabled'] = true;
+        # Al hacer LogOut deberï¿½amos cambiar disabled a true: $_SESSION['KCFINDER']['disabled'] = true;
         $this->load->library('ckeditor', array('instanceName' => 'CKEDITOR1','basePath' => base_url()."ckeditor/", 'outPut' => true));
         if(isset($page)):
              $data["page_text"]=  $page->text;
@@ -155,7 +155,7 @@ class Storedesign extends CI_Controller {
         $_SESSION['KCFINDER']['disabled'] = false;
         $_SESSION['KCFINDER']['uploadURL'] = $clients_file_hosting.'files/upload/' . $user_id . '/';  
         $_SESSION['KCFINDER']['uploadDir'] = $base_path.'server/php/files/upload/' . $user_id . '/';  
-        # Al hacer LogOut deberíamos cambiar disabled a true: $_SESSION['KCFINDER']['disabled'] = true;
+        # Al hacer LogOut deberï¿½amos cambiar disabled a true: $_SESSION['KCFINDER']['disabled'] = true;
         $this->load->library('ckeditor', array('instanceName' => 'CKEDITOR1','basePath' => base_url()."ckeditor/", 'outPut' => true));
         $data["html"]   = $this->template->ajax_load_view('store_design/pages/add', $data,true);          
         echo  json_encode($data); 
@@ -251,7 +251,7 @@ class Storedesign extends CI_Controller {
         $_SESSION['KCFINDER']['disabled'] = false;
         $_SESSION['KCFINDER']['uploadURL'] = $clients_file_hosting.'files/upload/' . $user_id . '/';  
         $_SESSION['KCFINDER']['uploadDir'] = $base_path.'server/php/files/upload/' . $user_id . '/';  
-        # Al hacer LogOut deberíamos cambiar disabled a true: $_SESSION['KCFINDER']['disabled'] = true;
+        # Al hacer LogOut deberï¿½amos cambiar disabled a true: $_SESSION['KCFINDER']['disabled'] = true;
         $this->load->library('ckeditor', array('instanceName' => 'CKEDITOR1','basePath' => base_url()."ckeditor/", 'outPut' => true));
         if(is_array($array_welcome_text)):
         foreach($array_welcome_text as $welcome_text):
@@ -1126,7 +1126,7 @@ class Storedesign extends CI_Controller {
     /*Interna functions*/
   function write_in_js_file($id_user, $file_name,$out_put,$var_name)
      {
-       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
        $out_put = str_replace(array("\r\n", "\r"), "\n", $out_put);
        $out_put = str_replace("'", "\'", $out_put);
        $lines = explode("\n", $out_put);
@@ -1156,7 +1156,7 @@ class Storedesign extends CI_Controller {
      }
       function write_log_in_js_file($id_user, $file_name,$out_put,$var_name=null)
      {
-      $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
        $out_put = trim($out_put);
        $out_put = str_replace(array("\r\n", "\r"), "\n", $out_put);
        $out_put = str_replace("'", "\'", $out_put);
@@ -1192,7 +1192,7 @@ class Storedesign extends CI_Controller {
      }
      function write_in_js_file_without_document_write($id_user, $file_name,$out_put)
      {
-       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
        fwrite($js_file,$out_put);
        fclose($js_file);
        /*write all code in one :) fast loading*/

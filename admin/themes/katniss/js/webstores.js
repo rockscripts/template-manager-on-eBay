@@ -46,7 +46,7 @@ function init_listings_installation(current_tab)
 function install_single_listing(item_id, callback)
        {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/webstores/webstore/install_listing",
@@ -126,7 +126,7 @@ function blogger_init_listings_installation(blog_id)
 function blogger_install_single_listing(blog_id, item_id, callback)
        {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/webstores/blogger/add_blog_post",

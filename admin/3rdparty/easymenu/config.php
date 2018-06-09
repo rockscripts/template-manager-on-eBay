@@ -2,9 +2,9 @@
 
 // Base URL
 
-define('_BASE_URL_ASSETS', 'http://rockscripts.org/designmanager/3rdparty/easymenu/');
+define('_BASE_URL_ASSETS', 'http://etemplate.com/3rdparty/easymenu/');
 
-define('_BASE_URL', 'http://rockscripts.org/designmanager/store_design/listingdesign/easymenu');
+define('_BASE_URL', 'http://etemplate.com/store_design/listingdesign/easymenu');
 
 
 
@@ -12,11 +12,11 @@ define('_BASE_URL', 'http://rockscripts.org/designmanager/store_design/listingde
 
 define('DB_HOST', 'localhost');
 
-define('DB_USER', 'rocksc5_dm');
+define('DB_USER', 'root');
   
-define('DB_PASS', 'Rock!423');
+define('DB_PASS', '');
 
-define('DB_NAME', 'rocksc5_designmanager');
+define('DB_NAME', 'template_manager');
 
 
 

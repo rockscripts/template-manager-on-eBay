@@ -77,13 +77,13 @@ public  $sessionID;
      }
       function write_ebay_conf_file($id_user, $file_name,$out_put,$token)
      {
-       $user_dir = $_SERVER['DOCUMENT_ROOT']."/designmanager/application/controllers/ebaycalls/EbatNs/config/".$id_user;          
+       $user_dir = $_SERVER['DOCUMENT_ROOT']."/application/controllers/ebaycalls/EbatNs/config/".$id_user;          
           if (!file_exists($user_dir)) 
            mkdir($user_dir, 0777, true);
-       $conf_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/application/controllers/ebaycalls/EbatNs/config/".$id_user."/".$file_name,"w");
+       $conf_file = fopen( $_SERVER['DOCUMENT_ROOT']."/application/controllers/ebaycalls/EbatNs/config/".$id_user."/".$file_name,"w");
        fwrite($conf_file,$out_put);
        fclose($conf_file);
-       $token_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/application/controllers/ebaycalls/EbatNs/config/".$id_user."/my.token","w");
+       $token_file = fopen( $_SERVER['DOCUMENT_ROOT']."/application/controllers/ebaycalls/EbatNs/config/".$id_user."/my.token","w");
        fwrite($token_file,$token);
        fclose($token_file);
      }
@@ -431,8 +431,8 @@ BODY;
      function MySQL_NOW(){ return date('Y-m-d H:i:s'); }
      public function copy_default_files($id_user)
      {
-         $dir_source    = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/default/";
-         $dir_destination    = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/";
+         $dir_source    = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/default/";
+         $dir_destination    = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/";
          $default_files = scandir($dir_source);
          for($i=2;$i<sizeof($default_files);$i++):
              $srcfile = $dir_source."/".$default_files[$i];
@@ -441,8 +441,8 @@ BODY;
              @copy($srcfile, $dstfile);
          endfor;
          //languages
-         $dir_source    = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/default/languages";
-         $dir_destination    = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/languages/";
+         $dir_source    = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/default/languages";
+         $dir_destination    = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/languages/";
          $default_files = scandir($dir_source);
          for($i=2;$i<sizeof($default_files);$i++):
              $srcfile = $dir_source."/".$default_files[$i];

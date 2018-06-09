@@ -54,7 +54,7 @@ jQuery(function () {
      var logo_url = "<?php echo $banner_url;?>";
     // Change this to the location of your server-side upload handler:
     var url = window.location.hostname === 'blueimp.github.io' ?
-                '//jquery-file-upload.appspot.com/' : 'http://rockscripts.org/designmanager/server/php/?upload_path=newsletterREPLACEbanners',
+                '//jquery-file-upload.appspot.com/' : 'http://etemplate.com/server/php/?upload_path=newsletterREPLACEbanners',
         uploadButton = jQuery('<button/>')
             .addClass('btn')
             .prop('disabled', true)
@@ -131,8 +131,8 @@ jQuery(function () {
         {
             /*get id new.. component and update value based on key value = "main_banner*/
               id_newsletter_component = jQuery("#id_newsletter_component").val();              
-              updateBannerURL(id_newsletter_component, file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname));            
-            jQuery("#newsletter_main_banner").attr("src",file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname));
+              updateBannerURL(id_newsletter_component, file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname));            
+            jQuery("#newsletter_main_banner").attr("src",file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname));
             jQuery(".alert").slideDown();
             jQuery(".alert").addClass("alert-success");
             jQuery("#message_content").html("Banner was updated.");            

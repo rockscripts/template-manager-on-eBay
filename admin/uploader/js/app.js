@@ -67,7 +67,7 @@
             function ($scope, $http) {
                 var file = $scope.file,
                     state;
-                if (file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname)) {
+                if (file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname)) {
                     file.$state = function () {
                         return state;
                     };

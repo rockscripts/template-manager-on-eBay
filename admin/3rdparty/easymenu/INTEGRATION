@@ -52,7 +52,7 @@
         {
             jQuery(".loader-image").fadeIn();
             jQuery(".alert").css("display","none");
-            jQuery(".content-without-images").html( '<iframe src="http://www.local/designmanager/store_design/listingdesign/easymenu?act=menu" frameborder="0" style="width: 100%;height:800px;"></iframe>' );
+            jQuery(".content-without-images").html( '<iframe src="http://www.local/store_design/listingdesign/easymenu?act=menu" frameborder="0" style="width: 100%;height:800px;"></iframe>' );
             set_current(this);
             jQuery(".listing-images-content").css("display","none");
             jQuery(".loader-image").fadeOut(); 

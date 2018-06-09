@@ -54,19 +54,19 @@ class DB {
 
 	function Connect($host, $user, $pass, $db_name) {
 
-		$this->link = mysql_connect($host, $user, $pass);
+		$this->link = mysqli_connect($host, $user, $pass);
 
 		if (!$this->link) {
 
-			die('Could not connect: ' . mysql_error());
+			die('Could not connect: ' .  mysqli_error());
 
 		}
 
-		$db_selected = mysql_select_db($db_name, $this->link);
+		$db_selected = mysqli_select_db($this->link, $db_name);
 
 		if (!$db_selected) {
 
-			die ("Can't use $db_name : " . mysql_error());
+			die ("Can't use $db_name : " .  mysqli_error());
 
 		}
 
@@ -88,11 +88,11 @@ class DB {
 
 	function Execute($sql) {
 
-		$this->result = mysql_query($sql, $this->link);
+		$this->result = mysqli_query($this->link, $sql);
 
 		if (!$this->result) {
 
-			die('Invalid query: ' . mysql_error());
+			die('Invalid query: ' .  mysqli_error($this->link));
 
 		}
 
@@ -122,7 +122,7 @@ class DB {
 
 		if ($this->result) {
 
-			while ($row = mysql_fetch_assoc($this->result)) {
+			while ($row = mysqli_fetch_assoc($this->result)) {
 
 				$data[] = $row;
 
@@ -149,22 +149,20 @@ class DB {
 	 */
 
 	function GetOne($sql) {
+
 		$this->Execute($sql);
-             //   echo $sql;
-     
 
 		$data = '';
 
 		if ($this->result) {
-
-			$data = mysql_result($this->result, 0);
-
+			while($row = mysqli_fetch_assoc($this->result)) {
+				return $row;
+			 }
 		}
 
 		return $data;
 
 	}
-
 
 
 	/**
@@ -187,7 +185,7 @@ class DB {
 
 		if ($this->result) {
 
-			$data = mysql_fetch_assoc($this->result);
+			$data = mysqli_fetch_assoc($this->result);
 
 		}
 
@@ -217,7 +215,7 @@ class DB {
 
 		if ($this->result) {
 
-			while ($row = mysql_fetch_row($this->result)) {
+			while ($row = mysqli_fetch_row($this->result)) {
 
 				$data[] = $row[0];
 
@@ -251,11 +249,11 @@ class DB {
 
 		if ($this->result) {
 
-			$num_fields = mysql_num_fields($this->result);
+			$num_fields = mysqli_num_fields($this->result);
 
 			if ($num_fields == 2) {
 
-				while ($row = mysql_fetch_row($this->result)) {
+				while ($row =  mysqli_fetch_row($this->result)) {
 
 					$data[$row[0]] = $row[1];
 
@@ -263,7 +261,7 @@ class DB {
 
 			} elseif ($num_fields > 2) {
 
-				while ($row = mysql_fetch_row($this->result)) {
+				while ($row =  mysqli_fetch_row($this->result)) {
 
 					$k = $row[0];
 
@@ -398,7 +396,7 @@ die();*/
 
 	function Insert_ID() {
 
-		return mysql_insert_id();
+		return  mysqli_insert_id();
 
 	}
 
@@ -430,7 +428,7 @@ die();*/
 
 		if (!is_numeric($value)) {
 
-			$value = "'" . mysql_real_escape_string($value) . "'";
+			$value = "'" .  mysqli_real_escape_string($value) . "'";
 
 		}
 
@@ -450,7 +448,7 @@ die();*/
 
 	function Close() {
 
-		@mysql_close($this->link);
+		@ mysqli_close($this->link);
 
 	}
 

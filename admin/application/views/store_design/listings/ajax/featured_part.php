@@ -59,8 +59,8 @@
          var domain = "<?php echo base_url();?>";
          var id_user = "<?php echo $id_user;?>";
         // Change this to the location of your server-side upload handler:
-        var url = window.location.hostname === 'blueimp.github.io' ? 
-                    '//jquery-file-upload.appspot.com/' : 'http://rockscripts.org/designmanager/server/php/?upload_path=store_designREPLACEfeaturedREPLACE'+id_user+'/',
+        var url = window.location.hostname === 'blueimp.github.io' ?
+                '//jquery-file-upload.appspot.com/' : 'http://'+window.location.hostname+'/upload.php?upload_path=serverREPLACEphpREPLACEfilesREPLACEstore_designREPLACEfeaturedREPLACE'+id_user+'/',
             uploadButton = jQuery('<button/>')
                 .addClass('btn')
                 .prop('disabled', true)
@@ -158,7 +158,7 @@
                var link   =  jQuery("#link").val();
                var price  =  jQuery("#price").val();   
                
-               save_featured_listing(id,title,link,price,file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname));                   
+               save_featured_listing(id,title,link,price,file.url);                   
                show_successfull_message("Featured Listing Saved");
                remove_error_field("name");
                remove_error_field("link");

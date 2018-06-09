@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-//https://rockscripts.org/designmanager/store_design/installation/fetch_token?step=2
+//https://etemplate.com/store_design/installation/fetch_token?step=2
 
 class Login extends Membership_Controller 
 {
@@ -160,7 +160,7 @@ class Login extends Membership_Controller
         }
         else
         {
-            redirect('membership/login?password_match=false');
+            redirect('membership/login?user_found=false');
         }
 
     }

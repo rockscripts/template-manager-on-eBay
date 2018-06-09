@@ -73,7 +73,7 @@
             else:
             ?>
               <div class="alert2  alert-info">
-                  <i class="icon-info-sign"></i>&nbsp;There are not categories in your store. Please follow this <a href="http://docs.rockscripts.org/section/dynamic-categories-three-levels-supported/">link</a> and learn how you can synchronize your categories with this application. 
+                  <i class="icon-info-sign"></i>&nbsp;There are not categories in your store. Please follow this <a href="http://docs.etemplate.com/section/dynamic-categories-three-levels-supported/">link</a> and learn how you can synchronize your categories with this application. 
               </div>   
             <?php
               endif;

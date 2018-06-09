@@ -986,7 +986,7 @@ function init_item_send_to_ebay_from_backup(items_ids,group_id)
         function item_send_to_ebay_from_backup(item_id,group_id, callback)
        {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/rocklister/rocklister/ebay_update_listing_description_from_backup",
@@ -1007,7 +1007,7 @@ function init_item_send_to_ebay_from_backup(items_ids,group_id)
       function  save_development_code(code,type)
       {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   jQuery.ajax({
     url: base_url+"store_design/developerzone/save_development_code/",
     async: true,
@@ -1032,7 +1032,7 @@ function init_item_send_to_ebay_from_backup(items_ids,group_id)
     function update_screenshot(url,type)
     {
      var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   jQuery.ajax({
     url: base_url+"store_design/storedesign/update_screenshot/",
     async: true,
@@ -1052,7 +1052,7 @@ function init_item_send_to_ebay_from_backup(items_ids,group_id)
     function ajax_load_store_background_form()
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/store_design/storesettings/form_store_background/",
@@ -1071,7 +1071,7 @@ function init_item_send_to_ebay_from_backup(items_ids,group_id)
 }  
   function ajax_update_general_setting(url,type)
   {
-      base_url = "http://"+window.location.hostname+"/designmanager/";
+      base_url = "http://"+window.location.hostname+"/";
       jQuery.ajax
       ({
       url: base_url+"index.php?/store_design/storesettings/save_general_setting",
@@ -1089,7 +1089,7 @@ function init_item_send_to_ebay_from_backup(items_ids,group_id)
    function ajax_load_store_header_background_form()
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/store_design/storesettings/form_store_header_background/",
@@ -1108,7 +1108,7 @@ function init_item_send_to_ebay_from_backup(items_ids,group_id)
 function ajax_load_front_options_form()
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/store_design/storesettings/form_front_design_options/",
@@ -1127,7 +1127,7 @@ function ajax_load_front_options_form()
 function ajax_load_listing_options_form()
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/store_design/storesettings/form_listing_design_options/",
@@ -1154,7 +1154,7 @@ a.dispatchEvent(evObj);*/
 }
 function init_file_manager(user_id)
 {
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
  var elf = jQuery('#elfinder').elfinder({
 url : base_url+'elfinder/php/connector.php?id='+user_id , // connector URL (REQUIRED)
 lang: 'en', 
@@ -1207,7 +1207,7 @@ else
 function save_theme_option(value,key)
 {
     var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"store_design/storesettings/save_theme_option",
@@ -1231,7 +1231,7 @@ function init_install_template(file_name, callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/developerzone/init_install_template",
@@ -1257,7 +1257,7 @@ function validate_template_file_to_install(file_name, callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/developerzone/install_template_check_files",
@@ -1283,7 +1283,7 @@ function exist_zip_file(file_name, callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/developerzone/exist_zip_file",
@@ -1309,7 +1309,7 @@ function active_template(id_template_installed,template_name, callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/developerzone/active_template",
@@ -1335,7 +1335,7 @@ function download_template(id_template_installed,template_name, callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/developerzone/download_template",
@@ -1361,7 +1361,7 @@ function delete_template(id_template_installed,template_name, callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/developerzone/delete_template",
@@ -1387,7 +1387,7 @@ function validate_images(file_name, callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/validate/validate_images",
@@ -1422,7 +1422,7 @@ function form_google_fonts(callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/storesettings/form_google_fonts",
@@ -1447,7 +1447,7 @@ function active_font(font_id,callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/storesettings/active_font",
@@ -1472,7 +1472,7 @@ function call_active_font(response)
 function load_suggested_template(id_suggested_template)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -1493,7 +1493,7 @@ function load_suggested_template_zip_file_name(id_suggested_template, callback)
 {
     jQuery(".loader-image").fadeIn();
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -1577,7 +1577,7 @@ function save_suggested_template(id,title,link,image_url)
 function load_suggested_template_part(load_type)
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -1598,7 +1598,7 @@ function load_suggested_templates_by_categories(category_id,callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "https://"+window.location.hostname+"/designmanager/";
+        base_url = "https://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/suggested_templates/load_suggested_templates_by_categories",
@@ -1620,7 +1620,7 @@ function load_suggested_templates_by_categories(category_id,callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/suggested_templates/load_suggested_templates_by_categories",
@@ -1645,7 +1645,7 @@ function call_load_suggested_templates_by_categories(response)
 function send_suggested_template_to_installation(file_name,callback)
        {
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/suggested_templates/send_suggested_template_to_installation",
@@ -1671,7 +1671,7 @@ function create_template_selected_session_http(suggested_template_id)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/suggested_templates/create_template_selected_session",
@@ -1693,7 +1693,7 @@ function create_template_selected_session(suggested_template_id)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "https://"+window.location.hostname+"/designmanager/";
+        base_url = "https://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/suggested_templates/create_template_selected_session",
@@ -1715,7 +1715,7 @@ function reinstall_store_front(callback)
        {
         jQuery(".loader-image").fadeIn();  
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/installation/install_store_front1",
@@ -1747,7 +1747,7 @@ function checkEmail(email)
 }
 function load_language_translator_form(id_language_translator, callback)
 {
-    base_url = "http://"+window.location.hostname+"/designmanager/";
+    base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/store_design/language/load_language_translator_form/",
@@ -1767,7 +1767,7 @@ function callback_load_language_translator_form(response)
 }
 function update_language_fields(data)
 {
-    base_url = "http://"+window.location.hostname+"/designmanager/";
+    base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -1784,7 +1784,7 @@ function update_language_fields(data)
 
 function load_translator_fields_datable(callback)
 {
-    base_url = "http://"+window.location.hostname+"/designmanager/";
+    base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -1805,7 +1805,7 @@ function callback_load_translator_fields_datable(response)
 }
 function remove_row_translator(id_language_translator,callback)
 {
-    base_url = "http://"+window.location.hostname+"/designmanager/";
+    base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 

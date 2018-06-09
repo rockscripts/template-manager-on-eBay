@@ -166,7 +166,7 @@ class Language extends CI_Controller {
      {
        $data["user_id"] = $this->session->userdata( 'user_id' );
        $data["id_ebay_design"]  = $this->session->userdata( 'id_ebay_design' ); 
-       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/languages/".$file_name,"w");
+       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/languages/".$file_name,"w");
        $out_put = trim($out_put);
        $out_put = str_replace(array("\r\n", "\r"), "\n", $out_put);
        $out_put = str_replace("'", "\'", $out_put);

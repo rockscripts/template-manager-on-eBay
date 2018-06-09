@@ -152,7 +152,7 @@
           
     jQuery(".go_to_templates").click(function()
     {
-        window.location.href = "http://"+window.location.hostname+"/designmanager/private/home"; 
+        window.location.href = "http://"+window.location.hostname+"/private/home"; 
     });
      jQuery(".button_generate_template").click(function()
     {
@@ -163,9 +163,9 @@
      {
          jQuery("#listing_code").fadeOut();
          jQuery("#message_content1").html(listing_code.toString());
-          jQuery(".listing-code-content").fadeIn();
-           jQuery("#loader-image").fadeOut();
-           jQuery(".warning").fadeIn();
+         jQuery(".listing-code-content").fadeIn();
+         jQuery("#loader-image").fadeOut();
+         jQuery(".warning").fadeIn();
      }
      else
      {
@@ -188,7 +188,7 @@
          jQuery(".preview-template").fadeIn();
          auto_click();
          prevent_cache = Math.random()*Math.random();
-        jQuery("#preview-template-printed").delay(3600).html("<iframe src='http://rockscripts.org/designmanager/store_design/listingdesign/preview_template?"+prevent_cache+"' width='100%' height='100%'></iframe>");
+        jQuery("#preview-template-printed").delay(3600).html("<iframe src='http://etemplate.com/store_design/listingdesign/preview_template?"+prevent_cache+"' width='100%' height='100%'></iframe>");
          jQuery("#loader-image").fadeOut();
     });
   

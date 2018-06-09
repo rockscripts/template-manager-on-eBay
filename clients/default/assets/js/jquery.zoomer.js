@@ -17,7 +17,7 @@
             /*	THUMBNAILS CONTENT BOX WIDTH (IN PIXELS) */ zoomerTheme: 'dark' /*	THEME STYLE - OPTIONS: 'light' 'dark' 'compact' */
         }, settings); /* SET THEME FOR CONSOLE IMAGES */
         $.zoomer.setImageTheme = function (value) {
-            return '<img src="http://rockscripts.org/designmanager/mobile/images/console_' + settings.zoomerTheme + '/' + value + '.png">';
+            return '<img src="http://etemplate.com/mobile/images/console_' + settings.zoomerTheme + '/' + value + '.png">';
         }; /* MOVE FUNCTION */
         $.zoomer.move = function (i, value) {
             var y = i.position().top;

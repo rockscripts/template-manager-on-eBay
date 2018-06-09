@@ -491,132 +491,130 @@ public function get_member($user_name)
 
 
 
-    public function delete_checked($ids) {
-        
-  
-        $this->db->where_in('id', $ids)->where('username != ', ADMINISTRATOR)->delete('user');
-        /*tables that needs info from previous tables*/
-        $this->load->model('membership/login_model');
-        $this->load->model('Listingdesign_model');
-        if(is_array($ids)):
-            foreach ($ids as $user_id):        
-            $this->Ebaydesigns_model->backup_user_information_after_delete($user_id);
-            /*get ebay design*/
-           $user_id_ebay_design = $this->login_model->get_id_ebay_design($user_id);
-            $user_data = $this->login_model->get_user_data_session_required($user_id,$user_id_ebay_design);
-            $user_id_listing_design = $user_data->id_listing_design;
-            $user_id_home_design = $user_data->id_home_design;
-            $this->db->where(array('id_home_design'=>$user_id_home_design))->delete('home_design');
-            $this->db->where(array('id'=> $user_id_listing_design))->delete('listign_design');
-            $this->db->where(array('id_ebay_design'=> $user_id_ebay_design))->delete('ebay_design');
-            /*menu and menu group*/
-           $array_menu_group_ids = $this->Listingdesign_model->get_user_menu_group_ids($user_id_ebay_design, $user_id);
-        if(is_array($array_menu_group_ids)):
-            foreach($array_menu_group_ids as $menu_group_item):
-                foreach($menu_group_item as $key=>$value):
-                  if($key=="id"):
-                      $this->db->where_in('group_id', $value)->delete('menu');
-                      $this->db->where_in('id', $value)->delete('menu_group');
-                  endif;
-                endforeach;
+public function delete_checked($ids) 
+{          
+    $this->db->where_in('id', $ids)->where('username != ', ADMINISTRATOR)->delete('user');
+    /*tables that needs info from previous tables*/
+    $this->load->model('membership/login_model');
+    $this->load->model('Listingdesign_model');
+    if(is_array($ids)):
+        foreach ($ids as $user_id):        
+        $this->Ebaydesigns_model->backup_user_information_after_delete($user_id);
+        /*get ebay design*/
+        $user_id_ebay_design = $this->login_model->get_id_ebay_design($user_id);
+        $user_data = $this->login_model->get_user_data_session_required($user_id,$user_id_ebay_design);
+        $user_id_listing_design = $user_data->id_listing_design;
+        $user_id_home_design = $user_data->id_home_design;
+        $this->db->where(array('id_home_design'=>$user_id_home_design))->delete('home_design');
+        $this->db->where(array('id'=> $user_id_listing_design))->delete('listign_design');
+        $this->db->where(array('id_ebay_design'=> $user_id_ebay_design))->delete('ebay_design');
+        /*menu and menu group*/
+        $array_menu_group_ids = $this->Listingdesign_model->get_user_menu_group_ids($user_id_ebay_design, $user_id);
+    if(is_array($array_menu_group_ids)):
+        foreach($array_menu_group_ids as $menu_group_item):
+            foreach($menu_group_item as $key=>$value):
+                if($key=="id"):
+                    $this->db->where_in('group_id', $value)->delete('menu');
+                    $this->db->where_in('id', $value)->delete('menu_group');
+                endif;
             endforeach;
-        endif;
-        /*delete categories goup and store categories item*/
-        $array_categories_group_ids = $this->Listingdesign_model->get_user_menu_group_ids($user_id_ebay_design, $user_id);
-        if(is_array($array_categories_group_ids)):
-            foreach($array_categories_group_ids as $menu_category_item):
-                foreach($menu_category_item as $key=>$value):
-                  if($key=="id"):
-                      
-                      $this->db->where_in('group_id', $value)->delete('store_categories');
-                      $this->db->where_in('id', $value)->delete('store_categories_group');
+        endforeach;
+    endif;
+    /*delete categories goup and store categories item*/
+    $array_categories_group_ids = $this->Listingdesign_model->get_user_menu_group_ids($user_id_ebay_design, $user_id);
+    if(is_array($array_categories_group_ids)):
+        foreach($array_categories_group_ids as $menu_category_item):
+            foreach($menu_category_item as $key=>$value):
+                if($key=="id"):
                     
-                  endif;
-                endforeach;
+                    $this->db->where_in('group_id', $value)->delete('store_categories');
+                    $this->db->where_in('id', $value)->delete('store_categories_group');
+                
+                endif;
             endforeach;
-        endif;
-           /**/
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/hosting/$user_id/";
-                        $this->delete_directory($folder);
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$user_id;
-                        $this->delete_directory($folder);  
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/php/files/store_design/advertisements/".$user_id;
-                        $this->delete_directory($folder); 
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/php/files/store_design/arrivals/".$user_id;
-                        $this->delete_directory($folder);  
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/php/files/store_design/banners/".$user_id;
-                        $this->delete_directory($folder);
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/php/files/store_design/featured/".$user_id;
-                        $this->delete_directory($folder);
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/php/files/store_design/general_images/".$user_id;
-                        $this->delete_directory($folder);
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/php/files/store_design/home_design_advertisements/".$user_id;
-                        $this->delete_directory($folder);
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/php/files/store_design/home_image_video_slider/".$user_id;
-                        $this->delete_directory($folder);
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/php/files/store_design/listing_design/".$user_id;
-                        $this->delete_directory($folder);
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/php/files/store_design/listing_image_video_slider/".$user_id;
-                        $this->delete_directory($folder);
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/php/files/store_design/logos/".$user_id;
-                        $this->delete_directory($folder);
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/php/files/store_design/popular_categories/".$user_id;
-                        $this->delete_directory($folder);
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/php/files/store_design/screenshots/".$user_id;
-                        $this->delete_directory($folder);
-                        $folder = $_SERVER['DOCUMENT_ROOT']."/designmanager/server/php/files/store_design/specials/".$user_id;
-                        $this->delete_directory($folder);
-            endforeach;
-        endif;
-        
-        /*set up tables*/
-        $this->db->where_in('user_id', $ids)->delete('installation_wizard');
-        $this->db->where_in('id_user', $ids)->delete('store_settings');
-        $this->db->where_in('id_user', $ids)->delete('logo_design');
-        $this->db->where_in('id_user', $ids)->delete('store_social_media');
-        $this->db->where_in('id_user', $ids)->delete('general_images_settings');
-        /*front design tables*/
-        $this->db->where_in('id_user', $ids)->delete('home_design_layout');
-        $this->db->where_in('id_user', $ids)->delete('home_design_parts_tagged');
-        $this->db->where_in('id_user', $ids)->delete('home_design_advertising');
-        $this->db->where_in('id_user', $ids)->delete('home_design_slider');
-        $this->db->where_in('id_user', $ids)->delete('home_design_tabs');
-        $this->db->where_in('id_user', $ids)->delete('home_design_welcome_texts');
-        /*listing design tables*/
-        $this->db->where_in('id_user', $ids)->delete('listing_design_layout');
-        $this->db->where_in('id_user', $ids)->delete('listing_design_parts_tagged');
-        $this->db->where_in('id_user', $ids)->delete('listing_design_advertising');
-        $this->db->where_in('id_user', $ids)->delete('listing_design_slider');
-        $this->db->where_in('id_user', $ids)->delete('listing_design_tabs');
-        /*global design tables*/
-        $this->db->where_in('id_user', $ids)->delete('popular_categories');
-        $this->db->where_in('id_user', $ids)->delete('feature_listings');
-        $this->db->where_in('id_user', $ids)->delete('store_pages');
-        $this->db->where_in('id_user', $ids)->delete('specials_listings');
-        $this->db->where_in('id_user', $ids)->delete('arrivals_listings');
-        /*Listing tables (Rocklister)*/
-        $this->db->where_in('user_id', $ids)->delete('seller_list');
-        $this->db->where_in('id_user', $ids)->delete('item');
-        $this->db->where_in('id_user', $ids)->delete('item_prepared');
-        $this->db->where_in('id_user', $ids)->delete('item_pictures');
-        $this->db->where_in('id_user', $ids)->delete('templates_installed');
-        $this->db->where_in('id_user', $ids)->delete('templates_installed_modified');
-       
-        return $this->db->affected_rows();
+        endforeach;
+    endif;
+        /**/
+        $folder = $_SERVER['DOCUMENT_ROOT']."/hosting/$user_id/";
+        $this->delete_directory($folder);
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$user_id;
+        $this->delete_directory($folder);  
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/php/files/store_design/advertisements/".$user_id;
+        $this->delete_directory($folder); 
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/php/files/store_design/arrivals/".$user_id;
+        $this->delete_directory($folder);  
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/php/files/store_design/banners/".$user_id;
+        $this->delete_directory($folder);
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/php/files/store_design/featured/".$user_id;
+        $this->delete_directory($folder);
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/php/files/store_design/general_images/".$user_id;
+        $this->delete_directory($folder);
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/php/files/store_design/home_design_advertisements/".$user_id;
+        $this->delete_directory($folder);
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/php/files/store_design/home_image_video_slider/".$user_id;
+        $this->delete_directory($folder);
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/php/files/store_design/listing_design/".$user_id;
+        $this->delete_directory($folder);
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/php/files/store_design/listing_image_video_slider/".$user_id;
+        $this->delete_directory($folder);
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/php/files/store_design/logos/".$user_id;
+        $this->delete_directory($folder);
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/php/files/store_design/popular_categories/".$user_id;
+        $this->delete_directory($folder);
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/php/files/store_design/screenshots/".$user_id;
+        $this->delete_directory($folder);
+        $folder = $_SERVER['DOCUMENT_ROOT']."/server/php/files/store_design/specials/".$user_id;
+        $this->delete_directory($folder);
+        endforeach;
+    endif;
+    
+    /*set up tables*/
+    $this->db->where_in('user_id', $ids)->delete('installation_wizard');
+    $this->db->where_in('id_user', $ids)->delete('store_settings');
+    $this->db->where_in('id_user', $ids)->delete('logo_design');
+    $this->db->where_in('id_user', $ids)->delete('store_social_media');
+    $this->db->where_in('id_user', $ids)->delete('general_images_settings');
+    /*front design tables*/
+    $this->db->where_in('id_user', $ids)->delete('home_design_layout');
+    $this->db->where_in('id_user', $ids)->delete('home_design_parts_tagged');
+    $this->db->where_in('id_user', $ids)->delete('home_design_advertising');
+    $this->db->where_in('id_user', $ids)->delete('home_design_slider');
+    $this->db->where_in('id_user', $ids)->delete('home_design_tabs');
+    $this->db->where_in('id_user', $ids)->delete('home_design_welcome_texts');
+    /*listing design tables*/
+    $this->db->where_in('id_user', $ids)->delete('listing_design_layout');
+    $this->db->where_in('id_user', $ids)->delete('listing_design_parts_tagged');
+    $this->db->where_in('id_user', $ids)->delete('listing_design_advertising');
+    $this->db->where_in('id_user', $ids)->delete('listing_design_slider');
+    $this->db->where_in('id_user', $ids)->delete('listing_design_tabs');
+    /*global design tables*/
+    $this->db->where_in('id_user', $ids)->delete('popular_categories');
+    $this->db->where_in('id_user', $ids)->delete('feature_listings');
+    $this->db->where_in('id_user', $ids)->delete('store_pages');
+    $this->db->where_in('id_user', $ids)->delete('specials_listings');
+    $this->db->where_in('id_user', $ids)->delete('arrivals_listings');
+    /*Listing tables (Rocklister)*/
+    $this->db->where_in('user_id', $ids)->delete('seller_list');
+    $this->db->where_in('id_user', $ids)->delete('item');
+    $this->db->where_in('id_user', $ids)->delete('item_prepared');
+    $this->db->where_in('id_user', $ids)->delete('item_pictures');
+    $this->db->where_in('id_user', $ids)->delete('templates_installed');
+    $this->db->where_in('id_user', $ids)->delete('templates_installed_modified');
+    
+    return $this->db->affected_rows();
 
-    }
+}
 
 
 
-    public function ban_checked($ids) {
+public function ban_checked($ids) 
+{
+    $this->db->where_in('id', $ids)->where('username != ', ADMINISTRATOR)->update('user', array('banned' => true));
+    return $this->db->affected_rows();
+}
 
-        $this->db->where_in('id', $ids)->where('username != ', ADMINISTRATOR)->update('user', array('banned' => true));
-
-        return $this->db->affected_rows();
-
-    }
-
-public function delete_directory($dirname) {
+public function delete_directory($dirname) 
+{
    if (is_dir($dirname))
       $dir_handle = opendir($dirname);
    if (!$dir_handle)

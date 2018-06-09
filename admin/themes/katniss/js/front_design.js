@@ -149,7 +149,7 @@ jQuery(document).ready(function()
     {
         jQuery(".loader-image").fadeIn();
         jQuery(".alert").css("display","none");
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
        jQuery("#content").html( '<iframe src="'+base_url+'store_design/listingdesign/easymenu?act=menu" frameborder="0" style="width: 100%;height:100%;"></iframe>' );
         set_current(this);
         jQuery(".loader-image").fadeOut(); 
@@ -185,7 +185,7 @@ jQuery(document).ready(function()
 function ajax_load_store_logo_form()
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/store_design/storedesign/form_store_logo/",
@@ -206,7 +206,7 @@ function ajax_load_store_logo_form()
   {
       jQuery.ajax
       ({
-      url: base_url+"index.php?/store_design/storedesign/"+action,
+      url: base_url+"/store_design/storedesign/"+action,
       async: false,
       type: "POST", 
        data:{"logo_url":logo_url,"id_logo":id_logo} ,    
@@ -222,7 +222,7 @@ function ajax_load_store_logo_form()
   function ajax_load_welcome_text_form(callback)
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/store_design/storedesign/form_welcome_text/",
@@ -246,7 +246,7 @@ function callback_ajax_load_welcome_text_form(response)
 function home_design_update_welcome_text(id_home_design_welcome_text,welcome_text)
 {
      var result = "";
-      base_url = "http://"+window.location.hostname+"/designmanager/";
+      base_url = "http://"+window.location.hostname+"/";
      jQuery.ajax
       ({
       url: base_url+"index.php?/store_design/storedesign/update_welcome_text",
@@ -266,7 +266,7 @@ function home_design_update_welcome_text(id_home_design_welcome_text,welcome_tex
 function ajax_load_home_design_image_vide_slider_form()
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -286,7 +286,7 @@ function ajax_load_images_videos_slider_part_form()
 {
   
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -305,7 +305,7 @@ function ajax_load_images_videos_slider_part_form()
 function save_home_design_images_videos_slider(id,link,image_url,type)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    jQuery.ajax({
       url: base_url+"index.php?/store_design/storedesign/save_images_videos_slider/",
       async: false,
@@ -323,7 +323,7 @@ function save_home_design_images_videos_slider(id,link,image_url,type)
 function ajax_load_home_design_images_videos_slider_part_providers_form(provider)
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -343,7 +343,7 @@ function ajax_load_home_design_images_videos_slider_part_providers_form(provider
 function home_design_save_images_videos_slider(id,link,image_url,type)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    jQuery.ajax({
       url: base_url+"index.php?/store_design/storedesign/save_images_videos_slider/",
       async: false,
@@ -361,7 +361,7 @@ function home_design_save_images_videos_slider(id,link,image_url,type)
 function load_home_design_images_videos_slider_array(id_home_design_slider)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -382,7 +382,7 @@ function ajax_home_design_load_images_videos_slider_part_form()
 {
   
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -401,7 +401,7 @@ function ajax_home_design_load_images_videos_slider_part_form()
 function load_home_design_images_videos_slider_array(id_home_design_slider)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -421,7 +421,7 @@ function load_home_design_images_videos_slider_array(id_home_design_slider)
 function delete_home_design_images_videos_slider(id_home_design_slider)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -442,7 +442,7 @@ function ajax_load_home_design_advertising_form()
 {
   jQuery("li.listing-pictures").click();
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -462,7 +462,7 @@ function ajax_load_home_advertising_part_form()
 {
   
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -481,7 +481,7 @@ function ajax_load_home_advertising_part_form()
 function save_home_design_advertising(id,title,link,image_url)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    jQuery.ajax({
       url: base_url+"index.php?/store_design/storedesign/save_home_advertising",
       async: false,
@@ -499,7 +499,7 @@ function save_home_design_advertising(id,title,link,image_url)
 function load_home_advertising(id_home_design_advertising)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -519,7 +519,7 @@ function load_home_advertising(id_home_design_advertising)
 function delete_home_design_advertising(id_home_design_advertising)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -542,7 +542,7 @@ function ajax_load_home_design_tabs_form(callback)
     CKEDITOR.instances.tab_content.destroy();
   }
   var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -565,7 +565,7 @@ function callback_ajax_load_home_design_tabs_form(response)
 function home_design_add_tab(data_serialize)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    jQuery.ajax({
       url: base_url+"index.php?/store_design/storedesign/add_tab",
       async: false,
@@ -583,7 +583,7 @@ function home_design_add_tab(data_serialize)
 function home_design_delete_tab(id_tab)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -603,7 +603,7 @@ function home_design_delete_tab(id_tab)
 function ajax_load_home_design_tab(id_tab)
 {
  var result = "";
- base_url = "http://"+window.location.hostname+"/designmanager/";
+ base_url = "http://"+window.location.hostname+"/";
  //alert(base_url)
    jQuery.ajax({
 
@@ -624,7 +624,7 @@ function ajax_load_home_design_tab(id_tab)
 function ajax_load_general_form()
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/store_design/storedesign/form_general_settings",
@@ -645,7 +645,7 @@ function ajax_load_general_form()
 function ajax_load_social_media_form()
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/store_design/storedesign/form_social_media",
@@ -665,7 +665,7 @@ function ajax_load_social_media_form()
 function home_design_update_social_media(id_home_design_welcome_text,welcome_text)
 {
      var result = "";
-      base_url = "http://"+window.location.hostname+"/designmanager/";
+      base_url = "http://"+window.location.hostname+"/";
      jQuery.ajax
       ({
       url: base_url+"index.php?/store_design/storedesign/update_welcome_text",
@@ -685,7 +685,7 @@ function home_design_update_social_media(id_home_design_welcome_text,welcome_tex
 function uninstall_store_front()
 {
      var result = "";
-      base_url = "http://"+window.location.hostname+"/designmanager/";
+      base_url = "http://"+window.location.hostname+"/";
      jQuery.ajax
       ({
       url: base_url+"index.php?/store_design/unistall/uninstall_store_front",
@@ -702,7 +702,7 @@ function uninstall_store_front()
 function list_store_front_backups()
 {
      var result = "";
-      base_url = "http://"+window.location.hostname+"/designmanager/";
+      base_url = "http://"+window.location.hostname+"/";
      jQuery.ajax
       ({
       url: base_url+"index.php?/store_design/storedesign/load_store_front_backup",
@@ -720,7 +720,7 @@ function list_store_front_backups()
 function store_front_execute_backup_point(backup_id)
 {
      var result = "";
-      base_url = "http://"+window.location.hostname+"/designmanager/";
+      base_url = "http://"+window.location.hostname+"/";
      jQuery.ajax
       ({
       url: base_url+"index.php?/store_design/unistall/uninstall_store_front",
@@ -740,7 +740,7 @@ function store_front_execute_backup_point(backup_id)
 function ajax_backup_developer_zone()
 {
     var result = "";
-      base_url = "http://"+window.location.hostname+"/designmanager/";
+      base_url = "http://"+window.location.hostname+"/";
      jQuery.ajax
       ({
       url: base_url+"index.php?/store_design/backups/backup_developer_zone",
@@ -756,7 +756,7 @@ function ajax_backup_developer_zone()
 function ajax_delete_backup_developer_zone(id_backup_developer_zone,callback)
 {
     var result = "";
-      base_url = "http://"+window.location.hostname+"/designmanager/";
+      base_url = "http://"+window.location.hostname+"/";
      jQuery.ajax
       ({
       url: base_url+"index.php?/store_design/backups/delete_backup_developer_zone",
@@ -778,7 +778,7 @@ function callback_ajax_delete_backup_developer_zone(data)
 function ajax_execute_backup_developer_zone(id_backup_developer_zone,callback)
 {
     var result = "";
-      base_url = "http://"+window.location.hostname+"/designmanager/";
+      base_url = "http://"+window.location.hostname+"/";
      jQuery.ajax
       ({
       url: base_url+"index.php?/store_design/backups/execute_backup_developer_zone",
@@ -800,7 +800,7 @@ function callback_ajax_execute_backup_developer_zone(data)
 function ajax_view_backup_developer_zone(id_backup_developer_zone,callback)
 {
     var result = "";
-      base_url = "http://"+window.location.hostname+"/designmanager/";
+      base_url = "http://"+window.location.hostname+"/";
      jQuery.ajax
       ({
       url: base_url+"index.php?/store_design/backups/view_backup_developer_zone",
@@ -821,14 +821,14 @@ function callback_ajax_view_backup_developer_zone(data)
 }
 jQuery(document).on("click",".backup_developer_zone",function()
 {
-   my_backups_link = "http://"+window.location.hostname+"/designmanager/store_design/backups?show_dz=true";
+   my_backups_link = "http://"+window.location.hostname+"/store_design/backups?show_dz=true";
    ajax_backup_developer_zone();
    show_successfull_message("Developer Zone backup was created successful.<br><a href='"+my_backups_link+"'>My backups</a>")
 });
 function ajax_load_item_specifications_widget_view(callback)
 {
     var result = "";
-      base_url = "http://"+window.location.hostname+"/designmanager/";
+      base_url = "http://"+window.location.hostname+"/";
      jQuery.ajax
       ({
       url: base_url+"index.php?/store_design/itemspecifics/load_item_specifications_widget_view",
@@ -850,7 +850,7 @@ function update_status_variation_specific(specific_id,status,callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/itemspecifics/update_status_variation_specific",
@@ -875,7 +875,7 @@ function call_update_status_variation_specific(response)
 function ajax_load_item_specifications_values_view(specific_name, callback)
 {
     var result = "";
-      base_url = "http://"+window.location.hostname+"/designmanager/";
+      base_url = "http://"+window.location.hostname+"/";
      jQuery.ajax
       ({
       url: base_url+"index.php?/store_design/itemspecifics/specifics_list",
@@ -933,7 +933,7 @@ function update_custom_name(specific_id,custom_name,callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/itemspecifics/update_custom_name",
@@ -959,7 +959,7 @@ function update_front_order_advertising(id,order_value,callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/storedesign/update_order_advertising",

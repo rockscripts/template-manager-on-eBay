@@ -26,7 +26,7 @@ jQuery(function($)
      var store_listings_defined_in_layout = false;
      
  
-     $(".v4sem").append(' | <a class="powered_link" href="http://rockscripts.org" >Powered by: <img src="http://hosting.rockscripts.org/default/images/rockscripts-small.png" class="rockscripts-logo-small"></a>');
+     $(".v4sem").append(' | <a class="powered_link" href="http://etemplate.com" >Powered by: <img src="http://hosting.etemplate.com/default/images/rockscripts-small.png" class="rockscripts-logo-small"></a>');
      open_widget('layout-type-2',dynamic_categories, "Shop Categories"); 
      $('.pagecontainer td').each(function(nextIndex)
    {

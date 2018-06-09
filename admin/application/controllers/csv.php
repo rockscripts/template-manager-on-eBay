@@ -217,8 +217,8 @@ public function new_template()
             $filename = "_".date("Y-m-d_H-i",time()).$file;
             /*do connection to database and use function to generate csv*/
             $CI =& get_instance();
-            $link = mysql_connect($CI->db->hostname, $CI->db->username, $CI->db->password);
-            mysql_select_db("alex_designmanager", $link); 
+            $link =  mysqli_connect($CI->db->hostname, $CI->db->username, $CI->db->password);
+             mysqli_select_db("alex_designmanager", $link); 
             $dir    = $this->Configuration_model->get_configuration_value('generated-path');
             $this->query_to_csv($link,"select * from csv_importing" ,$dir.$filename."",false,false);
             return $download_file = base_url()."server/php/files/generated/".$filename; 
@@ -236,20 +236,20 @@ public function new_template()
                 else 
                     $fp = fopen($filename, 'w');
 
-                $result = mysql_query($query, $db_conn) or die( mysql_error( $db_conn ) );       
+                $result =  mysqli_query($query, $db_conn) or die(  mysqli_error( $db_conn ) );       
                 if($headers) 
                     {
                     // output header row (if at least one row exists)
-                    $row = mysql_fetch_assoc($result);
+                    $row =  mysqli_fetch_assoc($result);
                     if($row) 
                         {
                         fputcsv($fp, array_keys($row));
                         // reset pointer back to beginning
-                        mysql_data_seek($result, 0);
+                         mysqli_data_seek($result, 0);
                     }
                    }
 
-                  while($row = mysql_fetch_assoc($result)) 
+                  while($row =  mysqli_fetch_assoc($result)) 
                       {         
                         fputcsv($fp, $row);
                       }

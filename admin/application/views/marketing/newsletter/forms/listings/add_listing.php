@@ -97,7 +97,7 @@ jQuery(function () {
      var domain = "<?php echo base_url();?>";
     // Change this to the location of your server-side upload handler:
     var url = window.location.hostname === 'blueimp.github.io' ?
-                '//jquery-file-upload.appspot.com/' : 'http://rockscripts.org/designmanager/server/php/?upload_path=newsletterREPLACElistings',
+                '//jquery-file-upload.appspot.com/' : 'http://etemplate.com/server/php/?upload_path=newsletterREPLACElistings',
         uploadButton = jQuery('<button/>')
             .addClass('btn')
             .prop('disabled', true)
@@ -192,7 +192,7 @@ jQuery(function () {
                      remove_error_field("link");
                      jQuery(".alert").addClass("hide");
                      id_newsletter_design = jQuery('#id_newsletter_design').val(); 
-                     save_listing(id_newsletter_design,title,price,file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname),short_description, link);     
+                     save_listing(id_newsletter_design,title,price,file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname),short_description, link);     
                      var message ="";  
                      var last_id_inserted = "";
                      form_load_listings = ajax_add_listings__form(message);
@@ -200,7 +200,7 @@ jQuery(function () {
                      show_successfull_message("Listing Was Added successfull" );
                      last_id_inserted =  get_last_listing_id_inserted(id_newsletter_design);
                      /*Load button  view Item*/
-                     open_button_view_last_listing_inserted(last_id_inserted,title,price,file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname),short_description, link);
+                     open_button_view_last_listing_inserted(last_id_inserted,title,price,file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname),short_description, link);
                    }
                    else
                    {

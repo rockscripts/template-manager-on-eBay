@@ -14,7 +14,7 @@ class Home extends Private_Controller {
          validate_user();
          validate_application();
          if(!$this->Ebaydesigns_model->validate_app($this->session->userdata( 'user_id' ),$this->session->userdata( 'id_ebay_design' ))):
-             redirect('https://'.$_SERVER['HTTP_HOST'].'/designmanager/store_design/installation/install');
+             redirect('https://'.$_SERVER['HTTP_HOST'].'/store_design/installation/install');
          endif;
           non_ssl_redirect();
     }

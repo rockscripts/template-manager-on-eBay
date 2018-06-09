@@ -1,1 +1,0 @@
-document.write('<a href="" class="store-home-url"><img class="logo store-home-url" src="http://rockscripts.org/designmanager/server/php/files/default_images/rclogo.png" /></a>');

@@ -215,7 +215,7 @@ jQuery().ready(function()
         jQuery(".button_import_update_categories").fadeOut();
         jQuery(".loader-image").fadeIn();
         jQuery(".alert").css("display","none");
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
        jQuery(".content-without-images").html( '<iframe src="'+base_url+'store_design/listingdesign/easymenu?act=menu" frameborder="0" style="width: 100%;height:800px;"></iframe>' );
         set_current(this);
         jQuery(".listing-images-content").css("display","none");
@@ -226,7 +226,7 @@ jQuery().ready(function()
         jQuery(".button_import_update_categories").fadeIn();
         jQuery(".loader-image").fadeIn();
         jQuery(".alert").css("display","none");
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
        jQuery(".content-without-images").html( '<iframe src="'+base_url+'store_design/listingdesign/load_dynamic_categories?act=menu" frameborder="0" style="width: 100%;height:100%;"></iframe>' );
         set_current(this);
         jQuery(".listing-images-content").css("display","none");
@@ -249,7 +249,7 @@ jQuery().ready(function()
 function ajax_load_listing_pictures_form()
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
     url: base_url+"index.php?/store_design/listingdesign/form_listing_pictures",
@@ -274,7 +274,7 @@ function ajax_load_tabs_form(callback)
   }
 
   var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -299,7 +299,7 @@ function update_listing_pictures_area()
 {
   
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -318,7 +318,7 @@ function update_listing_pictures_area()
 function delete_listing_picture(id_listing_design_picture,image_name)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -338,7 +338,7 @@ function delete_listing_picture(id_listing_design_picture,image_name)
 function change_status_listing_picture(id_listing_design_picture,image_name)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -358,7 +358,7 @@ function change_status_listing_picture(id_listing_design_picture,image_name)
 function add_tab(data_serialize)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    jQuery.ajax({
       url: base_url+"index.php?/store_design/listingdesign/add_tab",
       async: false,
@@ -377,7 +377,7 @@ function add_tab(data_serialize)
 function delete_tab(id_tab)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -398,7 +398,7 @@ function delete_tab(id_tab)
 function ajax_load_tab(id_tab)
 {
  var result = "";
- base_url = "http://"+window.location.hostname+"/designmanager/";
+ base_url = "http://"+window.location.hostname+"/";
  //alert(base_url)
    jQuery.ajax({
 
@@ -424,7 +424,7 @@ function ajax_load_listing_description_form()
     CKEDITOR.instances.description.destroy();
 
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -448,7 +448,7 @@ function ajax_load_listing_title_form()
 {
   
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -469,7 +469,7 @@ function update_listing_title(data_serialize)
 {
   
  var result = "";
- base_url = "http://"+window.location.hostname+"/designmanager/";
+ base_url = "http://"+window.location.hostname+"/";
   jQuery(".loader-image").fadeIn();
  jQuery.ajax({
     url: base_url+"index.php?/store_design/listingdesign/update_listing_title",
@@ -489,7 +489,7 @@ function update_listing_description(data_serialize)
 {
   
  var result = "";
- base_url = "http://"+window.location.hostname+"/designmanager/";
+ base_url = "http://"+window.location.hostname+"/";
   jQuery(".loader-image").fadeIn();
  jQuery.ajax({
     url: base_url+"index.php?/store_design/listingdesign/update_listing_description",
@@ -510,7 +510,7 @@ function ajax_load_listing_advertising_form()
 {
   jQuery("li.listing-pictures").click();
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -529,7 +529,7 @@ function ajax_load_listing_advertising_form()
 function ajax_load_listing_featured_form(load_type)
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -549,7 +549,7 @@ function ajax_load_listing_featured_form(load_type)
 function ajax_load_listing_new_arrivals_form(load_type)
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -570,7 +570,7 @@ function ajax_load_listing_new_arrivals_part_form()
 {
   
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -589,7 +589,7 @@ function ajax_load_listing_new_arrivals_part_form()
 function save_new_arrivals_listing(id,title,link,price,image_url)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    jQuery.ajax({
       url: base_url+"index.php?/store_design/listingdesign/save_arrival_listing",
       async: false,
@@ -607,7 +607,7 @@ function save_new_arrivals_listing(id,title,link,price,image_url)
 function load_listing_arrival_array(id_featured_listing)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -627,7 +627,7 @@ function load_listing_arrival_array(id_featured_listing)
 function delete_arrival_listing(id_featured_listing)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -648,7 +648,7 @@ function delete_arrival_listing(id_featured_listing)
 function ajax_load_listing_special_form(load_type)
 {
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -668,7 +668,7 @@ function ajax_load_listing_special_form(load_type)
 function save_special_listing(id,title,link,price,sale_price,image_url)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    jQuery.ajax({
       url: base_url+"index.php?/store_design/listingdesign/save_special_listing",
       async: false,
@@ -687,7 +687,7 @@ function ajax_load_listing_special_part_form()
 {
   
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -706,7 +706,7 @@ function ajax_load_listing_special_part_form()
 function delete_special_listing(id_featured_listing)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -726,7 +726,7 @@ function delete_special_listing(id_featured_listing)
 function load_listing_special_array(id_featured_listing)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -747,7 +747,7 @@ function ajax_load_listing_featured_part_form()
 {
   
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -767,7 +767,7 @@ function ajax_popular_category_form(load_type)
 {
   jQuery("li.listing-pictures").click();
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -789,7 +789,7 @@ function ajax_load_listing_advertising_part_form()
 {
   
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -809,7 +809,7 @@ function ajax_load_listing_advertising_part_form()
 function save_listing_advertising(id,title,link,image_url)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    jQuery.ajax({
       url: base_url+"index.php?/store_design/listingdesign/save_listing_advertising",
       async: false,
@@ -828,7 +828,7 @@ function save_listing_advertising(id,title,link,image_url)
 function delete_listing_advertising(id_listing_design_advertising)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -849,7 +849,7 @@ function delete_listing_advertising(id_listing_design_advertising)
 function load_listing_advertising(id_listing_design_advertising)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -869,7 +869,7 @@ function load_listing_advertising(id_listing_design_advertising)
 function save_featured_listing(id,title,link,price,image_url)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    jQuery.ajax({
       url: base_url+"index.php?/store_design/listingdesign/save_featured_listing",
       async: false,
@@ -887,7 +887,7 @@ function save_featured_listing(id,title,link,price,image_url)
 function delete_featured_listing(id_featured_listing)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -907,7 +907,7 @@ function delete_featured_listing(id_featured_listing)
 function load_listing_deatured_array(id_featured_listing)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -928,7 +928,7 @@ function ajax_load_image_vide_slider_form()
 {
   jQuery("li.listing-pictures").click();
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -947,7 +947,7 @@ function ajax_load_image_vide_slider_form()
 function save_images_videos_slider(id,link,image_url,type)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    jQuery.ajax({
       url: base_url+"index.php?/store_design/listingdesign/save_images_videos_slider",
       async: false,
@@ -966,7 +966,7 @@ function ajax_load_listing_images_videos_slider_part_form()
 {
   
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -986,7 +986,7 @@ function ajax_load_images_videos_slider_part_providers_form(provider)
 {
   
   var result = "";
-  base_url = "http://"+window.location.hostname+"/designmanager/";
+  base_url = "http://"+window.location.hostname+"/";
   //alert(base_url)
    jQuery.ajax({
 
@@ -1006,7 +1006,7 @@ function ajax_load_images_videos_slider_part_providers_form(provider)
 function load_images_videos_slider_array(id_listing_design_slider)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -1026,7 +1026,7 @@ function load_images_videos_slider_array(id_listing_design_slider)
 function delete_images_videos_slider(id_listing_design_slider)
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -1063,7 +1063,7 @@ function check_vimeo_youtube_video_url(url)
 function generate_listing_design_code()
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -1113,7 +1113,10 @@ function generate_listing_design_code()
                 success: function(data) 
                 {                        
                   jQuery(".loader-image").fadeOut();
-                 
+                  if (data.FAILURE === undefined)
+                  {}
+                  else
+                  show_error_message(data.eMessage[0]) ;
                 }
             });
             return result ;
@@ -1121,7 +1124,7 @@ function generate_listing_design_code()
         function get_images_count_per_listing()
 {
    var result = "";
-   base_url = "http://"+window.location.hostname+"/designmanager/";
+   base_url = "http://"+window.location.hostname+"/";
    //alert(base_url)
      jQuery.ajax({
 
@@ -1145,7 +1148,7 @@ function update_listing_order_advertising(id,order_value,callback)
        {
         jQuery(".loader-image").fadeIn();
         var result = "";
-        base_url = "http://"+window.location.hostname+"/designmanager/";
+        base_url = "http://"+window.location.hostname+"/";
         //alert(base_url)
          jQuery.ajax({
           url: base_url+"index.php?/store_design/listingdesign/update_order_advertising",

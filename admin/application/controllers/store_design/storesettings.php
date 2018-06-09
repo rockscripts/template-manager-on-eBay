@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-@session_start(); # Aqui para que inicie la sesión
+@session_start(); # Aqui para que inicie la sesiï¿½n
 class Storesettings extends CI_Controller {
 
      public function __construct()
@@ -39,7 +39,7 @@ class Storesettings extends CI_Controller {
     //$this->session->set_userdata('id_ebay_design', $data['id_ebay_design']);
     //$this->session->set_userdata('id_home_design', $data['id_home_design'] ); 
     /*Get design settings*/
-    $store_settings = $this->Storedesign_model->StoreSettingDetails($data['id_ebay_design'], $data["user_id"]);      
+    $store_settings = $this->Storedesign_model->StoreSettingDetails($data['id_ebay_design'], $data["user_id"]);   
     $this->session->set_userdata('currency', $store_settings['currency']);
     $this->template->load('store_design/settings/design_options', $data);   
     }
@@ -186,7 +186,7 @@ class Storesettings extends CI_Controller {
     }
     function write_dynamic_css($id_user,$file_name,$out_put)
      {
-       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/hosting/".$id_user."/assets/css/dynamic_styles/".$file_name,"w");
+       $js_file = fopen( str_replace('admin','clients',$_SERVER['DOCUMENT_ROOT']."/".$id_user."/assets/css/dynamic_styles/".$file_name ),"w");
        fwrite($js_file,$out_put);
        fclose($js_file);
        /*write all code in one :) fast loading*/
@@ -198,7 +198,7 @@ class Storesettings extends CI_Controller {
      }
      function write_in_js_file_without_document_write($id_user, $file_name,$out_put)
      {
-       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/hosting/".$id_user."/assets/css/dynamic_styles/".$file_name,"w");
+        $js_file = fopen( str_replace('admin','clients',$_SERVER['DOCUMENT_ROOT']."/".$id_user."/assets/css/dynamic_styles/".$file_name ),"w");
        fwrite($js_file,$out_put);
        fclose($js_file);
        /*write all code in one :) fast loading*/
@@ -210,7 +210,7 @@ class Storesettings extends CI_Controller {
      }
       function write_in_js_file_without_document_write_1($id_user, $file_name,$out_put)
      {
-       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
        fwrite($js_file,$out_put);
        fclose($js_file);
        /*write all code in one :) fast loading*/
@@ -222,7 +222,7 @@ class Storesettings extends CI_Controller {
      }
      function write_log_in_js_file($id_user, $file_name,$out_put,$var_name=null)
      {
-       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/designmanager/server/ajax_design/".$id_user."/".$file_name,"w");
+       $js_file = fopen( $_SERVER['DOCUMENT_ROOT']."/server/ajax_design/".$id_user."/".$file_name,"w");
        $out_put = trim($out_put);
        $out_put = str_replace(array("\r\n", "\r"), "\n", $out_put);
        $out_put = str_replace("'", "\'", $out_put);

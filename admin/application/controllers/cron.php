@@ -1,6 +1,6 @@
 <?php
  class Cron extends CI_Controller {
- ///usr/bin/curl --user-agent cPanel-Cron http://rockscripts.org/designmanager/cron/update
+ ///usr/bin/curl --user-agent cPanel-Cron http://etemplate.com/cron/update
     function __construct()
     {
         parent::__construct();

@@ -1,1 +1,0 @@
-var  listing_advertisings = 

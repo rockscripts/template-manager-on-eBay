@@ -118,7 +118,7 @@ jQuery(function () {
         {
             var link = jQuery('<a>')
                 .attr('target', '_blank')
-                .prop('href', file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname));
+                .prop('href', file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname));
             jQuery(data.context.children()[index])
                 .wrap(link);
         location.reload();

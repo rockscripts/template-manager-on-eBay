@@ -92,7 +92,7 @@ jQuery(function () {
      var domain = "<?php echo base_url();?>";
     // Change this to the location of your server-side upload handler:
     var url = window.location.hostname === 'blueimp.github.io' ?
-                '//jquery-file-upload.appspot.com/' : 'http://rockscripts.org/designmanager/server/php/?upload_path=newsletterREPLACElistings',
+                '//jquery-file-upload.appspot.com/' : 'http://etemplate.com/server/php/?upload_path=newsletterREPLACElistings',
         uploadButton = jQuery('<button/>')
             .addClass('btn')
             .prop('disabled', true)
@@ -178,11 +178,11 @@ jQuery(function () {
                if(checkprice(price))
                {
                      jQuery(".alert").addClass("hide");
-                      data_return =  update_listing(id_neswletter_listing,title,price,file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname),domain);
+                      data_return =  update_listing(id_neswletter_listing,title,price,file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname),domain);
                      show_successfull_message( "Listing was updated successfull." );
                      remove_error_field("title");
                      remove_error_field("price");
-                     jQuery("#listing_image").attr("src",file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname));
+                     jQuery("#listing_image").attr("src",file.url.replace("http://"+window.location.hostname+"/server/php","http://fileshosting."+window.location.hostname));
                      jQuery("#files").html("")
                }
                else

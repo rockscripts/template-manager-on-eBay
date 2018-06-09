@@ -55,8 +55,9 @@
          var domain = "<?php echo base_url();?>";
          var id_user = "<?php echo $id_user;?>";
         // Change this to the location of your server-side upload handler:
-        var url = window.location.hostname === 'blueimp.github.io' ? 
-                    '//jquery-file-upload.appspot.com/' : 'http://rockscripts.org/designmanager/server/php/?upload_path=store_designREPLACEpopular_categoriesREPLACE'+id_user+'/',
+        var url = window.location.hostname === 'blueimp.github.io' ?
+                '//jquery-file-upload.appspot.com/' : 'http://'+window.location.hostname+'/upload.php?upload_path=serverREPLACEphpREPLACEfilesREPLACEstore_designREPLACEpopular_categoriesREPLACE'+id_user+'/',
+        
             uploadButton = jQuery('<button/>')
                 .addClass('btn')
                 .prop('disabled', true)
@@ -154,7 +155,7 @@
                var title = jQuery("#name").val();
                var link   =  jQuery("#link").val();
 
-                save_popular_categories(id,title,link,file.url.replace("http://"+window.location.hostname+"/designmanager/server/php","http://fileshosting."+window.location.hostname));                
+                save_popular_categories(id,title,link,file.url);                
                 jQuery("#save_popular_category").fadeOut();
                 jQuery(".select-file").find(".fileinput-button").fadeOut();
                 show_successfull_message("Popular category was saved successful");                                

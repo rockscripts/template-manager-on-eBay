@@ -1,1 +1,0 @@
-var footer_menu_links= ""

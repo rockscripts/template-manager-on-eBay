@@ -14,15 +14,15 @@
    <div class="alert1" style="display:none;">
 <?php
 if(isset($_GET["user_found"]) == "false")
-echo "Unfortunately, you have not a plan with us, please create an account at <a href='http://rockscripts.org/my-account/'>rockscripts.org</a>, get an <a href='http://rockscripts.org/shop/advanced/'>Advance store design</a> plan, come back here and login with your Rockscripts username and password.";
+echo "Unfortunately, you have not an account.";
 ?>
        <?php
 if(isset($_GET["password_match"]) == "false")
-echo "Password does not match.<br><a target='_blank' href='http://rockscripts.org/my-account/lost-password/'>Lost your password?</a>";
+echo "Wrong details or user doesn't exist. Retrieve username or password.";
 ?>
               <?php
 if(isset($_GET["need_renew"]) == "false")
-echo "Unfortunately, you have not an active plan with us, please, renew one or get an <a href='http://rockscripts.org/shop/advanced/'>Advance store design</a> plan, come back here and login with your Rockscripts username and password.";
+echo "Unfortunately, you have not an active plan with us, please, renew one or get an <a href='http://etemplate.com/shop/advanced/'>Advance store design</a> plan, come back here and login with your Rockscripts username and password.";
 ?>
     </div>
 <label for="login_username"><?php print $this->lang->line('username'); ?></label>   

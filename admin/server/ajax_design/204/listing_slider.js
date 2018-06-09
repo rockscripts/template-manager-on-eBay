@@ -1,0 +1,1 @@
+var  slider_images = '<li><img class="slider-image" src="http://etemplate.com/server/php/files/store_design/listing_image_video_slider/204/electronics.jpg"/></li><li><iframe width="100%" height="auto" src="//www.youtube.com/embed/yL7gs_F-4ok" frameborder="0" allowfullscreen></iframe></li>';

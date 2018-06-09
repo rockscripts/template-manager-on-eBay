@@ -252,7 +252,7 @@ class Blogger extends CI_Controller
     public function build_styles()
     {
         $id_user = $this->session->userdata( 'user_id' );
-       return  $button = '<link rel="stylesheet" href="http://hosting.rockscripts.org/'.$id_user.'/assets/css/listing_custom_css_code.css">';
+       return  $button = '<link rel="stylesheet" href="http://hosting.etemplate.com/'.$id_user.'/assets/css/listing_custom_css_code.css">';
     }
     public function get_active_items()
     {
