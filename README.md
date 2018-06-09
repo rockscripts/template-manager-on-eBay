@@ -4,6 +4,17 @@
     This application is web based using codeigniter framework.<br>
     <b>This application supports multiple eBay accounts and you can offer a service for your clients</b>
 </p>
+<p><h4>Dashboard</h4>
+<img src='clients/files/screenshots/e1.png'>
+</p>
+<p>
+<h4>Listings</h4>
+<img src='clients/files/screenshots/e2.png'>
+</p>
+<p>
+<h4>Layouts</h4>
+<img src='clients/files/screenshots/e3.png'>
+</p>
 <h1>INSTALLING APPLICATION</h1>
 <h4>Requirements</h4>
 <ul>
